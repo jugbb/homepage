@@ -3,6 +3,7 @@ layout: post
 title: "Guava – Kleine Helferlein für jedes Projekt"
 date: 2013-10-27 22:34:41 +0100
 comments: true
+author: Oliver B. Fischer
 categories: 
   - Treffen
 ---
