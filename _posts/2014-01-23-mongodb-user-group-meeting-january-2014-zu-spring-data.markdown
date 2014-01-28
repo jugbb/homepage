@@ -6,7 +6,8 @@ comments: true
 categories: 
   - Hinweise 
 ---
-Die MongoDB User Group trifft sich nächsten Dienstag in Berlin und 
+Die MongoDB User Group trifft sich nächsten Dienstag,
+den 28. Januar 2014, in Berlin und 
 begrüßt Oliver Gierke, 
 [Spring Data Project Lead](http://projects.spring.io/spring-data/). 
 Oliver Gierke wird 
