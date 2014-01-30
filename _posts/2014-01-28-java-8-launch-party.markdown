@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java 8 Launch Party"
+title: "Java 8 Party"
 date: 2014-01-28 23:23:56 +0100
 comments: true
 categories:
@@ -11,10 +11,10 @@ Am 18. März wird das Programm **Java 8 final erscheinen**, der Höhepunkt
 in der Java-Welt 2014.
 
 Dies nimmt das Java Magazin in Kooperation mit der Hypoport AG zum Anlass, 
-um zusammen im Rahmen einer **Java 8 Launch Party** am 20. März 2014 in 
+um zusammen im Rahmen einer **Java 8 Party** am 20. März 2014 in 
 Berlin die Veröffentlichung zu feiern. Parallel wird es eine Veranstaltung 
 in München geben, die im Holiday Inn Munich - City Centre stattfinden 
-wird (auch eine Liveschalte zwischen den beiden Launch Parties ist geplant). 
+wird (auch eine Liveschalte zwischen den beiden Parties ist geplant). 
 Mehr Details dazu findet Ihr unter: http://jaxenter.de/java8party
 
 Um uns richtig auf das neue Major-Release einzustimmen, werden zwei 
