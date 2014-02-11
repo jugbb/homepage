@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clojure  - List für die JVM"
+title: "A Glance at Clojure -- Stupid Stock Exchange"
 date: 2014-02-10 22:42:19 +0100
 comments: false
 author: Oliver B. Fischer
@@ -12,14 +12,13 @@ categories:
 
 Am **25. Februar 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
 [Acrolinx GmbH](http://www.acrolinx.de/) zu dem Vortrag
-**Clojure - Lisp für die JVM** 
+**A Glance at Clojure -- Stupid Stock Exchange** 
 mit **Stefan Kamphausen**
 ein.
-<!--more-->
 
 ## Der Vortrag
 
-**Clojure - Lisp für die JVM**
+**A Glance at Clojure -- Stupid Stock Exchange**
 (*Stefan Kamphausen*):
 Der Vortrag steigt zügig in Clojure ein, vermittelt dabei auch
 Anfängern notwendiges Verständnis um den ungewohnten Code nachvollziehen
