@@ -27,4 +27,4 @@ gefunden werden:
 
 * [Rund um die Java Usergroup Berlin-Brandenburg](/informationen/informationen-ueber-die-jug.html)
 * [Informationen für Referenten](/informationen/informationen-fuer-referenten.html)
-* [Informationen für Unternehmen und Organisationen](/informationen/informationen-fuer-referenten.html)
+* [Informationen für Unternehmen und Organisationen](/informationen/informationen-fuer-unternehmen.html)
