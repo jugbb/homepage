@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Glance at Clojure -- Stupid Stock Exchange"
+title: "A Glance at Clojure - Stupid Stock Exchange"
 date: 2014-02-10 22:42:19 +0100
 comments: false
 author: Oliver B. Fischer
