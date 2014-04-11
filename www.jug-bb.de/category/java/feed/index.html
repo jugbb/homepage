@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:series="http://organizeseries.com/"
+	>
+
+<channel>
+	<title>Java User Group Berlin Brandenburg &#187; Java</title>
+	<atom:link href="http://www.jug-bb.de/category/java/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.jug-bb.de</link>
+	<description>Der Blog der JUG-BB</description>
+	<lastBuildDate>Sun, 29 Dec 2013 15:02:50 +0000</lastBuildDate>
+	<language>de-DE</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.2</generator>
+	<item>
+		<title>Quelltext zum &#8220;Scala in der Praxis&#8221;-Vortrag</title>
+		<link>http://www.jug-bb.de/2011/11/quelltext-zum-scala-in-der-praxis-vortrag/</link>
+		<comments>http://www.jug-bb.de/2011/11/quelltext-zum-scala-in-der-praxis-vortrag/#comments</comments>
+		<pubDate>Fri, 04 Nov 2011 22:26:15 +0000</pubDate>
+		<dc:creator><![CDATA[Oliver Fischer]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Java Code Beispiele]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=802</guid>
+		<description><![CDATA[Auf Bitte einiger Teilnehmer unseres gestrigen Vortrags mit Arno Haase zu Scala in der Praxis ist hier der Quelltext. package a &#160; &#160; sealed abstract class Expr case class IntExpr &#40;i: Int&#41; extends Expr case class VarExpr &#40;name: String&#41; extends Expr case class BinExpr &#40;left: Expr, right: Expr, op: String&#41; extends Expr &#160; object Expr [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Auf Bitte einiger Teilnehmer unseres gestrigen Vortrags mit Arno Haase zu Scala in der Praxis ist hier der Quelltext.</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="scala" style="font-family:monospace;"><span style="color: #0000ff; font-weight: bold;">package</span> a
+&nbsp;
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">sealed</span> <span style="color: #0000ff; font-weight: bold;">abstract</span> <span style="color: #0000ff; font-weight: bold;">class</span> Expr 
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> VarExpr <span style="color: #F78811;">&#40;</span>name<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> BinExpr <span style="color: #F78811;">&#40;</span>left<span style="color: #000080;">:</span> Expr, right<span style="color: #000080;">:</span> Expr, op<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> Expr <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> eval <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr, vars<span style="color: #000080;">:</span> Map<span style="color: #F78811;">&#91;</span>String, Int<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#41;</span><span style="color: #000080;">:</span> Int <span style="color: #000080;">=</span> e <span style="color: #0000ff; font-weight: bold;">match</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> i
+    <span style="color: #0000ff; font-weight: bold;">case</span> VarExpr <span style="color: #F78811;">&#40;</span>v<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> vars<span style="color: #F78811;">&#40;</span>v<span style="color: #F78811;">&#41;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> BinExpr <span style="color: #F78811;">&#40;</span>left, right, <span style="color: #6666FF;">&quot;+&quot;</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> eval <span style="color: #F78811;">&#40;</span>left, vars<span style="color: #F78811;">&#41;</span> + eval <span style="color: #F78811;">&#40;</span>right, vars<span style="color: #F78811;">&#41;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> BinExpr <span style="color: #F78811;">&#40;</span>left, right, <span style="color: #6666FF;">&quot;*&quot;</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> eval <span style="color: #F78811;">&#40;</span>left, vars<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">*</span> eval <span style="color: #F78811;">&#40;</span>right, vars<span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">class</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> + <span style="color: #F78811;">&#40;</span>other<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> BinExpr <span style="color: #F78811;">&#40;</span>e, other, <span style="color: #6666FF;">&quot;+&quot;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> <span style="color: #000080;">*</span> <span style="color: #F78811;">&#40;</span>other<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> BinExpr <span style="color: #F78811;">&#40;</span>e, other, <span style="color: #6666FF;">&quot;*&quot;</span><span style="color: #F78811;">&#41;</span>
+&nbsp;
+  <span style="color: #0000ff; font-weight: bold;">def</span> apply <span style="color: #F78811;">&#40;</span>vars<span style="color: #000080;">:</span> <span style="color: #F78811;">&#40;</span>String, Int<span style="color: #F78811;">&#41;</span><span style="color: #000080;">*</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">val</span> m <span style="color: #000080;">=</span> vars.<span style="color: #000000;">foldLeft</span> <span style="color: #F78811;">&#40;</span>Map<span style="color: #F78811;">&#91;</span>String, Int<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#40;</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#40;</span><span style="color: #F78811;">&#40;</span>res, cur<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> res + cur<span style="color: #F78811;">&#41;</span>
+    Expr.<span style="color: #000000;">eval</span> <span style="color: #F78811;">&#40;</span>e, m<span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> ExpressionSyntax <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> intAsExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> withSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #0000ff; font-weight: bold;">new</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> intWithSyntax <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #0000ff; font-weight: bold;">new</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> Var <span style="color: #F78811;">&#40;</span>s<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> VarExpr <span style="color: #F78811;">&#40;</span>s<span style="color: #F78811;">&#41;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> HelloMain <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> main <span style="color: #F78811;">&#40;</span>args<span style="color: #000080;">:</span> Array<span style="color: #F78811;">&#91;</span>String<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">import</span> ExpressionSyntax.<span style="color: #000080;">_</span>
+    <span style="color: #0000ff; font-weight: bold;">val</span> e <span style="color: #000080;">=</span> <span style="color: #F78811;">5</span> <span style="color: #000080;">*</span> <span style="color: #F78811;">&#40;</span><span style="color: #F78811;">3</span> + Var <span style="color: #F78811;">&#40;</span><span style="color: #6666FF;">&quot;x&quot;</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+&nbsp;
+<span style="color: #008000; font-style: italic;">//    println (Expr.eval (e, Map (&quot;x&quot; -&gt; 2)))</span>
+    println <span style="color: #F78811;">&#40;</span>e <span style="color: #F78811;">&#40;</span><span style="color: #6666FF;">&quot;x&quot;</span> -<span style="color: #000080;">&gt;</span> <span style="color: #F78811;">2</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span></pre></td></tr></table></div>
+
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2011/11/quelltext-zum-scala-in-der-praxis-vortrag/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JDK in Mac OS X Lion</title>
+		<link>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/</link>
+		<comments>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/#comments</comments>
+		<pubDate>Wed, 03 Aug 2011 22:06:19 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=735</guid>
+		<description><![CDATA[Apple hat leider bei Java JDK in Lion ein etwas eigenwilliges Deployment angewendet. Wenn mein sein System von Snow Leopard auf Lion aktualisiert wird man erstmal damit konfrontiert, dass Java verschwunden ist. Man muss es &#8211; am besten aus der DeveloperConnection &#8211; nach installieren. Der neue Ablageort ist: /Library/Java/JavaVirtualMachines/ Darunter liegen aber leider nun keine [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Apple hat leider bei Java JDK in Lion ein etwas eigenwilliges Deployment angewendet. Wenn mein sein System von Snow Leopard auf Lion aktualisiert wird man erstmal damit konfrontiert, dass Java verschwunden ist. Man muss es &#8211; am besten aus der DeveloperConnection &#8211; nach installieren.<br />
+Der neue Ablageort ist:<br />
+<code>/Library/Java/JavaVirtualMachines/</code><br />
+Darunter liegen aber leider nun keine simplen Verzeichnisse mehr sondern bundles. In diese kann man mit normalen Dateiauswahldialogen (z.B. von Eclipse) nicht eintauchen. Bundels sind aber trotzdem nicht wirklich viel mehr als Verzeichnisse mit besonderen Attributen.<br />
+Deshalb macht es Sinn &#8211; auch unter dem Aspekt der Kompatibilität symbolische Links zu setzen:<br />
+Im Verzeichnis /System/Library/Frameworks/JavaVM.framework legt man einen Link:<br />
+<code>sudo ln -s /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/ CurrentJDK</code><br />
+Und nun kann man mit in Eclipse dieses verlinkte Verzeichnis auswählen und man hat sein JDK am Start.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JUG Ant Task und SQLRunner haben neues Zuhause</title>
+		<link>http://www.jug-bb.de/2011/04/jug-ant-task-und-sqlrunner-haben-neues-zuhause/</link>
+		<comments>http://www.jug-bb.de/2011/04/jug-ant-task-und-sqlrunner-haben-neues-zuhause/#comments</comments>
+		<pubDate>Mon, 11 Apr 2011 21:03:02 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=654</guid>
+		<description><![CDATA[Die ANT Tasks und der SQLRunner sind nun unter dieser URL zu erreichen: http://www.jan-lolling.de/ Alle Komponenten stehen nach wie vor unter der LGPL zur freien Verwendung. Der Code der ANT-Task liegt im download Bereich. Der Code des SQLRunners ist verfügbar auf Github.]]></description>
+				<content:encoded><![CDATA[<p>Die ANT Tasks und der SQLRunner sind nun unter dieser URL zu erreichen:<br />
+<a href="http://www.jan-lolling.de/" target="new">http://www.jan-lolling.de/</a><br />
+Alle Komponenten stehen nach wie vor unter der LGPL zur freien Verwendung.<br />
+Der Code der ANT-Task liegt im download Bereich.<br />
+Der Code des SQLRunners ist verfügbar auf  <a href="https://github.com/jlolling/SQLRunner" target="new">Github</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2011/04/jug-ant-task-und-sqlrunner-haben-neues-zuhause/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java Aktualisierung für Mac OS X [update]</title>
+		<link>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/</link>
+		<comments>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/#comments</comments>
+		<pubDate>Wed, 20 Oct 2010 21:59:38 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=535</guid>
+		<description><![CDATA[Seit heute ist die Version 1.6.0_22 für OSX verfügbar. Soweit nichts spektakuläres aber&#8230;. Die API für die Integration von Java Apps in OSX hat sich auch geändert und zeigt deutlich die Vorboten des neuen Betriebssystems Lion (10.7). Insbesondere die neuen Interfaces (alles SubClasses von com.apple.eawt.AppEventListener) zeigen wo es hin geht: AppHiddenListener, AppReOpenedListener, ScreenSleepListener, UserSessionListener, SystemSleepListener [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Seit heute ist die Version 1.6.0_22 für OSX verfügbar. Soweit nichts spektakuläres aber&#8230;.</p>
+<p>Die API für die Integration von Java Apps in OSX hat sich auch geändert und zeigt deutlich die Vorboten des neuen Betriebssystems Lion (10.7).</p>
+<p>Insbesondere die neuen Interfaces (alles SubClasses von com.apple.eawt.AppEventListener) zeigen wo es hin geht:</p>
+<ul>
+<li>AppHiddenListener,</li>
+<li>AppReOpenedListener,</li>
+<li>ScreenSleepListener,</li>
+<li>UserSessionListener,</li>
+<li>SystemSleepListener</li>
+</ul>
+<p>sind ganz auf die Bedürfnisse der neuen Funktionen von OSX ausgerichtet und zeigen, dass Apple Java nicht links liegen lässt sondern weiter entwickelt.</p>
+<p><strong>[Update] Apple überträgt seinen Java-VM Code und die Komponenten zur Kopplung mit dem OS an das OpenJDK-Projekt. Damit wird sicher gestellt dass diese Komponenten auch zeitnah Aktualisierungen erfahren &#8211; anders als jetzt wo auf OSX doch erheblich später die Updates kamen.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ANT tasks der Java User Group</title>
+		<link>http://www.jug-bb.de/2010/06/ant-task-der-java-user-group-bb/</link>
+		<comments>http://www.jug-bb.de/2010/06/ant-task-der-java-user-group-bb/#comments</comments>
+		<pubDate>Wed, 09 Jun 2010 20:20:21 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Java Code Beispiele]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=515</guid>
+		<description><![CDATA[Ant ist ein überaus mächtiges Werkzeug für die Automatisierung und Sicherstellung des build-Prozesses in immer gleicher Qualität. Zudem ist es sehr leicht anpassbar und erweiterbar. Hier ein paar Beispiele aus der Java User Group: Task zum Generieren von Java Code für den Zugriff auf Icons Task zum Erstellen eines Java web Start Deployment descriptors (jnlp [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Ant ist ein überaus mächtiges Werkzeug für die Automatisierung und Sicherstellung des build-Prozesses in immer gleicher Qualität. Zudem ist es sehr leicht anpassbar und erweiterbar.<br />
+Hier ein paar Beispiele aus der Java User Group:</p>
+<ul>
+<li><a href="http://web.me.com/jan.lolling/ant/iconCodeGenTask.html" target="_new">Task zum Generieren von Java Code für den Zugriff auf Icons</a></li>
+<li><a href="http://web.me.com/jan.lolling/ant/jnlpTask.html" target="_new">Task zum Erstellen eines Java web Start Deployment descriptors (jnlp file)</a></li>
+<li><a href="http://web.me.com/jan.lolling/ant/propertyMergeTask.html" target="_new">Task zum Zusammenfuehren von Property files</a></li>
+</ul>
+<p>Diese Task sind als Binaries und Source code verfügbar und stehen unter der GPL. Da diese Libs nicht in Produkte integriert werden stellt die GPL auch kein Problem für den kommerziellen Einsatz dieser Task dar.</p>
+<p>Diese Task sind bereits im produktiven Einsatz in aktuell 3 Projekten (1 Open Source Projekt und 2 Individual Projekte für kommerzielle Zwecke).</p>
+<p>Viel Spass beim Ausprobieren.</p>
+<p>Wir freuen uns über Anregungen und Kommetare: jan dot lolling at googlemail dot com.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/06/ant-task-der-java-user-group-bb/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JDBC Metadaten für Oracle stored procedures</title>
+		<link>http://www.jug-bb.de/2010/04/jdbc-metadaten-fur-oracle-stored-procedures/</link>
+		<comments>http://www.jug-bb.de/2010/04/jdbc-metadaten-fur-oracle-stored-procedures/#comments</comments>
+		<pubDate>Mon, 05 Apr 2010 20:12:48 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Java Code Beispiele]]></category>
+		<category><![CDATA[Oracle JDBC Meta data]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=479</guid>
+		<description><![CDATA[Das Konstrukt der Packages wird durch JDBC nicht wirklich gut unterstützt. JDBC geht leider auch von eindeutigen Namen für functions und procedures aus. Somit hat man ein Problem mit überladenen procedures. Diese unterscheiden sich nicht im Namen sondern in der Anzahl und Typen der Parameter. Der Oracle-JDBC-Treiber gibt alle Informationen raus, es erfordert nur etwas [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Das Konstrukt der Packages wird durch JDBC nicht wirklich gut unterstützt. JDBC geht leider auch von eindeutigen Namen für functions und procedures aus. Somit hat man ein Problem mit überladenen procedures. Diese unterscheiden sich nicht im Namen sondern in der Anzahl und Typen der Parameter.<br />
+Der Oracle-JDBC-Treiber gibt alle Informationen raus, es erfordert nur etwas Geschick diese Informationen einzusammeln.<br />
+1. Die Name der packages werden als CATALOG ausgegeben.<br />
+2. Die Parameter kennen ihren Index. Wenn ein Parameter für scheinbar die selbe procedure erscheint mit dem gleichen Index, dann ist das ein Zeichen für eine überladene procedure.</p>
+<p>Der folgende Beispielcode geht davon aus, dass die procedures und functions in speziellen Objekten gehalten werden und die Parameter besitzen auch ihre eigene Transferklasse.</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="java" style="font-family:monospace;">	<span style="color: #008000; font-style: italic; font-weight: bold;">/**
+	 * load procedure and functions
+	 * 
+	 * @param schema
+	 *            object that represent a schema
+	 * @return true if everything went well
+	 */</span>
+	<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">boolean</span> loadProcedures<span style="color: #009900;">&#40;</span>SQLSchema schema<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+		<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>logger.<span style="color: #006633;">isDebugEnabled</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			logger.<span style="color: #006633;">debug</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;loadProcedures schema=&quot;</span> <span style="color: #339933;">+</span> schema<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		<span style="color: #666666; font-style: italic;">// makes this thread save</span>
+		inRefreshCycle <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span>
+		<span style="color: #000066; font-weight: bold;">boolean</span> ok <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #666666; font-style: italic;">// don' worry about that, we use our own database pool</span>
+		<span style="color: #000000; font-weight: bold;">final</span> DatabaseSession session <span style="color: #339933;">=</span> DatabaseSessionPool.<span style="color: #006633;">getDatabaseSession</span><span style="color: #009900;">&#40;</span>cd.<span style="color: #006633;">getUniqueId</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>session <span style="color: #339933;">==</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// return if no connection to database avialable</span>
+			<span style="color: #000000; font-weight: bold;">return</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		<span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #003399;">Connection</span> conn <span style="color: #339933;">=</span> session.<span style="color: #006633;">getConnection</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #003399;">DatabaseMetaData</span> dbmd <span style="color: #339933;">=</span> conn.<span style="color: #006633;">getMetaData</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			schema.<span style="color: #006633;">clearProcedures</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #666666; font-style: italic;">// remove any previously loaded procedures</span>
+			<span style="color: #003399;">ResultSet</span> rs <span style="color: #339933;">=</span> dbmd.<span style="color: #006633;">getProcedures</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">null</span>, schema.<span style="color: #006633;">getName</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>, <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>rs <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+				<span style="color: #666666; font-style: italic;">// loading all procedures and functions</span>
+				<span style="color: #000000; font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>rs.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+					<span style="color: #666666; font-style: italic;">// PROCEDURE_CAT contains the package name</span>
+					<span style="color: #003399;">String</span> catalogName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_CAT&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">String</span> name <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>catalogName <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">&amp;</span>amp<span style="color: #339933;">;&amp;</span>amp<span style="color: #339933;">;</span> catalogName.<span style="color: #006633;">length</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						name <span style="color: #339933;">=</span> catalogName <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot;.&quot;</span> <span style="color: #339933;">+</span> name<span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #666666; font-style: italic;">// create an new one</span>
+					SQLProcedure procedure <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> SQLProcedure<span style="color: #009900;">&#40;</span><span style="color: #000000; font-weight: bold;">this</span>, schema,	name<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #666666; font-style: italic;">// decide if it is a function</span>
+					<span style="color: #000066; font-weight: bold;">short</span> pType <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_TYPE&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					procedure.<span style="color: #006633;">setFunction</span><span style="color: #009900;">&#40;</span>pType <span style="color: #339933;">==</span> <span style="color: #003399;">DatabaseMetaData</span>.<span style="color: #006633;">procedureReturnsResult</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					schema.<span style="color: #006633;">addProcedure</span><span style="color: #009900;">&#40;</span>procedure<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					objectMap.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span>name, procedure<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+				<span style="color: #009900;">&#125;</span>
+				rs.<span style="color: #006633;">close</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #009900;">&#125;</span>
+			<span style="color: #666666; font-style: italic;">// loading procedure/function parameters</span>
+			rs <span style="color: #339933;">=</span> dbmd.<span style="color: #006633;">getProcedureColumns</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">null</span>, schema.<span style="color: #006633;">getName</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>, <span style="color: #000066; font-weight: bold;">null</span>, <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>rs <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+				<span style="color: #666666; font-style: italic;">// an index for overloaded procedures</span>
+				<span style="color: #000066; font-weight: bold;">int</span> procedureIndex <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+				<span style="color: #003399;">String</span> prevProcedureName <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;noprocedurehere_xx&quot;</span><span style="color: #339933;">;</span>
+				<span style="color: #000000; font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>rs.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+					<span style="color: #666666; font-style: italic;">// PROCEDURE_CAT contains the package name</span>
+					<span style="color: #003399;">String</span> catalogName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_CAT&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">String</span> name <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>catalogName <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">&amp;</span>amp<span style="color: #339933;">;&amp;</span>amp<span style="color: #339933;">;</span> catalogName.<span style="color: #006633;">length</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// add the catalog name as package name</span>
+						name <span style="color: #339933;">=</span> catalogName <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot;.&quot;</span> <span style="color: #339933;">+</span> name<span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #000066; font-weight: bold;">int</span> pos <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// position of this parameter in the procedure parameter</span>
+						<span style="color: #666666; font-style: italic;">// list</span>
+						pos <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;ORDINAL_POSITION&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">Exception</span> e<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// perhaps this column is not defined in every database</span>
+						<span style="color: #666666; font-style: italic;">// type</span>
+						pos <span style="color: #339933;">=</span> <span style="color: #339933;">-</span><span style="color: #cc66cc;">1</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>prevProcedureName.<span style="color: #006633;">equals</span><span style="color: #009900;">&#40;</span>name<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>pos <span style="color: #339933;">==</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+							<span style="color: #666666; font-style: italic;">// if we get the same procedure name and a parameter</span>
+							<span style="color: #666666; font-style: italic;">// with position zero increase the procedure index</span>
+							<span style="color: #666666; font-style: italic;">// that means point to the next procedure with the</span>
+							<span style="color: #666666; font-style: italic;">// same name</span>
+							procedureIndex<span style="color: #339933;">++;</span>
+						<span style="color: #009900;">&#125;</span>
+					<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+						procedureIndex <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #003399;">String</span> columnName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;COLUMN_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">List</span> list <span style="color: #339933;">=</span> schema.<span style="color: #006633;">getProcedures</span><span style="color: #009900;">&#40;</span>name<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					SQLProcedure procedure <span style="color: #339933;">=</span> list.<span style="color: #006633;">get</span><span style="color: #009900;">&#40;</span>procedureIndex<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>procedure <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						procedure.<span style="color: #006633;">addParameter</span><span style="color: #009900;">&#40;</span>columnName, <span style="color: #666666; font-style: italic;">// parameter name</span>
+								rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;DATA_TYPE&quot;</span><span style="color: #009900;">&#41;</span>,  <span style="color: #666666; font-style: italic;">// parameter type as</span>
+														   <span style="color: #666666; font-style: italic;">// integer defined</span>
+														   <span style="color: #666666; font-style: italic;">// in class</span>
+														   <span style="color: #666666; font-style: italic;">// java.sql.Type</span>
+								rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;TYPE_NAME&quot;</span><span style="color: #009900;">&#41;</span>, <span style="color: #666666; font-style: italic;">// parameter type as</span>
+														   <span style="color: #666666; font-style: italic;">// string</span>
+								rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;LENGTH&quot;</span><span style="color: #009900;">&#41;</span>,    <span style="color: #666666; font-style: italic;">// length of the parameter</span>
+														<span style="color: #666666; font-style: italic;">// if parameter is</span>
+														<span style="color: #666666; font-style: italic;">// string or number type</span>
+								rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PRECISION&quot;</span><span style="color: #009900;">&#41;</span>, <span style="color: #666666; font-style: italic;">// precision of the</span>
+														<span style="color: #666666; font-style: italic;">// parameter if the</span>
+														<span style="color: #666666; font-style: italic;">// parameter is a number</span>
+														<span style="color: #666666; font-style: italic;">// type</span>
+								rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;COLUMN_TYPE&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #666666; font-style: italic;">// input or output</span>
+														     <span style="color: #666666; font-style: italic;">// parameter as</span>
+														     <span style="color: #666666; font-style: italic;">// integer:</span>
+															 <span style="color: #666666; font-style: italic;">// refer</span>
+															 <span style="color: #666666; font-style: italic;">// DatabaseMetaData.procedureColumnReturn</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #666666; font-style: italic;">// keep the name of the last procedure to detect overloaded</span>
+					<span style="color: #666666; font-style: italic;">// procedures</span>
+					prevProcedureName <span style="color: #339933;">=</span> name<span style="color: #339933;">;</span>
+				<span style="color: #009900;">&#125;</span>
+				rs.<span style="color: #006633;">close</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #009900;">&#125;</span>
+			schema.<span style="color: #006633;">setProcedureLoaded</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			ok <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">SQLException</span> sqle<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// creates a error message to show it in GUI</span>
+			errorMessage <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;loadProcedures schema=&quot;</span> <span style="color: #339933;">+</span> schema <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot; failed: &quot;</span>
+					<span style="color: #339933;">+</span> sqle.<span style="color: #006633;">getMessage</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">finally</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// put the session back in the pool</span>
+			DatabaseSessionPool.<span style="color: #006633;">release</span><span style="color: #009900;">&#40;</span>session<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		inRefreshCycle <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">return</span> ok<span style="color: #339933;">;</span>
+	<span style="color: #009900;">&#125;</span></pre></td></tr></table></div>
+
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/04/jdbc-metadaten-fur-oracle-stored-procedures/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Überblick über die Roblet®-Technik</title>
+		<link>http://www.jug-bb.de/2010/03/uberblick-uber-die-roblet%c2%ae-technik/</link>
+		<comments>http://www.jug-bb.de/2010/03/uberblick-uber-die-roblet%c2%ae-technik/#comments</comments>
+		<pubDate>Mon, 01 Mar 2010 11:44:04 +0000</pubDate>
+		<dc:creator><![CDATA[Ralph Bergmann]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Treffen]]></category>
+		<category><![CDATA[Berlin]]></category>
+		<category><![CDATA[Roblet®-Technik]]></category>
+		<category><![CDATA[Vortrag]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=468</guid>
+		<description><![CDATA[Der Vortrag: Überblick über die Roblet®-Technik Verteilte Systeme bestimmen immer mehr das Bild der Software-Entwicklung. Je einfacher sich die Software verteilen läßt, je einheitlicher die Technik ist und je transparenter das Netzwerk ist, um so effizienter ist die Software-Entwicklung. Diesen Zusammenhang nennen wir das Effizienzdreieck verteilter Systeme. Die Roblet®-Technik setzt das Effizenzdreieck auf praktische Weise [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h3>Der Vortrag:</h3>
+<h4>Überblick über die Roblet®-Technik</h4>
+<p>Verteilte Systeme bestimmen immer mehr das Bild der Software-Entwicklung. Je einfacher sich die Software verteilen läßt, je einheitlicher die Technik ist und je transparenter das Netzwerk ist, um so effizienter ist die Software-Entwicklung. Diesen Zusammenhang nennen wir das Effizienzdreieck verteilter Systeme.</p>
+<p>Die Roblet®-Technik setzt das Effizenzdreieck auf praktische Weise um. Sie ist eine in Java™ implementierte Softwareschicht zwischen Anwendung und Übertragungsnetzwerk. Dabei wird spezifische, verteilte Funktionalität durch das Versenden und Ausführen von parametrisierten Programmstücken, den Roblets®, erreicht. Die Technikvereinheitlichung wird durch den konsequenten Einsatz von Java™ umgesetzt. Die Bibliotheken der Roblet¨-Technik bringen die Netzwerktransparenz und behandeln sämtliche Aspekte der Kommunikation.</p>
+<p>Ursprünglich aus der Robotik stammend ist die Roblet®-Technik heute auch in der Automatisierung und in Web-Anwendungen präsent – ihre Anwendbarkeit geht aber weit darüber hinaus. Als Netzwerk-Middleware kann sie in der Praxis quasi RMI ersetzen, ist aber wesentlich einfacher in der Handhabung. Die Roblet®-Technik läßt sich gut mit Techniken wie OSGi oder innerhalb bestehender Strukturen einsetzen.</p>
+<p>Der Vortrag gibt einen Überblick über die Roblet®-Technik mit leicht verständlichen Anwendungsbeispielen. Die Beispiele kommen nicht nur aus der Robotik, sondern umfassen auch Hausautomatisierung, Dateisysteme, Datenbanken, Fenstersysteme und 3D-Grafik. Interessierte sind aufgefordert, einen Laptop mit Java und WLAN mitzubringen, um selbst innerhalb weniger Minuten nach dem Vortrag mit eigenen Roblets Hausautomatisierung auf bereitgestellter beispielhafter Haustechnik zu betreiben.</p>
+<p>Die Roblet®-Technik ist kostenfrei verfügbar und wird von <a title="roblet.org" href="http://roblet.org" target="_blank">roblet.org</a> betreut. Hagen Stanek ist dort maßgeblich mit aktiv. Er ist darüber hinaus Geschäftsführer der genRob GmbH, welche im Bereich verteilter Systeme tätig ist. Schließlich ist er als Kassenwart der JUG Stuttgart (JUGS e.V.) ehrenamtlich im Java-Umfeld tätig.</p>
+<h3>Der Treffpunkt:</h3>
+<p>Wir treffen uns im <a title="newthinking store Berlin" href="http://store.newthinking.de/" target="_blank">newthinking store</a>, <a title="newthinking store bei google maps" href="http://maps.google.com/maps?q=Tucholskystr.+48,+10117+Berlin" target="_blank">Tucholskystrasse 48, 10117 Berlin</a>.</p>
+<h3>Der Ablauf:</h3>
+<p>18:30 Tür auf, Zeit für etwas Networking<br />
+19:00 Vortrag &#8220;Überblick über die Roblet®-Technik&#8221;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/03/uberblick-uber-die-roblet%c2%ae-technik/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Präsentiert vom Java Magazin und Eclipse Magazin: Code Camps zu Java EE 5/6 und Eclipse Modeling in Berlin, Anfang März &#8211; Für Mitglieder 15% Sonderrabatt</title>
+		<link>http://www.jug-bb.de/2010/01/prasentiert-vom-java-magazin-und-eclipse-magazin-code-camps-zu-java-ee-56-und-eclipse-modeling-in-berlin-anfang-marz-fur-mitglieder-15-sonderrabatt/</link>
+		<comments>http://www.jug-bb.de/2010/01/prasentiert-vom-java-magazin-und-eclipse-magazin-code-camps-zu-java-ee-56-und-eclipse-modeling-in-berlin-anfang-marz-fur-mitglieder-15-sonderrabatt/#comments</comments>
+		<pubDate>Mon, 11 Jan 2010 12:37:00 +0000</pubDate>
+		<dc:creator><![CDATA[Ralph Bergmann]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Treffen]]></category>
+		<category><![CDATA[Berlin]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=466</guid>
+		<description><![CDATA[Für Mitglieder der Java User Group Berlin Brandenburg 15% Sonderrabatt auf den Teilnehmerpreis. Bitte schreiben Sie eine Nachricht an mhillert@entwickler-akademie.de, um den Rabatt zu erhalten. Die Code Camps der entwickler Akademie werden exklusiv vom Java Magazin, vom Eclipse Magazin und der Entwickler Akademie präsentiert und vereinen jeweils zwei der bekanntesten Profis der vorgestellten Technologien. Alle [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Für Mitglieder der Java User Group Berlin Brandenburg 15% Sonderrabatt auf den Teilnehmerpreis. Bitte schreiben Sie eine Nachricht an <a title="mhillert@entwickler-akademie.de" href="mailto:mhillert@entwickler-akademie.de">mhillert@entwickler-akademie.de</a>, um den Rabatt zu erhalten.</p>
+<hr />
+<p>Die Code Camps der entwickler Akademie werden exklusiv vom Java Magazin, vom Eclipse Magazin und der Entwickler Akademie präsentiert und vereinen jeweils zwei der bekanntesten Profis der vorgestellten Technologien. Alle Experten sind bekannt als Autoren des Java Magazins und als Top-Speaker auf Konferenzen wie der JAX. Hier finden Sie einen Überblick über die Camps. Weitere Details finden Sie auf <a title="www.entwickler-akademie.de" href="http://www.entwickler-akademie.de" target="_blank">www.entwickler-akademie.de</a>.</p>
+<p>*** JAVA CODE CAMP – Java EE 5/6</p>
+<p>01. &#8211; 04. März 2010, NH Hotel Berlin Mitte</p>
+<p>Mit Lars Röwekamp &amp; Jens Schumann!</p>
+<p>Zwei der bekanntesten deutschsprachigen Java EE-Experten – Lars Röwekamp und Jens Schumann &#8211; machen Sie fit für die erfolgreiche Umsetzung von Java EE-Projekten. Die Java Enterprise Edition (kurz: Java EE) erlebt aktuell eine Renaissance – und dies zu Recht. Und auch das Komponentenmodell EJB ist spätestens seit der Version 3.0 wieder salonfähig. Java EE bietet deutlich mehr als nur eine lose Sammlung von Spezifikationen. Neben reiner Technologie definiert sie vor allem Architekturansätze und Konzepte für die Entwicklung und Integration moderner, mehrschichtiger Enterprise-Anwendungen – egal ob Portale, Web-, Desktop- oder Mobile-Clients. Das Java Code Camp &#8211; Java EE 5/6 beschäftigt sich anhand eines umfangreichen, praktischen Beispiels eingehend mit den Grundkonzepten von Java EE 5 und Java EE 6 und veranschaulicht neben der reinen Implementierung auch andere wichtige Facetten des Enterprise Software Life Cycles, wie zum Beispiel Software Configuration Management, Software Test Management und Software Runtime Monitoring/Management.</p>
+<p>Alle Infos auf: <a title="www.entwickler-akademie.de/codecamps/java-cc-ee56" href="http://www.entwickler-akademie.de/codecamps/java-cc-ee56" target="_blank">www.entwickler-akademie.de/codecamps/java-cc-ee56</a></p>
+<p>*** ECLIPSE CODE CAMP – Modeling</p>
+<p>1. bis 5. März 2010, NH Hotel Berlin Mitte</p>
+<p>Das Eclipse Code Camp – Modeling ist eine exklusive Veranstaltung, die vom Eclipse Magazin und der Entwickler Akademie zum zweiten Mal präsentiert wird. Das erste Eclipse Code Camp im Oktober 2010, in München, hatte bei den Teilnehmern für Begeisterung gesorgt. Nutzen auch Sie die Chance, diese exklusive Veranstaltung, mit zwei der weltweit besten Eclipse-Modeling-Experten nun in Berlin zu erleben. Eike Stepper &amp; Ed Merks werden Ihnen in Teamarbeit ein einzigartiges Trainingserlebnis bieten. Sie werden von beiden Experten immer gleichzeitig betreut. Zusätzlich sorgt die Begrenzung der Teilnehmerzahl auf maximal 15 Personen für optimale Lernergebnisse. Das Camp findet nur zweimal im Jahr statt. Bitte melden Sie sich daher rechtzeitig an, um sich einen Platz zu sichern. Bitte beachten Sie, dass ein Großteil der Inhalte des Camps in englischer Sprache vermittelt wird.</p>
+<p>Während sich die frühen Tage der Modellierung durch unrealistische Erwartungen und leere Versprechen auszeichneten, ist die zugrunde liegende Technologie seitdem gereift und kann heute ihr wahres Potenzial als ein unglaublich produktives Paradigma entfalten — wenn sie richtig angewendet wird. Der pragmatische Modellierungsansatz von Eclipse als integraler Aspekt der Entwicklung und als Schlüsselkomponente zur Laufzeit bietet volle Unterstützung für moderne Enterprise-Systeme. Dieses fünftägige Training illustriert auf eindrucksvolle Weise die enormen Vorteile und vermittelt Ihnen, wie Sie auch in Ihren eigenen Projekten davon profitieren können. Indem Sie von führenden Experten der Eclipse Modellierungsszene lernen, werden Sie sowohl einen umfassenden Überblick über den neuesten Stand der Technik, als auch tiefgehende Einblicke in das Repertoire der beteiligten Bausteine mitnehmen können. Zusammen mit Ed Merks, dem Leiter des Eclipse Modeling Top-Level Projekts und des Eclipse Modeling Framework (EMF) Projekts, und Eike Stepper, dem Leiter des CDO Model Repository Projekts, werden Sie fünf aufregende und amüsante Tage verbringen. Die einzelnen Sessions bestehen aus sehr gut aufeinander abgestimmten Präsentationen und Diskussionsblöcken, die durch ausgiebige Übungen ergänzt werden. Sie werden entdecken, wie wenig ermüdende Handarbeit nötig bleibt, wenn die erlernten Modellierungstechniken effektiv angewendet werden. Die Tatsache, dass die zum Einsatz gebrachte Technologie offen und frei verfügbar ist, stellt sicher einen Zusatzbonus dar.</p>
+<p>Alle Infos auf: <a title="www.entwickler-akademie.de/codecamps/eclipse-cc-modeling" href="http://www.entwickler-akademie.de/codecamps/eclipse-cc-modeling" target="_blank">www.entwickler-akademie.de/codecamps/eclipse-cc-modeling</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/01/prasentiert-vom-java-magazin-und-eclipse-magazin-code-camps-zu-java-ee-56-und-eclipse-modeling-in-berlin-anfang-marz-fur-mitglieder-15-sonderrabatt/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Management von Last- und Performancetests</title>
+		<link>http://www.jug-bb.de/2009/12/management-von-last-und-performancetests/</link>
+		<comments>http://www.jug-bb.de/2009/12/management-von-last-und-performancetests/#comments</comments>
+		<pubDate>Tue, 01 Dec 2009 09:43:27 +0000</pubDate>
+		<dc:creator><![CDATA[Ralph Bergmann]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Treffen]]></category>
+		<category><![CDATA[2009]]></category>
+		<category><![CDATA[Berlin]]></category>
+		<category><![CDATA[Vortrag]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=459</guid>
+		<description><![CDATA[Letzten Donnerstag (26.11.) sprach Victor Czenter, C1 SetCon GmbH zu uns zum Thema &#8220;Management von Last- und Performancetests&#8221;. Wie immer trafen wir uns im newthinking store. Für all die, die nicht zum Vortrag kommen konnten, stellen wir hier die Folien des Vortrages online. Ralph]]></description>
+				<content:encoded><![CDATA[<p>Letzten Donnerstag (26.11.) sprach Victor Czenter, C1 SetCon GmbH zu uns zum Thema &#8220;Management von Last- und Performancetests&#8221;.</p>
+<p>Wie immer trafen wir uns im newthinking store.</p>
+<p>Für all die, die nicht zum Vortrag kommen konnten, stellen wir hier die Folien des Vortrages online.</p>
+<p>Ralph</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/12/management-von-last-und-performancetests/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu 9.10 Beta &#8211; erster Eindruck</title>
+		<link>http://www.jug-bb.de/2009/10/ubuntu-9-10-beta-erster-eindruck/</link>
+		<comments>http://www.jug-bb.de/2009/10/ubuntu-9-10-beta-erster-eindruck/#comments</comments>
+		<pubDate>Tue, 27 Oct 2009 20:04:12 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=455</guid>
+		<description><![CDATA[Ubuntu 9.10 ist als Beta-Version raus. Im Bezug auf Java ist es wie alle Linux-Distribution nicht auf dem neuesten Stand. Java 1.6.0_15 ist ok, Sun hat aber bereits 1.6.0_16 am Start. Die Open-JDK-Installation ist wie fast überall einfach nur Schrott. Ich kann derzeit nicht zu OpenJDK raten. Ich nutze nur die bisherige Sun-Version die noch [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Ubuntu 9.10 ist als Beta-Version raus.<br />
+Im Bezug auf Java ist es wie alle Linux-Distribution nicht auf dem neuesten Stand. Java 1.6.0_15 ist ok, Sun hat aber bereits 1.6.0_16 am Start.<br />
+Die Open-JDK-Installation ist wie fast überall einfach nur Schrott. Ich kann derzeit nicht zu OpenJDK raten. Ich nutze nur die bisherige Sun-Version die noch nicht OpenSource ist.<br />
+Aber auch hier sind kleinere Fehler in der Installation vorhanden. Beispiel ist Java-Web-Start. Der dafür vorgesehen Menüpunkt versucht javaws ohne Parameter aufzurufen, was (leider) seit Java 5 fehlschlägt. javaws braucht um den Manager anzuzeigen den Parameter -viewer. Das lässt sich aber leicht in der entsprechenden .desktop-Datei anpassen und schon funktioniert es.<br />
+Ubuntu 9.10 an sich ist sehr angenehm schnell geworden, was vermutlich an der kompletten Umstellung auf den neuen Boot-prozess liegt.<br />
+Ich hätte mich gefreut, wenn Java als default-Installation sofort eingerichtet würde (wenigstens die Laufzeitkomponenten) so wie es für Mono gemacht wird. Das Nachinstallieren ist zwar kein Akt, aber für unerfahrene User eben doch eine Hürde. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/10/ubuntu-9-10-beta-erster-eindruck/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:series="http://organizeseries.com/"
+	>
+
+<channel>
+	<title>Java User Group Berlin Brandenburg &#187; Mac Fan Club</title>
+	<atom:link href="http://www.jug-bb.de/category/mac-fan-club/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.jug-bb.de</link>
+	<description>Der Blog der JUG-BB</description>
+	<lastBuildDate>Sun, 29 Dec 2013 15:02:50 +0000</lastBuildDate>
+	<language>de-DE</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.2</generator>
+	<item>
+		<title>JDK in Mac OS X Lion</title>
+		<link>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/</link>
+		<comments>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/#comments</comments>
+		<pubDate>Wed, 03 Aug 2011 22:06:19 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=735</guid>
+		<description><![CDATA[Apple hat leider bei Java JDK in Lion ein etwas eigenwilliges Deployment angewendet. Wenn mein sein System von Snow Leopard auf Lion aktualisiert wird man erstmal damit konfrontiert, dass Java verschwunden ist. Man muss es &#8211; am besten aus der DeveloperConnection &#8211; nach installieren. Der neue Ablageort ist: /Library/Java/JavaVirtualMachines/ Darunter liegen aber leider nun keine [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Apple hat leider bei Java JDK in Lion ein etwas eigenwilliges Deployment angewendet. Wenn mein sein System von Snow Leopard auf Lion aktualisiert wird man erstmal damit konfrontiert, dass Java verschwunden ist. Man muss es &#8211; am besten aus der DeveloperConnection &#8211; nach installieren.<br />
+Der neue Ablageort ist:<br />
+<code>/Library/Java/JavaVirtualMachines/</code><br />
+Darunter liegen aber leider nun keine simplen Verzeichnisse mehr sondern bundles. In diese kann man mit normalen Dateiauswahldialogen (z.B. von Eclipse) nicht eintauchen. Bundels sind aber trotzdem nicht wirklich viel mehr als Verzeichnisse mit besonderen Attributen.<br />
+Deshalb macht es Sinn &#8211; auch unter dem Aspekt der Kompatibilität symbolische Links zu setzen:<br />
+Im Verzeichnis /System/Library/Frameworks/JavaVM.framework legt man einen Link:<br />
+<code>sudo ln -s /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/ CurrentJDK</code><br />
+Und nun kann man mit in Eclipse dieses verlinkte Verzeichnis auswählen und man hat sein JDK am Start.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2011/08/jdk-in-mac-os-x-lion/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java Aktualisierung für Mac OS X [update]</title>
+		<link>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/</link>
+		<comments>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/#comments</comments>
+		<pubDate>Wed, 20 Oct 2010 21:59:38 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=535</guid>
+		<description><![CDATA[Seit heute ist die Version 1.6.0_22 für OSX verfügbar. Soweit nichts spektakuläres aber&#8230;. Die API für die Integration von Java Apps in OSX hat sich auch geändert und zeigt deutlich die Vorboten des neuen Betriebssystems Lion (10.7). Insbesondere die neuen Interfaces (alles SubClasses von com.apple.eawt.AppEventListener) zeigen wo es hin geht: AppHiddenListener, AppReOpenedListener, ScreenSleepListener, UserSessionListener, SystemSleepListener [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Seit heute ist die Version 1.6.0_22 für OSX verfügbar. Soweit nichts spektakuläres aber&#8230;.</p>
+<p>Die API für die Integration von Java Apps in OSX hat sich auch geändert und zeigt deutlich die Vorboten des neuen Betriebssystems Lion (10.7).</p>
+<p>Insbesondere die neuen Interfaces (alles SubClasses von com.apple.eawt.AppEventListener) zeigen wo es hin geht:</p>
+<ul>
+<li>AppHiddenListener,</li>
+<li>AppReOpenedListener,</li>
+<li>ScreenSleepListener,</li>
+<li>UserSessionListener,</li>
+<li>SystemSleepListener</li>
+</ul>
+<p>sind ganz auf die Bedürfnisse der neuen Funktionen von OSX ausgerichtet und zeigen, dass Apple Java nicht links liegen lässt sondern weiter entwickelt.</p>
+<p><strong>[Update] Apple überträgt seinen Java-VM Code und die Komponenten zur Kopplung mit dem OS an das OpenJDK-Projekt. Damit wird sicher gestellt dass diese Komponenten auch zeitnah Aktualisierungen erfahren &#8211; anders als jetzt wo auf OSX doch erheblich später die Updates kamen.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2010/10/java-aktualisierung-fur-mac-os-x/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Erster Blick auf Snow-Leopard als Java Entwickler</title>
+		<link>http://www.jug-bb.de/2009/08/erster-blick-auf-snow-leopard-als-java-entwickler/</link>
+		<comments>http://www.jug-bb.de/2009/08/erster-blick-auf-snow-leopard-als-java-entwickler/#comments</comments>
+		<pubDate>Sat, 29 Aug 2009 14:21:43 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=452</guid>
+		<description><![CDATA[Java ist mit der Version 1.6.0_15 integriert. Maven (ja Maven wird mitgeliefert) ist nicht aktuell und hat die Version 2.0.9 ANT liegt auch unverändert in der Version 1.7.0 vor. Eclipse 3.5 und auch Netbeans 6.7 laufen einwandfrei. Soweit alles OK in der Java-Welt für Apple.]]></description>
+				<content:encoded><![CDATA[<p>Java ist mit der Version 1.6.0_15 integriert.<br />
+Maven (ja Maven wird mitgeliefert) ist nicht aktuell und hat die Version 2.0.9<br />
+ANT liegt auch unverändert in der Version 1.7.0 vor.<br />
+Eclipse 3.5 und auch Netbeans 6.7 laufen einwandfrei.</p>
+<p>Soweit alles OK in der Java-Welt für Apple. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/08/erster-blick-auf-snow-leopard-als-java-entwickler/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>JavaSE 6 in upcoming Snow-Leopard</title>
+		<link>http://www.jug-bb.de/2009/08/javase-6-in-snow-leopard/</link>
+		<comments>http://www.jug-bb.de/2009/08/javase-6-in-snow-leopard/#comments</comments>
+		<pubDate>Sun, 16 Aug 2009 18:35:00 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=446</guid>
+		<description><![CDATA[Da Snow-Leopard vor der Tür steht hier noch eine Beruhigung an alle Java+Mac-Fans (wie mich In der WWDC gab es speziell zu Java eine Session: Java 6 on Snow leopard Mann beruhigt mich doch etwas, Apple hat in Sachen Java ja immer eine sehr zögerliche Haltung angenommen. Das liest sich hier erfreulicherweise etwas anders !]]></description>
+				<content:encoded><![CDATA[<p>
+Da Snow-Leopard vor der Tür steht hier noch eine Beruhigung an alle Java+Mac-Fans (wie mich <img src="http://www.jug-bb.de/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /><br />
+In der WWDC gab es speziell zu Java eine Session:<br />
+<a href="http://developer.apple.com/wwdc/sessions/#session=405" target="new">Java 6 on Snow leopard</a>
+</p>
+<p>
+Mann beruhigt mich doch etwas, Apple hat in Sachen Java ja immer eine sehr zögerliche Haltung angenommen. Das liest sich hier erfreulicherweise etwas anders !</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/08/javase-6-in-snow-leopard/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java Update for Mac OS X</title>
+		<link>http://www.jug-bb.de/2009/06/java-update-for-mac-os-x/</link>
+		<comments>http://www.jug-bb.de/2009/06/java-update-for-mac-os-x/#comments</comments>
+		<pubDate>Tue, 16 Jun 2009 22:16:19 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=427</guid>
+		<description><![CDATA[Endlich hat Apple ein Einsehen und aktualisiert die Java 6 Installation auf Java 6.0.13 &#8211; also den aktuellen Stand von Java 6. Wieso hat das solange gedauert ? Trotzdem ist es gut.]]></description>
+				<content:encoded><![CDATA[<p>Endlich hat Apple ein Einsehen und aktualisiert die Java 6 Installation auf Java 6.0.13 &#8211; also den aktuellen Stand von Java 6.<br />
+Wieso hat das solange gedauert ? Trotzdem ist es gut.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/06/java-update-for-mac-os-x/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NetBeans 6.7beta mit neuem Look&amp;Feel für Mac OSX</title>
+		<link>http://www.jug-bb.de/2009/05/netbeans-67beta-mit-neuem-lookfeel-fur-mac-osx/</link>
+		<comments>http://www.jug-bb.de/2009/05/netbeans-67beta-mit-neuem-lookfeel-fur-mac-osx/#comments</comments>
+		<pubDate>Fri, 22 May 2009 08:44:35 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=411</guid>
+		<description><![CDATA[NetBeans 6.7 glänzt mit einem komplett überarbeiteten Look&#38;Feel für Mac OSX. So empfiehlt sich NetBeans nun auch für Mac OS X als RCP-Plattform.]]></description>
+				<content:encoded><![CDATA[<p><!--:de-->NetBeans 6.7 glänzt mit einem komplett überarbeiteten Look&amp;Feel für Mac OSX. So empfiehlt sich NetBeans nun auch für Mac OS X als RCP-Plattform.</p>
+<p><img class="aligncenter size-full wp-image-412" title="netbeans67beta_osx" src="http://www.jug-bb.de/wp-content/uploads/2009/05/netbeans67beta_osx.jpg" alt="netbeans67beta_osx" width="987" height="719" /><!--:--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/05/netbeans-67beta-mit-neuem-lookfeel-fur-mac-osx/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fritzbox Firmware update</title>
+		<link>http://www.jug-bb.de/2009/03/fritzbox-firmware-updatefritzbox-firmware-update/</link>
+		<comments>http://www.jug-bb.de/2009/03/fritzbox-firmware-updatefritzbox-firmware-update/#comments</comments>
+		<pubDate>Fri, 27 Mar 2009 10:59:49 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.jug-bb.de/?p=345</guid>
+		<description><![CDATA[AVM hat mit seinem neuesten Firmware update ein nerviges Problem für Mac Benutzer behoben. Es gab DNS Probleme im Zusammenhang mit dem Safari-Browser. Diese Probleme haben zu Verzögerungen des Verbindungaufbaues geführt. Das neue Update (29.04.70) beseitigt diese Probleme zuverlässig.]]></description>
+				<content:encoded><![CDATA[<p><!--:de-->AVM hat mit seinem neuesten Firmware update ein nerviges Problem für Mac Benutzer behoben. Es gab DNS Probleme im Zusammenhang mit dem Safari-Browser. Diese Probleme haben zu Verzögerungen des Verbindungaufbaues geführt. Das neue Update (29.04.70) beseitigt diese Probleme zuverlässig.<!--:--> <!--:--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2009/03/fritzbox-firmware-updatefritzbox-firmware-update/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Inoffizielle Portierung von Java 6 Leopard und Tiger verfügbar</title>
+		<link>http://www.jug-bb.de/2007/11/inoffizielle-portierung-von-java-6-leopard-und-tiger-verfugbar/</link>
+		<comments>http://www.jug-bb.de/2007/11/inoffizielle-portierung-von-java-6-leopard-und-tiger-verfugbar/#comments</comments>
+		<pubDate>Thu, 29 Nov 2007 16:07:16 +0000</pubDate>
+		<dc:creator><![CDATA[Ralph Bergmann]]></dc:creator>
+				<category><![CDATA[Allgemein]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Mac Fan Club]]></category>
+		<category><![CDATA[Sun]]></category>
+
+		<guid isPermaLink="false">http://www.java-berlin.de/2007/11-29/inoffizielle-portierung-von-java-6-leopard-und-tiger-verfugbar/</guid>
+		<description><![CDATA[Java wird nicht direkt von Sun auf den Mac portiert, sondern durch Apple. Das hat gute Gründe &#8211; vor allem sind es betriebssystemspezifische Erweiterungen, die Apple einbaut. Aktueller Stand ist, auch bei Leopard, Java 5. Einige Java-Entwickler zeigten sich enttäuscht, dass in Leopard Java nicht aktualisiert wurde.Wer als Java-Entwickler auf die aktuellste Version angewiesen ist, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><!--:de--><br />
+<blockquote>Java wird nicht direkt von Sun auf den Mac portiert, sondern durch Apple. Das hat gute Gründe &#8211; vor allem sind es betriebssystemspezifische Erweiterungen, die Apple einbaut. Aktueller Stand ist, auch bei Leopard, Java 5. Einige Java-Entwickler zeigten sich enttäuscht, dass in Leopard Java nicht aktualisiert wurde.Wer als Java-Entwickler auf die aktuellste Version angewiesen ist, muss nicht länger eine virtuelle Maschine bemühen, sondern kann eine Vorabversion von Java 6 herunterladen. Dies ist <a style="font-family: Verdana, Arial, Helvetica; color: #cd3326; font-size: 12px; font-weight: normal; text-decoration: none; text-align: left" href="http://landonf.bikemonkey.org/code/macosx/" target="_blank">eine inoffizielle Version</a>, welche auf den freien Quelltexten von Sun basiert. Unterstützung von Apple oder Sun gibt es daher nicht, so dass sich diese Portierung nur für experimentierfreudige (oder verzweifelte) Programmierer empfiehlt. Java 6 ist für Mac OS X 10.4 und 10.5 geeignet.&#8221;Quelle: <a href="http://www.maclife.de/index.php?module=Pagesetter&amp;func=viewpub&amp;tid=1&amp;pid=5397" target="_blank">MacLife</a></p></blockquote>
+<p><!--:--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2007/11/inoffizielle-portierung-von-java-6-leopard-und-tiger-verfugbar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MacBook mit Leopard über Bluethooth + HSDPA mit der Internet verbinden</title>
+		<link>http://www.jug-bb.de/2007/11/macbook-mit-leopard-uber-bluethooth-hsdpa-mit-der-internet-verbinden/</link>
+		<comments>http://www.jug-bb.de/2007/11/macbook-mit-leopard-uber-bluethooth-hsdpa-mit-der-internet-verbinden/#comments</comments>
+		<pubDate>Thu, 01 Nov 2007 12:06:29 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.java-berlin.de/2007/11-01/macbook-mit-leopard-uber-bluethooth-hsdpa-mit-der-internet-verbinden/</guid>
+		<description><![CDATA[Leopard hat die Nertzwerkkonfiguration deutlich vereinfacht. Das gilt auch für die Einrichtung eines Mobilfunktelefones als Modem in das Internet. Dazu sind folgende Schritte erforderlich: 1. Einrichten des Mobiltelefones als Bluethooth-Gerät. Dieser Schritt ist weitgehend identisch zu Tiger (es werden in Leopard weniger Fragen gestellt und sehr sinnvolle Voreinstellungen gemacht). Wichtiger Hinweis: An seinem Telefon sollte [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><!--:de-->Leopard hat die Nertzwerkkonfiguration deutlich vereinfacht. Das gilt auch für die Einrichtung eines Mobilfunktelefones als Modem in das Internet. Dazu sind folgende Schritte erforderlich:</p>
+<p>1. Einrichten des Mobiltelefones als Bluethooth-Gerät.</p>
+<p>Dieser Schritt ist weitgehend identisch zu Tiger (es werden in Leopard weniger Fragen gestellt und sehr sinnvolle Voreinstellungen gemacht). Wichtiger Hinweis: An seinem Telefon sollte am zuerst einen Namen für Bluethooth-Gerät vergeben um es später in einer Liste der Geräte leicht wieder zufinden.</p>
+<p>2.  Konfiguration des Internetzuganges</p>
+<p>Wir benötigen: einen Benutzername (bei T-Mobile ist der Benutzer: &#8220;t-mobile&#8221;)</p>
+<p>Wir benötigen ein Kennwort (bei T-Mobile ist das Kennwort: &#8220;tm&#8221;)</p>
+<p>Wir benötigen einen APN (Access point name) der heisst bei T-Mobile &#8220;internet.t-mobile&#8221;</p>
+<p>CID (Context Information Device) kann man auf den voreingestellten Wert &#8220;1&#8243; stehen lassen. Hier war bei Tiger noch die Angabe eines CID-Stringes erforderlich, ist beim Leo entfallen oder besser gesagt nun im Script enthalten.</p>
+<p>Das wars.<!--:--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2007/11/macbook-mit-leopard-uber-bluethooth-hsdpa-mit-der-internet-verbinden/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Festplatte ersetzen in einem iMac / Replace harddrive on iMac</title>
+		<link>http://www.jug-bb.de/2007/10/festplatte-ersetzen-in-einem-imac/</link>
+		<comments>http://www.jug-bb.de/2007/10/festplatte-ersetzen-in-einem-imac/#comments</comments>
+		<pubDate>Mon, 29 Oct 2007 16:38:35 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Lolling]]></dc:creator>
+				<category><![CDATA[Mac Fan Club]]></category>
+
+		<guid isPermaLink="false">http://www.java-berlin.de/2007/10-29/festplatte-ersetzen-in-einem-imac/</guid>
+		<description><![CDATA[In einem iMac 20&#8243; erbaut 02/2006 mit Intel Dual Core CPU ist der Festplattenersatz ein bischen tricky aber gut machbar (und sehr wohl erlaubt=kein Garantieverlust). Diese Bildergallerie beschreibt den Weg. To replace the harddrive in a iMac 20&#8243; build at Feb. 2006 with Intel Dual Core CPU is a little bit tricky, but possible and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><!--:de-->In einem iMac 20&#8243; erbaut 02/2006 mit Intel Dual Core CPU ist der Festplattenersatz ein bischen tricky aber gut machbar (und sehr wohl erlaubt=kein Garantieverlust).<br />
+Diese <a href="http://gallery.mac.com/jan.lolling#100058">Bildergallerie</a> beschreibt den Weg.</p>
+<hr /> To replace the harddrive in a iMac 20&#8243; build at Feb. 2006 with Intel Dual Core CPU is a little bit tricky, but possible and legal ! Here is a <a href="http://gallery.mac.com/jan.lolling#100058">picture gallery</a> showing the steps to do.<!--:--></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.jug-bb.de/2007/10/festplatte-ersetzen-in-einem-imac/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

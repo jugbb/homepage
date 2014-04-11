@@ -1,0 +1,614 @@
+/*  
+Theme Name: ViceVersa
+Theme URI: http://topwpthemes.com/viceversa/
+Description: Designed by <a href="http://designed.nu">Design Blog</a> and available FREE at <a href="http://www.zinruss.com/themes/">WordPress Themes Gallery</a>
+Author: Design Blog
+Author URI: http://designed.nu
+� 2008, Design Blog. All rights reserved. 
+*/
+
+
+body {
+	background: url(images/bg.jpg);
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	font-family: Tahoma, Verdana, Arial;
+}
+/* -------------------
+Main Structure
+------------------- */
+	
+#frame {
+	width: 1024px;
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	background: url(images/main.jpg) 0 0 no-repeat;
+	border-left: 1px solid #efd2b2;
+	border-right: 1px solid #efd2b2;
+}
+#middle {
+	background: url(images/main.jpg) 0 0 repeat-y;
+	overflow: auto;
+	width: 1024px;
+	margin: 0px auto;
+	padding: 0px;
+}
+#content {
+	float: left;
+	width: 611px;
+	background: #f9ecde;
+	margin: 18px 8px 18px 18px;
+	padding: 0px 5px 15px 5px;
+	border: 1px solid #efd2b2;
+	display: inline;
+}
+#sidebar {
+	float: left;
+	background: #fbf8ee;
+	width: 315px;
+	padding: 10px;
+	margin-left: 5px;
+	border: 8px solid #efd2b2;
+	display: inline;
+}
+/* -------------------
+Header
+------------------- */
+
+#header {
+	background: url(images/header.jpg);
+	width: 1024px;
+	height: 300px;
+	margin: 0px auto;
+	padding: 0px;
+	border-left: 1px solid #efd2b2;
+	border-right: 1px solid #efd2b2;
+}
+#header h1 {
+	text-align: left;
+	padding: 160px 0px 0px 188px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size:30px;
+	font-weight: bold;
+	color: #9e7146;
+}
+#header h1 a {
+	font-family: Tahoma, Verdana, Arial;
+	font-size:30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9e7146;
+}
+#header h1 a:hover {
+	color: #9e7146;
+}
+.description {
+	margin:-15px 0px 0px 0px;
+	padding: 0px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 0.7em;
+	text-align: left;
+	padding: 0px 0px 0px 190px;
+	color: #333333;
+}
+/* -------------------
+Content
+------------------- */
+
+#content .post {
+	margin: 0 10px 20px 10px;
+}
+/* general #content definitions */
+	
+#content h2 {
+	color: #ef8701;
+	font: 0.9em/1.6em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+	border-bottom: 1px solid #2e0002;
+}
+#content h2 a {
+	color: #ef8701;
+	text-decoration: none;
+}
+#content h2 a:hover {
+	color: #ef8701;
+	text-decoration: none;
+}
+#content h3 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	color: #ef8701;
+	margin: 1.1em 0 0.2em 10px;
+	font-weight: bold;
+}
+#content h4 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	color: #ef8701;
+	padding-left: 8px;
+	margin: 1.1em 0 0.2em 10px;
+}
+#content p, #content dl {
+	color: #333333;
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+}
+#content p, #content ul, #content ol, #content dl {
+	margin: 0 0 0.7em 0;
+}
+#content img {
+	margin: 0 0 0 0;
+	padding: 0px;
+	background: #f9ecde;
+	border: 0px;
+}
+#content li {
+	margin: 0 0 0 0px;
+	color: #333333;
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+}
+#content dl dt {
+	font-weight: bold;
+}
+#content dl dd {
+	margin: 0 0 0.4em 0.5em;
+}
+#content blockquote p {
+	margin: 0 0 0 0em;
+	border-left: 5px solid #e0be99;
+	padding: 0 0 0 1em;
+	color: #333333;
+}
+#content a {
+	color: #ef8701;
+}
+#content a:hover {
+	color: #333333;
+}
+#content .post ul.post-data {
+	border-top: 1px solid #2e0002;
+	list-style: none;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	padding: 0.1em 0 0.2em 0;
+	color: #333333;
+	margin: 1.3em 0 0 0;
+}
+#content .post ul.post-data li {
+	color: #333333;
+}
+#content .post ul.post-data a {
+	text-decoration: none;
+	color: #333333;
+}
+#content .post ul.post-data a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+#content .post ul.post-data li.fb-like {
+	float: left;
+	margin: 0 0.7em 0 0;
+	display: inline; /* fixes double float bug in IE */
+}
+#content .post ul.post-data li.comments {
+	float: right;
+	margin: 0 0.7em 0 0;
+	display: inline; /* fixes double float bug in IE */
+}
+#content .post ul.post-data li.comments a {
+	padding: 0 0 0 15px;
+}
+#content .post ul.post-data li.posted {
+	margin: 0 0 0 0.7em;
+}
+#content .post ul.post-data li.posted a {
+	padding: 0 0 0 1px;
+}
+#content .post ul.post-data li.comments a:hover, #content .post ul.post-data li.posted a:hover {
+	background-position: 0 -38px;
+}
+.spacer {
+	padding: 0px;
+	text-align: right;
+	clear: both;
+	text-transform: lowercase;
+}
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+.main_gp {
+    display: none;
+}
+.wpmain_f, .footerj, .feeter {
+    display: none;
+}
+
+.tooremo, .footerwp, .footerjoomla {
+    display: none;
+}
+
+.jftmy, .navlnk, .getfooter {
+    display: none;
+}
+
+.changestyle, .main_gp {
+  display: none;
+}
+
+/* -------------------
+Comments
+------------------- */
+
+#content #comments {
+	margin: 0 20px 20px 25px;
+}
+#content #comments .comment {
+	margin: 0 0 2em 0;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+#content #comments .comment p, #content #comments .comment li, #content #comments .comment a {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+#content #comments .comment a:hover {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #9e7147;
+}
+#content #comments .comment p {
+	margin: 0 0 0.8em 0;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+#content #comments .comment .comment-data p {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #333333;
+	border-top: 1px dashed #2e0002;
+	border-left: 1px dashed #2e0002;
+	padding: 0 0 0 22px;
+	margin: 1.5em 0 0 0;
+}
+#content #comments .comment .comment-data p a {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #e47f2c;
+}
+#content #comments .comment .comment-data p a:hover {
+	color: #333333;
+}
+#content #comments form {
+	color: #333333;
+	font: 0.75em/1.6em Arial, Helvetica, sans-serif;
+}
+#content #comments form a {
+	color: #333333;
+}
+#content #comments form a:hover {
+	color: #333333;
+}
+/* -------------------
+Sidebar
+------------------- */
+
+#sidebar h3 {
+	color: #fdf9ed;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding-bottom: 1px;
+	padding-top: 3px;
+	background: url(images/h3-bg.jpg) repeat-x;
+}
+#sidebar p, #sidebar li {
+	color: #333333;
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted #ecd2b5;
+}
+#sidebar p, #sidebar ul, #sidebar ol {
+	margin: 0 0 10px 0;
+}
+#sidebar ul {
+	padding: 0 0 0 3px;
+	list-style-image: url(images/icon.gif);
+	color: #333333;
+	margin-left: 20px;
+}
+#sidebar a {
+	color: #333333;
+	text-decoration: none;
+}
+#sidebar a:hover {
+	color: #ef8701;
+}
+#sidebarcontainer {
+	float: right;
+	padding: 0 15px 0 0;
+	width: 360px;
+	margin: 0px;
+}
+#sidebarcontainer form {
+	padding: 0;
+	margin: 0;
+}
+#subscriptionoptions {
+	width:300px;
+	padding: 0 30px;
+}
+#rssmain {
+	float:left;
+	padding: 0 0 10px 0;
+}
+#wrap {
+	margin: 0;
+	float: right;
+	padding: 5px 0 12px;
+	width: 360px;
+	color: #333333;
+	background: url(images/rss_bg.gif) repeat-y center;
+}
+#wrapper {
+	width: 298px;
+	margin: 0px 0px 8px 28px;
+	float:left;
+	display: inline;
+	background: #9e7147;
+	padding: 2px;
+	border: 1px solid #8d653f;
+}
+.box {
+	background: #fbf8ee;
+	overflow: auto;
+	width: 294px;
+}
+.boxholder p {
+	margin: 0;
+	padding: 5px;
+	line-height: 1.5em;
+	text-align: justify;
+	color: #888888;
+	font: 11px verdana;
+}
+.boxholder {
+	clear: both;
+	padding: 0 2px 2px;
+}
+.tab {
+	float: left;
+	height: 26px;
+	background: #d79a62;
+	margin: 2px 0px 0px 0px;
+	text-align: center;
+	border-right: 2px solid #9e7147;
+	padding: 0;
+}
+.tabtxt {
+	margin: 0;
+	color: #8a633e;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 0 0 0;
+}
+.box ul a {
+	color: #ef8701;
+	text-decoration: none;
+	font: 11px verdana;
+	font-weight: bold;
+}
+.box ul {
+	color: #ef8701;
+	margin: 5px;
+	padding: 0 0 6px 20px;
+}
+.box ul li {
+	color: #d79a62;
+	margin: 5px;
+	padding: 0;
+	list-style: disc;
+	font-weight: bold;
+}
+.box a {
+	color: #ef8701;
+	text-decoration: none;
+}
+.box img {
+	text-decoration: underline;
+	margin: 0 5px;
+	border: 0px;
+}
+.box a:hover {
+	color: #ef8701;
+	text-decoration: underline;
+}
+.tab a {
+	color: #8a633e !important;
+	background: #d79a62;
+	text-decoration: none !important;
+	font: bold 12px Tahoma, Arial, Helvetica, sans-serif;
+	padding: 6px 8px 6px 8px;
+}
+.tab a:hover {
+	color: #8a633e !important;
+	background: #eaa86b;
+	text-decoration: none !important;
+	font: bold 12px Tahoma, Arial, Helvetica, sans-serif;
+	padding: 6px 8px 6px 8px;
+}
+#tabbedcontent {
+	margin:0px 0px 0px 0px;
+	padding: 0px;
+}
+#adcontainer {
+	padding: 0px 0 0 0;
+	margin:0px 0px 0px 0px;
+	width: 298px;
+}
+#adboxes {
+	padding: 4px 0 3px 0px;
+	width:298px;
+	background: #f7f7f7 url(images/adcontainer_bg.jpg) top repeat-x;
+	border:1px solid #f9f9f9;
+	float:left;
+	position: relative;
+}
+#adboxes ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 4px;
+}
+#adboxes ul li {
+	display:block;
+	margin: 3px 3px 3px 3px !important;
+	padding: 3px !important;
+	float:left;
+	list-style: none;
+}
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+/*search form */
+#searchform {
+	margin: 0;
+	float:right;
+	padding: 0;
+}
+#searchform li {
+	list-style: none;
+}
+#searchform br {
+	display: none;
+}
+/* search form button - to specify button only use input[type="submit"] */
+#searchform input {
+	border: none;
+	width: 67px;
+	height: 32px;
+	font: bold 13px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	vertical-align: middle;
+}
+/* -------------------
+Footer
+------------------- */
+
+#footer {
+	clear: left;
+	background: url(images/footer.jpg) no-repeat;
+	height: 50px;
+	width: 1024px;
+	margin-top: -15px;
+}
+#footer p {
+	color: #333333;
+	font: 0.7em/1.6em Arial, Helvetica, sans-serif;
+	padding-top: 23px;
+	text-align: center;
+}
+#footer a {
+	color: #333333;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+.main_gp {
+       display: none;
+}
+
+.alt {
+	font: 1.1em Tahoma, Arial, Helvetica, sans-serif;
+}
+.commentlist li {
+	margin-bottom: 1.5em;
+	font: 1.1em Tahoma, Arial, Helvetica, sans-serif;
+	width: 518px;
+	padding: 5px;
+}
+.commentmetadata {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+.commentlist cite, .commentlist cite a {
+	font-weight:bold;
+	font-style:normal;
+	font-size:1.1em
+}
+.commentlist p {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+#commentform {
+	margin: 2em 0;
+	margin-left:1.3em;
+	width: 528px;
+}
+#commentform textarea {
+	background: #ffffff;
+	border: 1px solid #efd2b2;
+	width: 565px;
+}
+#commentform textarea:hover {
+	background: #ffffff;
+	border: 1px solid #efd2b2;
+}
+#commentform textarea:focus {
+	background: #ffffff;
+	border: 1px solid #e0be99;
+}
+#commentform #email, #commentform #author, #commentform #url {
+	font-size: 1.1em;
+	background: #ffffff;
+	border: 1px solid #efd2b2;
+	width: 200px;
+}
+#commentform #email:hover, #commentform #author:hover, #commentform #url:hover {
+	font-size: 1.1em;
+	background: #ffffff;
+	border: 1px solid #efd2b2;
+	width: 200px;
+}
+#commentform #email:focus, #commentform #author:focus, #commentform #url:focus {
+	font-size: 1.1em;
+	background: #ffffff;
+	border: 1px solid #e0be99;
+	width: 200px;
+}
+#commentform input {
+	margin-bottom: 3px;
+}
+#commentform #submit {
+	margin:0;
+	float:left;
+	background: url(images/submit.jpg) repeat-x;
+	color: #333333;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	border:1px solid #e0be99;
+	height: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+}
+.post {
+	margin:0 0 25px 0;
+}
+.post .info {
+	padding:2px 3px 3px 8px;
+	border:1px solid #e3e4e4;
+	font-size:12px;
+	color: #333333;
+}
+h3 {
+	color: #333333;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-left: 8px;
+}
+div.vevent {
+	font-size: 0.7em;
+	color: #333333;
+}
+
+.piclenselink {
+	font-size: 0.8em;
+}
