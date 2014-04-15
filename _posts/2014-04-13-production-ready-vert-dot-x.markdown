@@ -3,6 +3,7 @@ layout: post
 title: "Production ready Vert.x"
 date: 2014-04-13 17:50:43 +0200
 comments: true
+author: Oliver B. Fischer
 categories: 
   - Treffen
 ---
@@ -59,11 +60,10 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
 ## Die Anmeldung
 
-Über eine Vorabanmeldung zur Veranstaltung über das 
-XING-Event der 
-[XING-Gruppe der JUG Berlin-Brandenburg](https://www.xing.com/net/pri4a51a0x/jugbb/)
-würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 
-erforderlich. Wir freuen uns auf jeden Teilnehmer.
+Für diesen Vortrag ist eine **Anmeldung über das [XING-Event der JUG Berlin-Brandenburg](https://www.xing.com/net/pri4a51a0x/jugbb/)** 
+der JUG **zwingend erforderlich**.
+
+
 
 
 
