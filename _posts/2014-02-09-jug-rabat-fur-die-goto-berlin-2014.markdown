@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JUG-Rabatt für die goto Berlin 2014"
+title: "JUG-Rabatt für die GOTO Berlin 2014"
 date: 2014-02-13 16:24:01 +0100
 comments: true
 published: true
@@ -9,7 +9,7 @@ categories:
 ---
 Wie im letzten Jahr kann die Java Usergroup Berlin-Brandenburg
 seinen Mitgliedern **wieder sehr attraktive Sonderrabatte** für
-die [goto Berlin 2014](http://gotocon.com/berlin-2014) **anbieten**. 
+die [GOTO Berlin 2014](http://gotocon.com/berlin-2014) **anbieten**. 
 Bei rechtzeitiger Buchung können JUG-Mitglieder bis zu **549,- Euro
 gegenüber dem Normalpreis** sparen.
 <!--More-->
