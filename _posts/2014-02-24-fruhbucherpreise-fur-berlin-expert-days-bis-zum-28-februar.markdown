@@ -7,7 +7,7 @@ categories:
   - Mitteilungen
 ---
 Die Berlin Expert Days (http://www.bed-con.org/) finden dieses Jahr 
-wieder am 3. und 4. Februar in Berlin statt. 
+wieder am 3. und 4. April in Berlin statt. 
 
 Der Early-Bird für die Tickets läuft noch bis zum 28.2, dem nächsten Freitag. 
 Tickets kosten im Early-Bird 75,- anstatt 90,- Euro für beide Konferenztage.
