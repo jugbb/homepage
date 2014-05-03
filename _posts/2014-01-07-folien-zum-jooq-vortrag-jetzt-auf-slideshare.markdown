@@ -4,6 +4,7 @@ title: "Folien zum jOOQ-Vortrag jetzt auf Slideshare"
 date: 2014-01-07 06:39:15 +0100
 comments: true
 categories: 
+  - Mitteilungen
 ---
 
 Am 10. Dezember 2013 war 
