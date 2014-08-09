@@ -14,8 +14,12 @@ rund um die JVM und Java zu teilen.
 
 ## Freunde 2014
 
-Die **[Acrolinx GmbH](http://www.acrolinx.de/)** hat uns wie auch 
-schon in den Jahren zuvor auch 2015 mit Räumen für unsere Treffen
-und Referenten unterstützt.
+2014 wurden wir von den folgenden Firmen und Organisationen bei der 
+Durchführung unserer Veranstaltungen unterstützt:
+
+* [Acrolinx GmbH](http://www.acrolinx.de/)
+* [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+
 
 
