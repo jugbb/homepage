@@ -49,7 +49,7 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 ## Die Anmeldung
 
 Die Anmeldung zu diesem Vortrag erfolgt über die [Meetup-Gruppe der
-Deutsche Post E-Post Development GmbH](http://www.meetup.com/eposttechtalk/events/178560732/).
+Deutsche Post E-Post Development GmbH](http://www.meetup.com/eposttechtalk/).
 
 
 
