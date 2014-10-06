@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resillience mit Hystrix"
+title: "Resilience mit Hystrix"
 date: 2014-10-06 14:39:03 +0200
 comments: false
 author: Oliver B. Fischer
@@ -11,14 +11,14 @@ categories:
 Am **Mittwoch, den 22. Oktober 2014** lädt die 
 Java Usergroup Berlin-Brandenburg zusammen mit der
 [Deutsche Post E-Post Development GmbH](http://www.epost.de) 
-zum Vortrag **Resslience mit Hystrix** 
+zum Vortrag **Resilience mit Hystrix** 
 mit **Uwe Friedrichsen**  von [codecentric AG](https://www.codecentric.de/) 
 ein.
 
 
 ## Der Vortrag
 
-**Resillience mit Hystrix**
+**Resilience mit Hystrix**
 (*Uwe Friedrichsen*):
 
 Verfügbarkeit ist das A und O für Systeme in Produktion, 
