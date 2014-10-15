@@ -9,7 +9,7 @@ categories:
 ---
 
 
-Am **Dienstag, den 23. September 2014** lädt die 
+Am **Dienstag, dem 23. September 2014** lädt die 
 Java Usergroup Berlin-Brandenburg zusammen mit der
 [Deutsche Post E-Post Development GmbH](http://www.epost.de) 
 zum Vortrag **Analyse von Softwaresystemen mit jQAssistant und Neo4j** 
@@ -66,7 +66,7 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 ## Die Anmeldung
 
 Die Anmeldung zu diesem Vortrag erfolgt über die [Meetup-Gruppe der
-Deutsche Post E-Post Development GmbH](http://www.meetup.com/eposttechtalk/events/178560732/).
+Deutsche Post E-Post Development GmbH](http://www.meetup.com/eposttechtalk/events/205098082/).
 
 
 
