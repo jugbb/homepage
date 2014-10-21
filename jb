@@ -1,0 +1,47 @@
+#! /usr/bin/env bash
+
+mkdir -p ${HOME}/.jbake
+
+if [ -z "${JBAKE_VERSION}" ]
+then
+  JBAKE_VERSION=2.3.2
+fi
+
+DOWNLOAD_BASE_DIR=/tmp
+JBAKE_HOME=${HOME}/.jbake
+JBAKE_DIST_NAME=jbake-${JBAKE_VERSION}-bin.zip
+JBAKE_CORE_JAR=${JBAKE_HOME}/jbake-${JBAKE_VERSION}/jbake-core.jar
+
+
+if [ ! -r $JBAKE_CORE_JAR ]
+then
+  DOWNLOAD_URL="http://jbake.org/files/${JBAKE_DIST_NAME}"
+  echo "Downloading JBake ${JBAKE_VERSION} from ${DOWNLOAD_URL} to ${DOWNLOAD_BASE_DIR}"
+
+  (cd ${DOWNLOAD_BASE_DIR} ; curl -v --location  -O ${DOWNLOAD_URL})
+
+  if [  -r ${DOWNLOAD_BASE_DIR}/${JBAKE_DIST_NAME} ]
+  then
+      (cd ${DOWNLOAD_BASE_DIR} ; unzip ${JBAKE_DIST_NAME} )
+      (cd ${DOWNLOAD_BASE_DIR} ; mv -v jbake-${JBAKE_VERSION} ${JBAKE_HOME}/ )
+  fi
+
+
+  if [ ! -r ${JBAKE_CORE_JAR} ]
+  then
+    echo "Unable to download JBake ${JBAKE_VERSION} properly."
+    exit 1;
+  fi
+fi
+
+for i in $(seq 1 75); do echo -n "-"; done; echo
+
+echo "Running ${JBAKE_VERSION}"
+echo "Running from ${JBAKE_HOME}/jbake-${JBAKE_VERSION}"
+
+# When will I have a Bash 4 under OS X?
+for i in $(seq 1 75); do echo -n "-"; done; echo
+
+${JBAKE_HOME}/jbake-${JBAKE_VERSION}/bin/jbake ${@}
+
+

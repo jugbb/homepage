@@ -1,0 +1,8 @@
+# Directories to exclude
+/output
+/.idea
+
+# Files to exclude
+*~
+*.iml
+
