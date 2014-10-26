@@ -15,6 +15,6 @@ zur
 
 Mitglieder der JUG erhalten einen 
 **Rabatt von 60,- Euro** auf den regulären Preis von 390,- Euro. 
-Der für den Rabatt **notwendigen Code** kann bei 
+Der für den Rabatt **notwendige Code** kann bei 
 [Oliver B. Fischer](mailto:o.b.fischer@swe-blog.net) 
 angefragt werden.
