@@ -1,11 +1,8 @@
----
-layout: page
-title: "Kontakt zur Java Usergroup"
-date: 2013-12-27 16:00
-comments: true
-sharing: true
-footer: true
----
+title=Kontakt zur Java Usergroup
+date=2013-12-27 16:00
+type=page
+status=published
+~~~~~~
 
 Die Aktivitäten der Java Usergroup Berlin-Brandenburg können
 über verschiedene soziale Kanäle verfolgt werden. Neben
@@ -33,7 +30,7 @@ Für eine direkte Kontaktaufnahme mit der JUG Berlin-Brandenburg
 bitte eine [E-Mail an Oliver B. Fischer](mailto:o.b.fischer ET swe-blog.net)
 senden. 
 
-[xing]: https://www.xing.com/net/pri625721x/jugbb "JUG Berlin-Brandenburg bei XING"
+[xing]: http://xing.to/jugbb "JUG Berlin-Brandenburg bei XING"
 [fb]: https://www.facebook.com/JavaUserGroupBerlinBrandenburg "JUG Berlin-Brandenburg bei Facebook"
 [gplus]: http://www.jug-berlin-brandenburg.de "JUG Berlin-Brandenburg bei Google+"
 [twitterhashtag]: https://twitter.com/search?q=%23jugbb&src=typd
