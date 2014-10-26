@@ -1,12 +1,9 @@
----
-layout: post
-title: "Sonderpreis für die Zaunberg-Talks"
-date: 2013-10-17 20:59:44 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Mitteilungen
----
+title=Sonderpreis für die Zaunberg-Talks
+date=2013-10-17 20:59:44 +0100
+type=post
+tags=blog hinweise
+status=published
+~~~~~~
 
 Liebe JUG-Mitglieder,
 
