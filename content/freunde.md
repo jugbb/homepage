@@ -1,11 +1,9 @@
----
-layout: page
-title: "Freunde und Unterstützer der JUG"
-#date: 2013-12-04 18:01 # => Kein Datum, da diese Seite fortlaufend aktualisiert wird.
-comments: true
-sharing: true
-footer: true
----
+title=Freunde und Unterstützer der JUG
+date=2013-12-04 18:01
+type=page
+status=published
+~~~~~~
+
 Ohne die Untertützung von vielen Firmen und Organisationen könnte die Java Usergroup
 nicht existieren. Daher möchten wir uns auf diese bei allen denen herzlich bedanken,
 die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen 
