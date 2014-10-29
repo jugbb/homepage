@@ -14,6 +14,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
+            <li><a href="https://www.google.com/calendar/embed?src=v1g4a4eq9en3gh5vn47tmth5cc%40group.calendar.google.com&ctz=Europe/Berlin" target="_blank">Kalender</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">Die JUG</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>kontakt.html">Kontakt</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archiv.html">Archiv</a></li>
