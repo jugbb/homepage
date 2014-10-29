@@ -27,8 +27,8 @@ ist per E-Mail.
 ## Direkter Kontakt zur JUG
 
 Für eine direkte Kontaktaufnahme mit der JUG Berlin-Brandenburg
-bitte eine [E-Mail an Oliver B. Fischer](mailto:o.b.fischer ET swe-blog.net)
-senden. 
+bitte eine [E-Mail an Oliver B. Fischer](mailto:o.b.fischer@swe-blog.net)
+senden.
 
 [xing]: http://xing.to/jugbb "JUG Berlin-Brandenburg bei XING"
 [fb]: https://www.facebook.com/JavaUserGroupBerlinBrandenburg "JUG Berlin-Brandenburg bei Facebook"
