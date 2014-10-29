@@ -17,7 +17,7 @@
             <li><a href="https://www.google.com/calendar/embed?src=v1g4a4eq9en3gh5vn47tmth5cc%40group.calendar.google.com&ctz=Europe/Berlin" target="_blank">Kalender</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">Die JUG</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>kontakt.html">Kontakt</a></li>
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archiv.html">Archiv</a></li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archiv</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>freunde.html">Freunde</a></li>
 
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
