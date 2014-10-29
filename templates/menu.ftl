@@ -32,7 +32,7 @@
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archiv</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>freunde.html">Freunde</a></li>
 
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>
+            <#--<li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Subscribe</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
