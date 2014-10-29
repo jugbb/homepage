@@ -1,12 +1,10 @@
----
-layout: post
-title: "Guava – Kleine Helferlein für jedes Projekt"
-date: 2013-10-27 22:34:41 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=Guava – Kleine Helferlein für jedes Projekt
+date=2013-10-27 22:34:41 +0100
+type=post
+tags=treffen
+status=published
+author=Oliver B. Fischer
+~~~~~~
 
 Am **6. November 2013** lädt die Java Usergroup 
 Berlin-Brandenburg und die 
@@ -67,8 +65,8 @@ and to enhance..."
 
 ## Der Redner
 
-**Stefan Bicher**: 
-Mit Java und seinen "Randerscheinungen" bin ich seit meinem 
+**Stefan Bicher**
+ist mit Java und seinen "Randerscheinungen" bin ich seit meinem
 Studium 2002 beschäftigt. Hierbei fasziniert mich vor allem 
 die Reichhaltigkeit der Möglichkeiten, die sich mit der Sprache 
 und dem "Ökosystem Java" umsetzen lassen: 
@@ -105,7 +103,7 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
 Über eine Vorabanmeldung zur Veranstaltung über das 
 XING-Event der 
-[XING-Gruppe der JUG Berlin-Brandenburg](https://www.xing.com/net/pri4a51a0x/jugbb/)
+[XING-Gruppe der JUG Berlin-Brandenburg](http://xing.to/jugbb/)
 würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 
 erforderlich. Wir freuen uns auf jeden Teilnehmer.
 
