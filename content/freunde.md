@@ -21,5 +21,10 @@ Durchführung unserer Veranstaltungen unterstützt:
 
 ## Freunde 2013
 
-TBD
+2013 wurden wir von den folgenden Firmen und Organisationen bei der
+Durchführung unserer Veranstaltungen unterstützt:
+
+* [Acrolinx GmbH](http://www.acrolinx.de/)
+
+Liste noch nicht vollständig.
 
