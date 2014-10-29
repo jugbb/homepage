@@ -10,21 +10,21 @@ interessierte Referenten zusammengestellt. Bei darüber hinausgehenden
 Fragen freuen wir uns über eine direkte 
 [Kontaktaufnahme](kontakt.html).
 
-* **Wer kann vor der JUG einen Vortrag halten?**
+## Wer kann vor der JUG einen Vortrag halten?
 
   Wir freuen uns über jeden, der gerne sein Thema 
   vor einem größeren Kreis vorstellen möchte. Im Vordergrund
   sollte bei jedem Referenten das Interesse am eigenen Thema
   zusammen mit der Freude am Teilen von Wissen stehen.
 
-* **Welche Voraussetzungen für einen Vortrag gibt es?**
+## Welche Voraussetzungen für einen Vortrag gibt es?
 
   Es gibt keine besonderen Anforderungen für einen Vortrag, 
   außer, wie bereits genannt, Interesse am eigenen Thema. Natürlich 
   sollte jeder Referent mit seinem Thema soweit vertraut sein, daß
   der Vortrag für die Zuhörer ein Gewinn ist.
 
-* **Wie verläuft die Planung eines JUG-Vortrags?**
+## Wie verläuft die Planung eines JUG-Vortrags?
 
   Am Anfang steht eine E-Mail zwei bis drei Monate 
   vor dem angedachten Vortrag an die unter
@@ -42,7 +42,7 @@ Fragen freuen wir uns über eine direkte
   passender Termin gefunden und bestätigt wurde, ist
   der Vortag fest geplant.
 
-* **Können alle Vortragsvorschläge umgesetzt werden?**
+## Können alle Vortragsvorschläge umgesetzt werden?
 
   In der Mehrzahl ja, leider aber nicht immer. Wie bereits
   geschrieben, sind wir für jeden Vortrag auf einen Raumsponsor
@@ -56,8 +56,8 @@ Fragen freuen wir uns über eine direkte
   später noch einmal auf uns zukommt. Aufgeschoben ist nicht
   aufgehoben.
 
-* **Welche Informationen werden vom Referenten für
-  die Vortragsankündigung benötigt?**
+## Welche Informationen werden vom Referenten für
+   die Vortragsankündigung benötigt?
 
   Wir kündigen unsere Vorträge über unser Blog,
   XING, Google+ und gelegentlich auch über Twitter
@@ -75,7 +75,7 @@ Fragen freuen wir uns über eine direkte
   Diese Informationen müssen als Text oder PDF bereitgestellt 
   werden. 
 
-* **Kann die JUG eventuell anfallende Kosten übernehmen?**
+## Kann die JUG eventuell anfallende Kosten übernehmen?
 
   Leider nein. Die Java Usergroup ist arm wie eine Kirchenmaus
   und lebt von ehrenamtlichen Engagement und der Unterstützung vieler
