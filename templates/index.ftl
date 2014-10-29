@@ -2,6 +2,10 @@
 	
 <#include "menu.ftl">
 
+<div class="jumbotron hidden-xs" style="padding: 0; background: white">
+	<h1>JUG Berlin-Brandenburg</h1>
+</div>
+
 <div class="row">
     <div class="col-sm-12 col-md-8">
 		<#list posts as post>
