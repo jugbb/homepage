@@ -21,5 +21,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
 * [Hypoport AG](http://www.hypoport.ag/)
 
+## Freunde 2013
 
+TBD
 
