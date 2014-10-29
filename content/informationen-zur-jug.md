@@ -1,11 +1,8 @@
----
-layout: page
-title: "Die Java Usergroup Berlin-Brandenburg"
-date: 2013-12-04 18:02
-comments: true
-sharing: true
-footer: true
----
+title=Die Java Usergroup Berlin-Brandenburg
+date=2013-12-04 18:02
+type=page
+status=published
+~~~~~~
 
 **Die Java Usergroup Berlin-Brandenburg fördert** in der Region
 Berlin-Brandenburg aktiv **den Wissens- und Erfahrungsaustausch**

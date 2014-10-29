@@ -1,17 +1,14 @@
----
-layout: page
-title: "Informationen für Referenten"
-date: 2013-12-27 16:00
-comments: true
-sharing: true
-footer: true
----
+title=Informationen für Referenten
+date=2013-12-27 16:00
+type=page
+status=published
+~~~~~~
 
 Auf dieser Seite haben wir die wichtigsten Informationen
 für an einem Vortrag vor der Java Usergroup Berlin-Brandenburg
 interessierte Referenten zusammengestellt. Bei darüber hinausgehenden
 Fragen freuen wir uns über eine direkte 
-[Kontaktaufnahme](/informationen/kontakt.html). 
+[Kontaktaufnahme](kontakt.html).
 
 * **Wer kann vor der JUG einen Vortrag halten?**
 
