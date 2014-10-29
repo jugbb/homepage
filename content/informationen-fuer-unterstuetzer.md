@@ -4,7 +4,7 @@ type=page
 status=published
 ~~~~~~
 
-Auf dieser Seite werden in Kürze Informationen  
+Auf dieser Seite werden in Kürze Informationen für
 Unternehmen und Organisationen zu finden sein, die an
 einer Unterstützung der oder Kooperation mit der 
 Java Usergroup Berlin-Brandenburg interessiert sind.
