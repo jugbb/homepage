@@ -1,13 +1,11 @@
----
-layout: post
-title: "Hack-Session zu Lambdas & Streams in Java 8"
-date: 2014-10-26 11:41:47 +0100
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-Am **6. November 2014** lädt die Java Usergroup Berlin-Brandenburg 
+title=Hack-Session zu Lambdas & Streams in Java 8
+date=2014-10-26 11:41:47 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **6. November 2014** lädt die Java Usergroup Berlin-Brandenburg
 und die 
 [Immobilien Scout GmbH](http://www.immobilienscout24.de/) 
 zu 
@@ -16,8 +14,8 @@ mit **Angelika Langer** und **Klaus Kreft** ein.
 
 ## Die Session
 
-**Hack-Session zu Lambdas & Streams in Java 8** 
-(*Angelika Langer*, *Klaus Kreft*): Java-Entwickler, 
+**Hack-Session zu Lambdas & Streams in Java 8**
+(*Angelika Langer*, *Klaus Kreft*): Java-Entwickler,
 die Lust haben, sich mit den 
 Erweiterungen der Sprache (Lambdas) und des 
 Collection-Frameworks (Streams) in Java 8 vertraut zu 
@@ -30,7 +28,7 @@ dabei erste Erfahrungen mit Lambdas bei der Benutzung von
 Streams zu gewinnen. Mehr Infos auf der Website von 
 [Angelika Langer](http://www.angelikalanger.com/Conferences/Abstracts/LambdasHackSession.htm).
 
-Geeignet für: Java-Entwickler mit Interesse an Lambdas und 
+Geeignet für Java-Entwickler mit Interesse an Lambdas und
 Streams in Java 8 und Freude an "experimenteller" 
 Datenverarbeitung (EDV). Java-Grundkenntnisse vorausgesetzt.
 
