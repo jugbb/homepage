@@ -1,12 +1,10 @@
----
-layout: post
-title: "jOOQ: Get Back in Control of Your SQL"
-date: 2013-11-28 23:27:15 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=jOOQ: Get Back in Control of Your SQL
+date=2013-11-28 23:27:15 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Am **10. Dezember 2013** lädt die Java Usergroup Berlin-Brandenburg 
 und die 
