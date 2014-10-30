@@ -1,14 +1,12 @@
----
-layout: post
-title: "Resilience mit Hystrix"
-date: 2014-10-06 14:39:03 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=Resilience mit Hystrix
+date=2014-10-06 14:39:03 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
-Am **Mittwoch, den 22. Oktober 2014** lädt die 
+Am **Mittwoch, den 22. Oktober 2014** lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
 [Deutsche Post E-Post Development GmbH](http://www.epost.de) 
 zum Vortrag **Resilience mit Hystrix** 
