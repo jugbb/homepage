@@ -1,16 +1,12 @@
----
-layout: post
-title: "A Glance at Clojure - Stupid Stock Exchange"
-date: 2014-02-10 22:42:19 +0100
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=A Glance at Clojure - Stupid Stock Exchange
+date=2014-02-10 22:42:19 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
-
-
-Am **25. Februar 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+Am **25. Februar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
 [Acrolinx GmbH](http://www.acrolinx.de/) zu dem Vortrag
 **A Glance at Clojure -- Stupid Stock Exchange** 
 mit **Stefan Kamphausen**
