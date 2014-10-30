@@ -1,13 +1,10 @@
----
-layout: post
-title: "Analyse von Softwaresystemen mit jQAssistant und Neo4j"
-date: 2014-09-03 23:01:25 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-
+title=Analyse von Softwaresystemen mit jQAssistant und Neo4j
+date=2014-09-03 23:01:25 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Am **Dienstag, dem 23. September 2014** lädt die 
 Java Usergroup Berlin-Brandenburg zusammen mit der
