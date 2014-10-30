@@ -1,12 +1,10 @@
----
-layout: post
-title: "IoT JumpStart mit TinkerForge"
-date: 2014-10-15 22:00:18 +0100
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=IoT JumpStart mit TinkerForge
+date=2014-10-15 22:00:18 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Am **22. Oktober 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
 [Hypoport AG](http://www.hypoport.ag/) zu dem Vortrag
