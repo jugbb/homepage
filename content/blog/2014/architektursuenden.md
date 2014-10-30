@@ -6,10 +6,8 @@ author=Oliver B. Fischer
 status=published
 ~~~~~~
 Am **24. Februar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
-[E-Post Development GmbH](http://E-Post Development Gm) zu dem Vortrag
-**Architektursünden**
-mit **Stefan Tilkov**
-ein.
+[E-Post Development GmbH](http://www.epost.de) zu dem Vortrag
+**Architektursünden** mit **Stefan Tilkov** ein.
 
 ## Der Vortrag
 
@@ -27,7 +25,7 @@ auch mitschuldig war.
 
 ## Der Redner
 
-**Stefan Tilkov** Stefan Tilkov ist Geschäftsführer und Principal 
+**Stefan Tilkov** ist Geschäftsführer und Principal
 Consultant bei der innoQ Deutschland GmbH. Sein besonderer Fokus liegt 
 auf dem Einsatz moderner Technologien für 
 stark verteilte, unternehmenskritische Systeme. Er ist Autor 
