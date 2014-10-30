@@ -1,13 +1,10 @@
----
-layout: post
-title: "Java EE und die Zukunft von GlassFish"
-date: 2013-11-23 09:42:00 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
-   
----
+title=Java EE und die Zukunft von GlassFish
+date=2013-11-23 09:42:00 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Am **4. Dezember 2013** lädt die Java Usergroup Berlin-Brandenburg 
 und die 
