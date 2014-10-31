@@ -1,12 +1,10 @@
----
-layout: post
-title: "JUG-Rabatt für die GOTO Berlin 2014"
-date: 2014-02-13 16:24:01 +0100
-comments: true
-published: true
-categories: 
-  - Mitteilungen
----
+title=JUG-Rabatt für die GOTO Berlin 2014
+date=2014-02-13 16:24:01 +0100
+type=post
+tags=mitteilungen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 Wie im letzten Jahr kann die Java Usergroup Berlin-Brandenburg
 seinen Mitgliedern **wieder sehr attraktive Sonderrabatte** für
 die [GOTO Berlin 2014](http://gotocon.com/berlin-2014) **anbieten**. 
