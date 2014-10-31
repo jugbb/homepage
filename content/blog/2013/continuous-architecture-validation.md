@@ -1,14 +1,11 @@
----
-layout: post
-title: "Continuous Architecture Validation"
-date: 2013-11-29 17:44:11 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-
-Am **9. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+title=Continuous Architecture Validation
+date=2013-11-29 17:44:11 +0100
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **9. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
 [Immobilien Scout GmbH](http://www.immobilienscout24.de/) zu dem Vortrag
 **Continuous Architecture Validation** mit **Andreas Grabner**
 ein.
