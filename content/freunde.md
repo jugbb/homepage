@@ -16,8 +16,10 @@ rund um die JVM und Java zu teilen.
 Durchführung unserer Veranstaltungen unterstützt:
 
 * [Acrolinx GmbH](http://www.acrolinx.de/)
+* [akquinet tech@spree GmbH](http://www.akquinet.de/)
 * [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
 * [Hypoport AG](http://www.hypoport.ag/)
+* [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
 
 ## Freunde 2013
 
@@ -25,6 +27,8 @@ Durchführung unserer Veranstaltungen unterstützt:
 Durchführung unserer Veranstaltungen unterstützt:
 
 * [Acrolinx GmbH](http://www.acrolinx.de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+* [Zanox AG](http://www.zanox.com/)
 
 Liste noch nicht vollständig.
 
