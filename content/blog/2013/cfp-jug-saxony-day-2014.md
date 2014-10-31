@@ -1,15 +1,11 @@
----
-layout: post
-title: "Call for Papers für den JUG Saxony Day am 4. April 2014"
-date: 2013-12-14 15:46:19 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Mitteilungen
-  - Call for Papers
----
-
-Die sächsische [Java Usergroup](http://www.jugsaxony.org/) 
+title=Call for Papers für den JUG Saxony Day am 4. April 2014
+date=2013-12-14 15:46:19 +0100
+type=post
+tags=hinweise
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Die sächsische [Java Usergroup](http://www.jugsaxony.org/)
 veranstaltet am **4. April 2014** den ersten 
 **JUG Saxony Day** 2014. 
 
