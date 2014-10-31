@@ -1,15 +1,10 @@
----
-layout: post
-title: "BED-Con 2014 - Call For Papers eröffnet"
-date: 2013-12-02 07:45:08 +0100
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Berlin Expert Days
-  - Call For Papers
-  - Mitteilungen
----
-
+title=BED-Con 2014 - Call For Papers eröffnet
+date=2013-12-02 07:45:08 +0100
+type=post
+tags=hinweise
+author=Oliver B. Fischer
+status=published
+~~~~~~
 Die **BED-Con 2014 findet am 3. und 4. April 2014** zum vierten Mal
 an der FU Berlin statt und wird auch in diesem Jahr wieder 
 von der **Java Usergroup Berlin-Brandenburg unterstützt**.
