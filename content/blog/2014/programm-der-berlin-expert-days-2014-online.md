@@ -1,12 +1,11 @@
----
-layout: post
-title: "Programm der Berlin Expert Days 2014 online"
-date: 2014-03-12 22:18:11 +0100
-comments: true
-categories: 
-  - Mitteilungen
----
-Es ist soweit, das **Konferenz-Programm** steht - aufgrund der 
+title=Programm der Berlin Expert Days 2014 online
+date=2014-03-12 22:18:11 +0100
+type=post
+tags=hinweise
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Es ist soweit, das **Konferenz-Programm** steht - aufgrund der
 Vielzahl der Einreichungen hat es einige Zeit gebraucht, bis das 
 offene Komitee das wieder qualitativ hochwertige Programm 
 fertig zusammenstellen konnte. Auf http://bed-con.org/2014/programm 
