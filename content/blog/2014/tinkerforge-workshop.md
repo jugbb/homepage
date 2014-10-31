@@ -1,14 +1,11 @@
----
-layout: post
-title: "TinkerForge - Industrial Prototyping in Action"
-date: 2014-10-22 00:42:08 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-
-Am **17. November 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+title=TinkerForge - Industrial Prototyping in Action
+date=2014-10-22 00:42:08 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **17. November 2014** lädt die Java Usergroup Berlin-Brandenburg und die
 [Hypoport AG](http://www.hypoport.ag/) zu dem Workshop
 **TinkerForge - Industrial Prototyping in Action** 
 mit **Sven Ruppert** von [codecentric](http://www.codecentric.de/)
