@@ -1,13 +1,11 @@
----
-layout: post
-title: "Logmanagement mit Graylog2"
-date: 2014-04-27 23:43:30 +0200
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-Am **17. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg 
+title=Logmanagement mit Graylog2
+date=2014-04-27 23:43:30 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **17. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg
 und die 
 [Groupon GmbH](https://career.groupon.de/) zu dem Vortrag
 **Logmanagement mit Graylog 2** mit **Lennart Koopmann** von [TORCH - The Graylog 2 Company](http://www.torch.sh/) ein.
