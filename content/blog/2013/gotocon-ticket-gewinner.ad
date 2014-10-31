@@ -1,18 +1,15 @@
----
-layout: post
-title: "Ticket für goto; conference 2014 an JUG-Mitglied verlost"
-date: 2013-12-10 22:58:33 +0100
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Mitteilungen
----
+= Ticket für goto; conference 2014 an JUG-Mitglied verlost
+Oliver B. Fischer
+2013-12-10 22:58:33 +0100
+:jbake-type: post
+:jbake-tags: mitteilung
+:jbake-status: published
 
-
-{% img left /grafix/2013/Luca_Siddi_2014.jpg 172px 300px %}
+image::/grafix/2013/Luca_Siddi_2014.jpg[Luca Siddi, role="left"]
 
 In diesem Jahr fand zum ersten Mal eine 
-der bekannten [goto; conference-Konferenzen](http://gotocon.com/)
+der bekannten
+http://gotocon.com/[goto; conference-Konferenzen]
 in Berlin statt und wir,
 als Berlin-Brandenburger Java Usergroup, waren natürlich
 als Kooperationspartner mit von der Partie. Zum Vorteil
