@@ -1,12 +1,10 @@
----
-layout: post
-title: "Focus on your Features - Dropwizard takes care of the REST"
-date: 2014-05-18 11:49:54 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+title=Focus on your Features - Dropwizard takes care of the REST
+date=2014-05-18 11:49:54 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Am **25. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
 [Acrolinx GmbH](http://www.acrolinx.de/) zu dem Vortrag
