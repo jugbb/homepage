@@ -1,13 +1,11 @@
----
-layout: post
-title: "Spring Boot - einfach &amp; produktiv - auch ohne Application Server!"
-date: 2014-04-24 07:47:22 +0200
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-Am **Mittwoch, den 7. Mai 2014** lädt die 
+title=Spring Boot - einfach & produktiv - auch ohne Application Server!
+date=2014-04-24 07:47:22 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **Mittwoch, den 7. Mai 2014** lädt die
 [Deutsche Post E-Post Development GmbH](http://www.epost.de) 
 zusammen mit der Java Usergroup Berlin-Brandenburg
 zum Vortrag **Spring Boot - einfach &amp; produktiv - auch ohne 
