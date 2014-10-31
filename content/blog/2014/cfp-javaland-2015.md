@@ -1,10 +1,10 @@
----
-layout: post
-title: "Call for Presentations für die Javaland 2015"
-date: 2014-08-05 22:06:10 +0200
-comments: true
-categories: 
----
+title=Call for Presentations für die Javaland 2015
+date=2014-08-05 22:06:10 +0200
+type=post
+tags=hinweise
+author=Oliver B. Fischer
+status=published
+~~~~~~
 Jatumba liebe JUG-Mitglieder,
 
 am 11. August 2014 beginnt der offizielle CfP für das 
