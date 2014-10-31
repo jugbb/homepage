@@ -6,9 +6,12 @@
 	<h1>JUG Berlin-Brandenburg</h1>
 </div>
 
+<#assign postsPartitions = published_posts?chunk(8)>
+<#assign lastEight = postsPartitions?first>
+
 <div class="row">
     <div class="col-sm-12 col-md-8">
-		<#list posts as post>
+		<#list lastEight as post>
   			<#if (post.status == "published")>
   				<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
   				<p>${post.date?string("dd MMMM yyyy")}</p>
