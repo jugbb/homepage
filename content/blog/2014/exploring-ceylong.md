@@ -1,14 +1,11 @@
----
-layout: post
-title: "Exploring Ceylon"
-date: 2014-06-01 12:53:35 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-
-Am **5. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+title=Exploring Ceylon
+date=2014-06-01 12:53:35 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **5. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg und die
 [akquinet tech@spree GmbH](http://www.akquinet.de/) zu dem Vortrag
 **Exploring Ceylong**
 mit **Gavin King**
