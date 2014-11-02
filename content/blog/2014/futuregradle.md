@@ -1,14 +1,11 @@
----
-layout: post
-title: "The Future of Gradle - The Ultimate Build System"
-date: 2014-06-26 19:10:55 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-
-Am **7. Juli 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+title=The Future of Gradle - The Ultimate Build System
+date=2014-06-26 19:10:55 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **7. Juli 2014** lädt die Java Usergroup Berlin-Brandenburg und die
 [Hypoport AG](http://www.hypoport.ag/) zu dem Vortrag
 **The Future of Gradle - The Ultimate Build System**
 mit **Hans Dockter**
