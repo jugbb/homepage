@@ -1,13 +1,11 @@
----
-layout: post
-title: "Production ready Vert.x"
-date: 2014-04-13 17:50:43 +0200
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-Am **29. April 2014** lädt die Java Usergroup Berlin-Brandenburg 
+title=Production ready Vert.x
+date=2014-04-13 17:50:43 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **29. April 2014** lädt die Java Usergroup Berlin-Brandenburg
 und die 
 [Zanox AG](http://www.zanox.com/de/) zu dem Vortrag
 **Production ready Vert.x** mit **Mariam Hakobyan**,
