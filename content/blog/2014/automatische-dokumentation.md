@@ -1,14 +1,11 @@
----
-layout: post
-title: "Automatische Dokumentation ist machbar - Case Study mit RAML, Camel und Activiti"
-date: 2014-08-09 09:45:46 +0200
-comments: true
-categories:
-  - Treffen
----
-
-
-Am **Mittwoch, den 20. August 2014** lädt die 
+title=Automatische Dokumentation ist machbar - Case Study mit RAML, Camel und Activiti
+date=2014-08-09 09:45:46 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **Mittwoch, den 20. August 2014** lädt die
 [Deutsche Post E-Post Development GmbH](http://www.epost.de) 
 zusammen mit der Java Usergroup Berlin-Brandenburg
 zum Vortrag **Automatische Dokumentation ist machbar - Case Study mit RAML, 
