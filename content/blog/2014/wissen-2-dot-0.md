@@ -1,13 +1,11 @@
----
-layout: post
-title: "Wissenstransfer 2.0: Liest du noch oder programmierst du schon?"
-date: 2014-04-27 23:11:28 +0200
-comments: true
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
-Am **28. Mai 2014** lädt die Java Usergroup Berlin-Brandenburg 
+title=Wissenstransfer 2.0: Liest du noch oder programmierst du schon?
+date=2014-04-27 23:11:28 +0200
+type=post
+tags=treffen
+author=Oliver B. Fischer
+status=published
+~~~~~~
+Am **28. Mai 2014** lädt die Java Usergroup Berlin-Brandenburg
 und zusammen mit der [iJUG](http://www.ijug.eu/) zum Vortrag
 **Wissenstransfer 2.0: Liest du noch oder programmierst du schon?** mit **Dr. Marcel Bruch** von [Codetrails UG](http://www.codetrails.com) ein.
 
