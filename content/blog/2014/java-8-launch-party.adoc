@@ -1,27 +1,25 @@
----
-layout: post
-title: "Java 8 Party"
-date: 2014-01-28 23:23:56 +0100
-comments: true
-categories:
-  - Mitteilungen
----
+= Java 8 Party
+Oliver B. Fischer
+2014-01-28 23:23:56 +0100
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
 
 Am 18. März wird das Programm **Java 8 final erscheinen**, der Höhepunkt 
-in der Java-Welt 2014.
-
-Dies nimmt das Java Magazin in Kooperation mit der Hypoport AG zum Anlass, 
+in der Java-Welt 2014. Dies nimmt das Java Magazin in Kooperation mit
+der Hypoport AG zum Anlass,
 um zusammen im Rahmen einer **Java 8 Party** am 20. März 2014 in 
 Berlin die Veröffentlichung zu feiern. Parallel wird es eine Veranstaltung 
 in München geben, die im Holiday Inn Munich - City Centre stattfinden 
-wird (auch eine Liveschalte zwischen den beiden Parties ist geplant). 
-Mehr Details dazu findet Ihr unter: http://jaxenter.de/java8party
+wird (auch eine Liveschalte zwischen den beiden Parties ist geplant).
+
 
 Um uns richtig auf das neue Major-Release einzustimmen, werden zwei 
 Java-Experten vor Ort sein, um Euch mit ihren Vorträgen das Thema 
 näherzubringen. Im Anschluss wird es ein Get-together geben, für 
 reichlich Diskussionsstoff sollte gesorgt sein. Sicher stehen 
 auch die Experten für detaillierte Fragen zur Verfügung.
+Mehr Details dazu findet Ihr auf http://jaxenter.de/java8party[JAXEnter].
 
 ## Die Speaker
 
@@ -60,9 +58,11 @@ Wo: Hypoport AG, Klosterstr. 71, 10179 Berlin
 Einlass: 17:30 Uhr  
 Beginn: 18:30 Uhr  
 
-Achtung die Anmeldung erfolgt über Eventbrite: https://java8-berlin.eventbrite.de
 
 ## Anmeldung
+
+Achtung die Anmeldung erfolgt über Eventbrite:
+https://java8-berlin.eventbrite.de
 
 Für Getränke und Verpflegung ist gesorgt. Bitte bringt Eure 
 Registrierungsbestätigung mit zur Veranstaltung.
