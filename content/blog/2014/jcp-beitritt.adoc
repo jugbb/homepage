@@ -1,12 +1,13 @@
----
-layout: post
-title: "Beitritt zum iJUG und zum JCP"
-date: 2014-06-27 17:30:13 +0200
-comments: true
-categories: 
-  - In eigener Sache
----
-Die Java Usergroup Berlin-Brandenburg gehört mit über 2.800 Mitgliedern 
+= Beitritt zum iJUG und zum JCP
+Oliver B. Fischer
+2014-06-27 17:30:13 +0200
+:jbake-type: post
+:jbake-tags: mitteilung
+:jbake-status: published
+
+// @todo Erster Absatz ist hier Präambel. Das sieht blöd aus.
+// Oliver B. Fischer, 6.11.14
+Die Java Usergroup Berlin-Brandenburg gehört mit über 2.800 Mitgliedern
 zu den größten Java Usergroups in Deutschland und auch zu den **größeren
 Java Usergroups** weltweit. Auch hinsichtlich ihrer Aktivitäten in 
 Bezug auf Veranstaltungen und Unterstützung ihrer Mitglieder,
@@ -14,19 +15,21 @@ unter anderem durch die Möglichkeit an Konferenzen und anderen Veranstaltungen
 kostenlos oder günstiger teilzunehmen, gehört die **JUG
 Berlin-Brandenburg zu den führenden Java Usergroups**.
 
-Bis jetzt hat sich die Java Usergroup jedoch ausschließlich auf die 
+Bis jetzt hat sich die Java Usergroup jedoch ausschließlich auf die
 Organisation von **Verstaltungen rund um Java, die JVM und angrenzende
 Themen beschränkt**, jedoch nicht direkt **aktiv an der Zukunft 
 von Java und der JVM** mitgewirkt.
 
-{% blockquote Unsere Motivation für den JCP-Beitritt %}
+
+[quote, title=Unsere Motivation für den JCP-Beitritt]
+____
 Frage nicht, was Java für dich tun kann,
 frage, was du für Java tun kannst.
-{% endblockquote %}
+____
 
 ## Wir wollen aktiv mitgestalten
 
-Oracle bietet über den [Java Community Process](https://www.jcp.org)
+Oracle bietet über den https://www.jcp.org[Java Community Process]
 die Möglichkeit sich **aktiv in die Entwicklung der Java- und JVM-Plattform**
 einzubringen und so die zukünftige **Entwicklung der Plattform mitzugestalten**.
 
@@ -34,7 +37,7 @@ Um unseren Mitgliedern die Möglichkeit zu geben, ihr Wissen und ihre
 Vorstellungen zur Java-Plattform, haben Jörg Müller (Hypoport AG) und
 Oliver B. Fischer (E-Post Development GmbH) entschieden, daß die Java Usergroup
 Berlin-Brandenburg dem JCP zum einen als offizielle Java Usergroup beitritt
-und zudem Mitglied des [iJUG Verbund](http://www.ijug.eu/) wird.
+und zudem Mitglied des http://www.ijug.eu/[iJUG Verbund] wird.
 
 Über diese Mitgliedschaften haben die **Mitglieder** der Java Usergroup 
 Berlin-Brandenburg sich **aktiv in den JCP einzubringen**.
@@ -44,7 +47,8 @@ Berlin-Brandenburg sich **aktiv in den JCP einzubringen**.
 In der Zukunft werden wir uns daher verstärkt um eine Mitwirkung
 an für die Java-Plattform relevanten JSR bemühen. Entweder durch
 eine **direkte Mitwirkung in den JSR Expert Groups** oder 
-den Review von JSR sowie die Organisation von [Hackergarten](http://hackergarten.net/)
+den Review von JSR sowie die Organisation von
+http://hackergarten.net/[Hackergärten]
 rund um die Java Plattform.
 
 Auch erwägen wir, die Java Usergroup Berlin-Brandenburg in einen eingetragenen
