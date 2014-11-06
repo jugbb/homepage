@@ -1,15 +1,12 @@
----
-layout: post
-title: "Java 8 Streams"
-date: 2014-05-18 12:19:28 +0200
-comments: false
-author: Oliver B. Fischer
-categories: 
-  - Treffen
----
+= Java 8 Streams
+Oliver B. Fischer
+2014-05-18 12:19:28 +0200
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
 
-Am **4. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
-[Hypoport AG](http://www.hypoport.ag/) zu dem Vortrag
+Am **4. Juni 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.hypoport.ag/[Hypoport AG] zu dem Vortrag
 **Java 8 Streams**
 mit **Sven Ruppert**
 ein.
@@ -36,10 +33,10 @@ Sven Ruppert arbeitet als Principal IT Consultant bei der
 codecentric in München, spricht seit 1996 Java und arbeitet
 seitdem in nationalen und internationalen Projekten. In
 seiner Freizeit schreibt er als 
-[Gastautor für Jaxenter](http://jaxenter.de/Sven-Ruppert-168244)
+http://jaxenter.de/Sven-Ruppert-168244[Gastautor für Jaxenter]
 sowie im Java-, Entwickler- und EclipseMagazin.
 Am liebsten jedoch hält er in 
-[Deutschland bei JUG Vorträge](http://tinyurl.com/nmtu4yv).
+http://tinyurl.com/nmtu4yv[Deutschland bei JUG Vorträge].
 
 ## Treffpunkt 
 
@@ -56,7 +53,7 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
 Über eine Vorabanmeldung zur Veranstaltung über das 
 XING-Event der 
-[XING-Gruppe der JUG Berlin-Brandenburg](https://www.xing.com/net/pri4a51a0x/jugbb/)
+https://www.xing.com/net/pri4a51a0x/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg]
 würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 
 erforderlich. Wir freuen uns auf jeden Teilnehmer.
 
