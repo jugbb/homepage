@@ -1,11 +1,10 @@
----
-layout: post
-title: "GOTO Night: The Agile Hype"
-date: 2014-01-27 18:21:00 +0100
-comments: true
-categories: 
-  - Mitteilungen
----
+title=GOTO Night: The Agile Hype
+date=2014-01-27 18:21:00 +0100
+type=post
+tags=hinweise
+author=Oliver B. Fischer
+status=published
+~~~~~~
 
 Nach ihrer erfolgreichen Berlin-Premiere wird
 die [GOTO Berlin](http://gotocon.com/berlin-2014)
