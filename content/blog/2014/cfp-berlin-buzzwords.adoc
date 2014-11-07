@@ -1,0 +1,20 @@
+= Call for Submissions zur Berlin Buzzwords 2014
+Oliver B. Fischer
+2013-12-10 22:58:33 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+image::/grafix/2014/Logo.png[Berlin Buzzwords Logo, role="left"]
+
+Die http://berlinbuzzwords.de/[Berlin Buzzwords] findet
+zum fünften Mal in diesem Jahr in Berlin statt. Wie auch
+in den Jahren zuvor, 
+http://berlinbuzzwords.de/about[dreht sich bei der Berlin Buzzwords]
+alles rund um die Speicherung und Verarbeitung von 
+und Suche in großen Datenbeständen. Sprich, es geht um BigData.
+
+Bis zum **9. Februar 2014** läuft noch der 
+http://berlinbuzzwords.de/call-submissions[Call for Submissions]
+und natürlich werden noch Einreichungen gesucht, die zum 
+Konferenzthema passen.
