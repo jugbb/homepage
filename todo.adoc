@@ -1,0 +1,9 @@
+= Offene Punkte für das JUG Blog
+
+== Erster Absatz in Asciidoctor-Dokumenten wird immer als Präambel formatiert
+
+Das sieht, wenn der Text des Dokuments nicht dafür geschrieben wurde, teilweise
+seltstam aus. Daher wurde das Template so angepaßt, daß der Titel des Dokuments
+nicht mehr ausgegeben wird und dieser in der ersten Unterüberschrift wiederholt
+wird. (Oliver B. Fischer, 7.11.14)
+
