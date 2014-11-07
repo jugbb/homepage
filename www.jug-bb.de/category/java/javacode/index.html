@@ -1,0 +1,967 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Java User Group Berlin Brandenburg   &raquo; Java Code Beispiele</title>
+
+<meta name="generator" content="WordPress 3.8.2" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.jug-bb.de/wp-content/themes/ViceVersa/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Java User Group Berlin Brandenburg RSS Feed" href="http://www.jug-bb.de/feed/" />
+<link rel="pingback" href="http://www.jug-bb.de/xmlrpc.php" />
+	<link rel='archives' title='Dezember 2013' href='http://www.jug-bb.de/2013/12/' />
+	<link rel='archives' title='Oktober 2013' href='http://www.jug-bb.de/2013/10/' />
+	<link rel='archives' title='September 2013' href='http://www.jug-bb.de/2013/09/' />
+	<link rel='archives' title='August 2013' href='http://www.jug-bb.de/2013/08/' />
+	<link rel='archives' title='Juli 2013' href='http://www.jug-bb.de/2013/07/' />
+	<link rel='archives' title='Juni 2013' href='http://www.jug-bb.de/2013/06/' />
+	<link rel='archives' title='Mai 2013' href='http://www.jug-bb.de/2013/05/' />
+	<link rel='archives' title='April 2013' href='http://www.jug-bb.de/2013/04/' />
+	<link rel='archives' title='März 2013' href='http://www.jug-bb.de/2013/03/' />
+	<link rel='archives' title='Februar 2013' href='http://www.jug-bb.de/2013/02/' />
+	<link rel='archives' title='Januar 2013' href='http://www.jug-bb.de/2013/01/' />
+	<link rel='archives' title='Dezember 2012' href='http://www.jug-bb.de/2012/12/' />
+	<link rel='archives' title='November 2012' href='http://www.jug-bb.de/2012/11/' />
+	<link rel='archives' title='Oktober 2012' href='http://www.jug-bb.de/2012/10/' />
+	<link rel='archives' title='September 2012' href='http://www.jug-bb.de/2012/09/' />
+	<link rel='archives' title='Juli 2012' href='http://www.jug-bb.de/2012/07/' />
+	<link rel='archives' title='Juni 2012' href='http://www.jug-bb.de/2012/06/' />
+	<link rel='archives' title='Mai 2012' href='http://www.jug-bb.de/2012/05/' />
+	<link rel='archives' title='März 2012' href='http://www.jug-bb.de/2012/03/' />
+	<link rel='archives' title='Februar 2012' href='http://www.jug-bb.de/2012/02/' />
+	<link rel='archives' title='Januar 2012' href='http://www.jug-bb.de/2012/01/' />
+	<link rel='archives' title='Dezember 2011' href='http://www.jug-bb.de/2011/12/' />
+	<link rel='archives' title='November 2011' href='http://www.jug-bb.de/2011/11/' />
+	<link rel='archives' title='Oktober 2011' href='http://www.jug-bb.de/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://www.jug-bb.de/2011/09/' />
+	<link rel='archives' title='August 2011' href='http://www.jug-bb.de/2011/08/' />
+	<link rel='archives' title='Juli 2011' href='http://www.jug-bb.de/2011/07/' />
+	<link rel='archives' title='Juni 2011' href='http://www.jug-bb.de/2011/06/' />
+	<link rel='archives' title='Mai 2011' href='http://www.jug-bb.de/2011/05/' />
+	<link rel='archives' title='April 2011' href='http://www.jug-bb.de/2011/04/' />
+	<link rel='archives' title='März 2011' href='http://www.jug-bb.de/2011/03/' />
+	<link rel='archives' title='Februar 2011' href='http://www.jug-bb.de/2011/02/' />
+	<link rel='archives' title='Januar 2011' href='http://www.jug-bb.de/2011/01/' />
+	<link rel='archives' title='Dezember 2010' href='http://www.jug-bb.de/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://www.jug-bb.de/2010/11/' />
+	<link rel='archives' title='Oktober 2010' href='http://www.jug-bb.de/2010/10/' />
+	<link rel='archives' title='Juni 2010' href='http://www.jug-bb.de/2010/06/' />
+	<link rel='archives' title='April 2010' href='http://www.jug-bb.de/2010/04/' />
+	<link rel='archives' title='März 2010' href='http://www.jug-bb.de/2010/03/' />
+	<link rel='archives' title='Januar 2010' href='http://www.jug-bb.de/2010/01/' />
+	<link rel='archives' title='Dezember 2009' href='http://www.jug-bb.de/2009/12/' />
+	<link rel='archives' title='Oktober 2009' href='http://www.jug-bb.de/2009/10/' />
+	<link rel='archives' title='August 2009' href='http://www.jug-bb.de/2009/08/' />
+	<link rel='archives' title='Juli 2009' href='http://www.jug-bb.de/2009/07/' />
+	<link rel='archives' title='Juni 2009' href='http://www.jug-bb.de/2009/06/' />
+	<link rel='archives' title='Mai 2009' href='http://www.jug-bb.de/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://www.jug-bb.de/2009/04/' />
+	<link rel='archives' title='März 2009' href='http://www.jug-bb.de/2009/03/' />
+	<link rel='archives' title='Februar 2009' href='http://www.jug-bb.de/2009/02/' />
+	<link rel='archives' title='Januar 2009' href='http://www.jug-bb.de/2009/01/' />
+	<link rel='archives' title='Oktober 2008' href='http://www.jug-bb.de/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://www.jug-bb.de/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.jug-bb.de/2008/08/' />
+	<link rel='archives' title='Juli 2008' href='http://www.jug-bb.de/2008/07/' />
+	<link rel='archives' title='Mai 2008' href='http://www.jug-bb.de/2008/05/' />
+	<link rel='archives' title='März 2008' href='http://www.jug-bb.de/2008/03/' />
+	<link rel='archives' title='Februar 2008' href='http://www.jug-bb.de/2008/02/' />
+	<link rel='archives' title='Januar 2008' href='http://www.jug-bb.de/2008/01/' />
+	<link rel='archives' title='Dezember 2007' href='http://www.jug-bb.de/2007/12/' />
+	<link rel='archives' title='November 2007' href='http://www.jug-bb.de/2007/11/' />
+	<link rel='archives' title='Oktober 2007' href='http://www.jug-bb.de/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://www.jug-bb.de/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://www.jug-bb.de/2007/08/' />
+	<link rel='archives' title='Juli 2007' href='http://www.jug-bb.de/2007/07/' />
+	<link rel='archives' title='Juni 2007' href='http://www.jug-bb.de/2007/06/' />
+	<link rel='archives' title='Mai 2007' href='http://www.jug-bb.de/2007/05/' />
+	<link rel='archives' title='April 2007' href='http://www.jug-bb.de/2007/04/' />
+	<link rel='archives' title='Februar 2007' href='http://www.jug-bb.de/2007/02/' />
+	<link rel='archives' title='Januar 2007' href='http://www.jug-bb.de/2007/01/' />
+	<link rel='archives' title='Dezember 2006' href='http://www.jug-bb.de/2006/12/' />
+	<link rel='archives' title='November 2006' href='http://www.jug-bb.de/2006/11/' />
+	<link rel='archives' title='Oktober 2006' href='http://www.jug-bb.de/2006/10/' />
+	<link rel='archives' title='September 2006' href='http://www.jug-bb.de/2006/09/' />
+	<link rel='archives' title='August 2006' href='http://www.jug-bb.de/2006/08/' />
+	<link rel='archives' title='Juli 2006' href='http://www.jug-bb.de/2006/07/' />
+	<link rel='archives' title='Juni 2006' href='http://www.jug-bb.de/2006/06/' />
+	<link rel='archives' title='Mai 2006' href='http://www.jug-bb.de/2006/05/' />
+	<link rel='archives' title='April 2006' href='http://www.jug-bb.de/2006/04/' />
+	<link rel='archives' title='Januar 2006' href='http://www.jug-bb.de/2006/01/' />
+    <link rel="stylesheet" href="http://www.jug-bb.de/wp-content/plugins/organize-series/orgSeries.css" type="text/css" media="screen" /><link rel="alternate" type="application/rss+xml" title="Java User Group Berlin Brandenburg &raquo; Java Code Beispiele Kategorie-Feed" href="http://www.jug-bb.de/category/java/javacode/feed/" />
+<link rel='stylesheet' id='nextgen_gallery_related_images-css'  href='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/nextgen_gallery_related_images.css?ver=3.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/fontawesome/font-awesome.css?ver=3.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='EG-Attachments-css'  href='http://www.jug-bb.de/wp-content/plugins/eg-attachments/css/eg-attachments.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-syntax-css-css'  href='http://www.jug-bb.de/wp-content/plugins/wp-syntax/css/wp-syntax.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var photocrati_ajax = {"url":"http:\/\/www.jug-bb.de\/photocrati_ajax","wp_site_url":"http:\/\/www.jug-bb.de","wp_site_static_url":"http:\/\/www.jug-bb.de"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/persist.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/store.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ngg_store.js?ver=3.8.2'></script>
+<script type='text/javascript' src='http://www.jug-bb.de/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.js?ver=3.8.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.jug-bb.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jug-bb.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.2" />
+<!-- <meta name="NextGEN" version="2.0.59" /> -->
+
+<!-- Protected by WP-SpamFree v2.1.1.2 :: JS BEGIN -->
+<script type="text/javascript" src="http://www.jug-bb.de/wp-content/plugins/wp-spamfree/js/wpsf-js.php"></script> 
+<!-- Protected by WP-SpamFree v2.1.1.2 :: JS END -->
+
+<meta name="verify-v1" content="rQOkyGoW21C7in/Lmmnq3GugV2h5QX5qjLIzSaStDIU=" >
+
+<script type="text/javascript" src="http://www.jug-bb.de/wp-content/themes/ViceVersa/scripts/prototype.lite.js"></script>
+<script type="text/javascript" src="http://www.jug-bb.de/wp-content/themes/ViceVersa/scripts/moo.fx.js"></script>
+<script type="text/javascript" src="http://www.jug-bb.de/wp-content/themes/ViceVersa/scripts/moo.fx.pack.js"></script>
+<script type="text/javascript">
+function init(){
+	var stretchers = document.getElementsByClassName('box');
+	var toggles = document.getElementsByClassName('tab');
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: false, height: true, duration: 600}
+	);
+	//hash functions
+	var found = false;
+	toggles.each(function(h3, i){
+		var div = Element.find(h3, 'nextSibling');
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(div);
+				found = true;
+			}
+		});
+		if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+
+<!-- facebook like button -->
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+
+
+</head>
+<body>
+
+
+<div id="header">
+ 		<h1><a href="http://www.jug-bb.de">Java User Group Berlin Brandenburg</a></h1>
+		<div class="description">Der Blog der JUG-BB</div>
+     
+</div>
+<div id="frame">
+<div id="middle">
+	<div id="content">
+<br/>
+
+	
+
+<div class="post" id="post-802">
+    <h2><a href="http://www.jug-bb.de/2011/11/quelltext-zum-scala-in-der-praxis-vortrag/" rel="bookmark" title="Permanent Link to Quelltext zum &#8220;Scala in der Praxis&#8221;-Vortrag">Quelltext zum &#8220;Scala in der Praxis&#8221;-Vortrag</a></h2>
+    <div class="entry">
+        <p>
+            4. November 2011 von Oliver Fischer in <a href="http://www.jug-bb.de/category/java/" title="Alle Beiträge in Java ansehen" rel="category tag">Java</a>, <a href="http://www.jug-bb.de/category/java/javacode/" title="Alle Beiträge in Java Code Beispiele ansehen" rel="category tag">Java Code Beispiele</a>  <br />
+                    </p>
+        <p>Auf Bitte einiger Teilnehmer unseres gestrigen Vortrags mit Arno Haase zu Scala in der Praxis ist hier der Quelltext.</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="scala" style="font-family:monospace;"><span style="color: #0000ff; font-weight: bold;">package</span> a
+&nbsp;
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">sealed</span> <span style="color: #0000ff; font-weight: bold;">abstract</span> <span style="color: #0000ff; font-weight: bold;">class</span> Expr 
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> VarExpr <span style="color: #F78811;">&#40;</span>name<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+<span style="color: #0000ff; font-weight: bold;">case</span> <span style="color: #0000ff; font-weight: bold;">class</span> BinExpr <span style="color: #F78811;">&#40;</span>left<span style="color: #000080;">:</span> Expr, right<span style="color: #000080;">:</span> Expr, op<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #0000ff; font-weight: bold;">extends</span> Expr
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> Expr <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> eval <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr, vars<span style="color: #000080;">:</span> Map<span style="color: #F78811;">&#91;</span>String, Int<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#41;</span><span style="color: #000080;">:</span> Int <span style="color: #000080;">=</span> e <span style="color: #0000ff; font-weight: bold;">match</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> i
+    <span style="color: #0000ff; font-weight: bold;">case</span> VarExpr <span style="color: #F78811;">&#40;</span>v<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> vars<span style="color: #F78811;">&#40;</span>v<span style="color: #F78811;">&#41;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> BinExpr <span style="color: #F78811;">&#40;</span>left, right, <span style="color: #6666FF;">&quot;+&quot;</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> eval <span style="color: #F78811;">&#40;</span>left, vars<span style="color: #F78811;">&#41;</span> + eval <span style="color: #F78811;">&#40;</span>right, vars<span style="color: #F78811;">&#41;</span>
+    <span style="color: #0000ff; font-weight: bold;">case</span> BinExpr <span style="color: #F78811;">&#40;</span>left, right, <span style="color: #6666FF;">&quot;*&quot;</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> eval <span style="color: #F78811;">&#40;</span>left, vars<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">*</span> eval <span style="color: #F78811;">&#40;</span>right, vars<span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">class</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> + <span style="color: #F78811;">&#40;</span>other<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> BinExpr <span style="color: #F78811;">&#40;</span>e, other, <span style="color: #6666FF;">&quot;+&quot;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> <span style="color: #000080;">*</span> <span style="color: #F78811;">&#40;</span>other<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> BinExpr <span style="color: #F78811;">&#40;</span>e, other, <span style="color: #6666FF;">&quot;*&quot;</span><span style="color: #F78811;">&#41;</span>
+&nbsp;
+  <span style="color: #0000ff; font-weight: bold;">def</span> apply <span style="color: #F78811;">&#40;</span>vars<span style="color: #000080;">:</span> <span style="color: #F78811;">&#40;</span>String, Int<span style="color: #F78811;">&#41;</span><span style="color: #000080;">*</span><span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">val</span> m <span style="color: #000080;">=</span> vars.<span style="color: #000000;">foldLeft</span> <span style="color: #F78811;">&#40;</span>Map<span style="color: #F78811;">&#91;</span>String, Int<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#40;</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#40;</span><span style="color: #F78811;">&#40;</span>res, cur<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=&gt;</span> res + cur<span style="color: #F78811;">&#41;</span>
+    Expr.<span style="color: #000000;">eval</span> <span style="color: #F78811;">&#40;</span>e, m<span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> ExpressionSyntax <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> intAsExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> withSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #000080;">:</span> Expr<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #0000ff; font-weight: bold;">new</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>e<span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">implicit</span> <span style="color: #0000ff; font-weight: bold;">def</span> intWithSyntax <span style="color: #F78811;">&#40;</span>i<span style="color: #000080;">:</span> Int<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> <span style="color: #0000ff; font-weight: bold;">new</span> ExprWithSyntax <span style="color: #F78811;">&#40;</span>IntExpr <span style="color: #F78811;">&#40;</span>i<span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> Var <span style="color: #F78811;">&#40;</span>s<span style="color: #000080;">:</span> String<span style="color: #F78811;">&#41;</span> <span style="color: #000080;">=</span> VarExpr <span style="color: #F78811;">&#40;</span>s<span style="color: #F78811;">&#41;</span>
+<span style="color: #F78811;">&#125;</span>
+&nbsp;
+<span style="color: #0000ff; font-weight: bold;">object</span> HelloMain <span style="color: #F78811;">&#123;</span>
+  <span style="color: #0000ff; font-weight: bold;">def</span> main <span style="color: #F78811;">&#40;</span>args<span style="color: #000080;">:</span> Array<span style="color: #F78811;">&#91;</span>String<span style="color: #F78811;">&#93;</span><span style="color: #F78811;">&#41;</span> <span style="color: #F78811;">&#123;</span>
+    <span style="color: #0000ff; font-weight: bold;">import</span> ExpressionSyntax.<span style="color: #000080;">_</span>
+    <span style="color: #0000ff; font-weight: bold;">val</span> e <span style="color: #000080;">=</span> <span style="color: #F78811;">5</span> <span style="color: #000080;">*</span> <span style="color: #F78811;">&#40;</span><span style="color: #F78811;">3</span> + Var <span style="color: #F78811;">&#40;</span><span style="color: #6666FF;">&quot;x&quot;</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+&nbsp;
+<span style="color: #008000; font-style: italic;">//    println (Expr.eval (e, Map (&quot;x&quot; -&gt; 2)))</span>
+    println <span style="color: #F78811;">&#40;</span>e <span style="color: #F78811;">&#40;</span><span style="color: #6666FF;">&quot;x&quot;</span> -<span style="color: #000080;">&gt;</span> <span style="color: #F78811;">2</span><span style="color: #F78811;">&#41;</span><span style="color: #F78811;">&#41;</span>
+  <span style="color: #F78811;">&#125;</span>
+<span style="color: #F78811;">&#125;</span></pre></td></tr></table></div>
+
+    </div>
+    <div class="spacer"></div>
+    <ul class="post-data">
+    
+    	<li class="fb-like">
+    		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=203947606316571&amp;xfbml=1"></script><fb:like href="http://www.jug-bb.de/2011/11/quelltext-zum-scala-in-der-praxis-vortrag/" send="true" width="400" show_faces="true" font=""></fb:like>
+    	</li>
+    	
+        <li class="comments">
+          <span>Kommentare deaktiviert</span>        </li>
+    </ul>
+    <div class="spacer"></div>
+</div>
+
+
+
+
+<div class="post" id="post-515">
+    <h2><a href="http://www.jug-bb.de/2010/06/ant-task-der-java-user-group-bb/" rel="bookmark" title="Permanent Link to ANT tasks der Java User Group">ANT tasks der Java User Group</a></h2>
+    <div class="entry">
+        <p>
+            9. Juni 2010 von Jan Lolling in <a href="http://www.jug-bb.de/category/java/" title="Alle Beiträge in Java ansehen" rel="category tag">Java</a>, <a href="http://www.jug-bb.de/category/java/javacode/" title="Alle Beiträge in Java Code Beispiele ansehen" rel="category tag">Java Code Beispiele</a>  <br />
+                    </p>
+        <p>Ant ist ein überaus mächtiges Werkzeug für die Automatisierung und Sicherstellung des build-Prozesses in immer gleicher Qualität. Zudem ist es sehr leicht anpassbar und erweiterbar.<br />
+Hier ein paar Beispiele aus der Java User Group:</p>
+<ul>
+<li><a href="http://web.me.com/jan.lolling/ant/iconCodeGenTask.html" target="_new">Task zum Generieren von Java Code für den Zugriff auf Icons</a></li>
+<li><a href="http://web.me.com/jan.lolling/ant/jnlpTask.html" target="_new">Task zum Erstellen eines Java web Start Deployment descriptors (jnlp file)</a></li>
+<li><a href="http://web.me.com/jan.lolling/ant/propertyMergeTask.html" target="_new">Task zum Zusammenfuehren von Property files</a></li>
+</ul>
+<p>Diese Task sind als Binaries und Source code verfügbar und stehen unter der GPL. Da diese Libs nicht in Produkte integriert werden stellt die GPL auch kein Problem für den kommerziellen Einsatz dieser Task dar.</p>
+<p>Diese Task sind bereits im produktiven Einsatz in aktuell 3 Projekten (1 Open Source Projekt und 2 Individual Projekte für kommerzielle Zwecke).</p>
+<p>Viel Spass beim Ausprobieren.</p>
+<p>Wir freuen uns über Anregungen und Kommetare: jan dot lolling at googlemail dot com.</p>
+    </div>
+    <div class="spacer"></div>
+    <ul class="post-data">
+    
+    	<li class="fb-like">
+    		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=203947606316571&amp;xfbml=1"></script><fb:like href="http://www.jug-bb.de/2010/06/ant-task-der-java-user-group-bb/" send="true" width="400" show_faces="true" font=""></fb:like>
+    	</li>
+    	
+        <li class="comments">
+          <span>Kommentare deaktiviert</span>        </li>
+    </ul>
+    <div class="spacer"></div>
+</div>
+
+
+
+
+<div class="post" id="post-479">
+    <h2><a href="http://www.jug-bb.de/2010/04/jdbc-metadaten-fur-oracle-stored-procedures/" rel="bookmark" title="Permanent Link to JDBC Metadaten für Oracle stored procedures">JDBC Metadaten für Oracle stored procedures</a></h2>
+    <div class="entry">
+        <p>
+            5. April 2010 von Jan Lolling in <a href="http://www.jug-bb.de/category/java/" title="Alle Beiträge in Java ansehen" rel="category tag">Java</a>, <a href="http://www.jug-bb.de/category/java/javacode/" title="Alle Beiträge in Java Code Beispiele ansehen" rel="category tag">Java Code Beispiele</a>  <br />
+            Schlagwörter: <a href="http://www.jug-bb.de/tag/oracle-jdbc-meta-data/" rel="tag">Oracle JDBC Meta data</a>        </p>
+        <p>Das Konstrukt der Packages wird durch JDBC nicht wirklich gut unterstützt. JDBC geht leider auch von eindeutigen Namen für functions und procedures aus. Somit hat man ein Problem mit überladenen procedures. Diese unterscheiden sich nicht im Namen sondern in der Anzahl und Typen der Parameter.<br />
+Der Oracle-JDBC-Treiber gibt alle Informationen raus, es erfordert nur etwas Geschick diese Informationen einzusammeln.<br />
+1. Die Name der packages werden als CATALOG ausgegeben.<br />
+2. Die Parameter kennen ihren Index. Wenn ein Parameter für scheinbar die selbe procedure erscheint mit dem gleichen Index, dann ist das ein Zeichen für eine überladene procedure.</p>
+<p>Der folgende Beispielcode geht davon aus, dass die procedures und functions in speziellen Objekten gehalten werden und die Parameter besitzen auch ihre eigene Transferklasse.</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="java" style="font-family:monospace;">	<span style="color: #008000; font-style: italic; font-weight: bold;">/**
+	 * load procedure and functions
+	 * 
+	 * @param schema
+	 *            object that represent a schema
+	 * @return true if everything went well
+	 */</span>
+	<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">boolean</span> loadProcedures<span style="color: #009900;">&#40;</span>SQLSchema schema<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+		<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>logger.<span style="color: #006633;">isDebugEnabled</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			logger.<span style="color: #006633;">debug</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;loadProcedures schema=&quot;</span> <span style="color: #339933;">+</span> schema<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		<span style="color: #666666; font-style: italic;">// makes this thread save</span>
+		inRefreshCycle <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span>
+		<span style="color: #000066; font-weight: bold;">boolean</span> ok <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #666666; font-style: italic;">// don' worry about that, we use our own database pool</span>
+		<span style="color: #000000; font-weight: bold;">final</span> DatabaseSession session <span style="color: #339933;">=</span> DatabaseSessionPool.<span style="color: #006633;">getDatabaseSession</span><span style="color: #009900;">&#40;</span>cd.<span style="color: #006633;">getUniqueId</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>session <span style="color: #339933;">==</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// return if no connection to database avialable</span>
+			<span style="color: #000000; font-weight: bold;">return</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		<span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #003399;">Connection</span> conn <span style="color: #339933;">=</span> session.<span style="color: #006633;">getConnection</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #003399;">DatabaseMetaData</span> dbmd <span style="color: #339933;">=</span> conn.<span style="color: #006633;">getMetaData</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			schema.<span style="color: #006633;">clearProcedures</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #666666; font-style: italic;">// remove any previously loaded procedures</span>
+			<span style="color: #003399;">ResultSet</span> rs <span style="color: #339933;">=</span> dbmd.<span style="color: #006633;">getProcedures</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">null</span>, schema.<span style="color: #006633;">getName</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>, <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>rs <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+				<span style="color: #666666; font-style: italic;">// loading all procedures and functions</span>
+				<span style="color: #000000; font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>rs.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+					<span style="color: #666666; font-style: italic;">// PROCEDURE_CAT contains the package name</span>
+					<span style="color: #003399;">String</span> catalogName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_CAT&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">String</span> name <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>catalogName <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">&amp;</span>amp<span style="color: #339933;">;&amp;</span>amp<span style="color: #339933;">;</span> catalogName.<span style="color: #006633;">length</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						name <span style="color: #339933;">=</span> catalogName <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot;.&quot;</span> <span style="color: #339933;">+</span> name<span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #666666; font-style: italic;">// create an new one</span>
+					SQLProcedure procedure <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> SQLProcedure<span style="color: #009900;">&#40;</span><span style="color: #000000; font-weight: bold;">this</span>, schema,	name<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #666666; font-style: italic;">// decide if it is a function</span>
+					<span style="color: #000066; font-weight: bold;">short</span> pType <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_TYPE&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					procedure.<span style="color: #006633;">setFunction</span><span style="color: #009900;">&#40;</span>pType <span style="color: #339933;">==</span> <span style="color: #003399;">DatabaseMetaData</span>.<span style="color: #006633;">procedureReturnsResult</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					schema.<span style="color: #006633;">addProcedure</span><span style="color: #009900;">&#40;</span>procedure<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					objectMap.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span>name, procedure<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+				<span style="color: #009900;">&#125;</span>
+				rs.<span style="color: #006633;">close</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #009900;">&#125;</span>
+			<span style="color: #666666; font-style: italic;">// loading procedure/function parameters</span>
+			rs <span style="color: #339933;">=</span> dbmd.<span style="color: #006633;">getProcedureColumns</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">null</span>, schema.<span style="color: #006633;">getName</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>, <span style="color: #000066; font-weight: bold;">null</span>, <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>rs <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+				<span style="color: #666666; font-style: italic;">// an index for overloaded procedures</span>
+				<span style="color: #000066; font-weight: bold;">int</span> procedureIndex <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+				<span style="color: #003399;">String</span> prevProcedureName <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;noprocedurehere_xx&quot;</span><span style="color: #339933;">;</span>
+				<span style="color: #000000; font-weight: bold;">while</span> <span style="color: #009900;">&#40;</span>rs.<span style="color: #006633;">next</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+					<span style="color: #666666; font-style: italic;">// PROCEDURE_CAT contains the package name</span>
+					<span style="color: #003399;">String</span> catalogName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_CAT&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">String</span> name <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PROCEDURE_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>catalogName <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">&amp;</span>amp<span style="color: #339933;">;&amp;</span>amp<span style="color: #339933;">;</span> catalogName.<span style="color: #006633;">length</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// add the catalog name as package name</span>
+						name <span style="color: #339933;">=</span> catalogName <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot;.&quot;</span> <span style="color: #339933;">+</span> name<span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #000066; font-weight: bold;">int</span> pos <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// position of this parameter in the procedure parameter</span>
+						<span style="color: #666666; font-style: italic;">// list</span>
+						pos <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;ORDINAL_POSITION&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">Exception</span> e<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #666666; font-style: italic;">// perhaps this column is not defined in every database</span>
+						<span style="color: #666666; font-style: italic;">// type</span>
+						pos <span style="color: #339933;">=</span> <span style="color: #339933;">-</span><span style="color: #cc66cc;">1</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>prevProcedureName.<span style="color: #006633;">equals</span><span style="color: #009900;">&#40;</span>name<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>pos <span style="color: #339933;">==</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+							<span style="color: #666666; font-style: italic;">// if we get the same procedure name and a parameter</span>
+							<span style="color: #666666; font-style: italic;">// with position zero increase the procedure index</span>
+							<span style="color: #666666; font-style: italic;">// that means point to the next procedure with the</span>
+							<span style="color: #666666; font-style: italic;">// same name</span>
+							procedureIndex<span style="color: #339933;">++;</span>
+						<span style="color: #009900;">&#125;</span>
+					<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+						procedureIndex <span style="color: #339933;">=</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">;</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #003399;">String</span> columnName <span style="color: #339933;">=</span> rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;COLUMN_NAME&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #003399;">List</span> list <span style="color: #339933;">=</span> schema.<span style="color: #006633;">getProcedures</span><span style="color: #009900;">&#40;</span>name<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					SQLProcedure procedure <span style="color: #339933;">=</span> list.<span style="color: #006633;">get</span><span style="color: #009900;">&#40;</span>procedureIndex<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+					<span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>procedure <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+						procedure.<span style="color: #006633;">addParameter</span><span style="color: #009900;">&#40;</span>columnName, <span style="color: #666666; font-style: italic;">// parameter name</span>
+								rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;DATA_TYPE&quot;</span><span style="color: #009900;">&#41;</span>,  <span style="color: #666666; font-style: italic;">// parameter type as</span>
+														   <span style="color: #666666; font-style: italic;">// integer defined</span>
+														   <span style="color: #666666; font-style: italic;">// in class</span>
+														   <span style="color: #666666; font-style: italic;">// java.sql.Type</span>
+								rs.<span style="color: #006633;">getString</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;TYPE_NAME&quot;</span><span style="color: #009900;">&#41;</span>, <span style="color: #666666; font-style: italic;">// parameter type as</span>
+														   <span style="color: #666666; font-style: italic;">// string</span>
+								rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;LENGTH&quot;</span><span style="color: #009900;">&#41;</span>,    <span style="color: #666666; font-style: italic;">// length of the parameter</span>
+														<span style="color: #666666; font-style: italic;">// if parameter is</span>
+														<span style="color: #666666; font-style: italic;">// string or number type</span>
+								rs.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;PRECISION&quot;</span><span style="color: #009900;">&#41;</span>, <span style="color: #666666; font-style: italic;">// precision of the</span>
+														<span style="color: #666666; font-style: italic;">// parameter if the</span>
+														<span style="color: #666666; font-style: italic;">// parameter is a number</span>
+														<span style="color: #666666; font-style: italic;">// type</span>
+								rs.<span style="color: #006633;">getShort</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;COLUMN_TYPE&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #666666; font-style: italic;">// input or output</span>
+														     <span style="color: #666666; font-style: italic;">// parameter as</span>
+														     <span style="color: #666666; font-style: italic;">// integer:</span>
+															 <span style="color: #666666; font-style: italic;">// refer</span>
+															 <span style="color: #666666; font-style: italic;">// DatabaseMetaData.procedureColumnReturn</span>
+					<span style="color: #009900;">&#125;</span>
+					<span style="color: #666666; font-style: italic;">// keep the name of the last procedure to detect overloaded</span>
+					<span style="color: #666666; font-style: italic;">// procedures</span>
+					prevProcedureName <span style="color: #339933;">=</span> name<span style="color: #339933;">;</span>
+				<span style="color: #009900;">&#125;</span>
+				rs.<span style="color: #006633;">close</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #009900;">&#125;</span>
+			schema.<span style="color: #006633;">setProcedureLoaded</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			ok <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">SQLException</span> sqle<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// creates a error message to show it in GUI</span>
+			errorMessage <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;loadProcedures schema=&quot;</span> <span style="color: #339933;">+</span> schema <span style="color: #339933;">+</span> <span style="color: #0000ff;">&quot; failed: &quot;</span>
+					<span style="color: #339933;">+</span> sqle.<span style="color: #006633;">getMessage</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">finally</span> <span style="color: #009900;">&#123;</span>
+			<span style="color: #666666; font-style: italic;">// put the session back in the pool</span>
+			DatabaseSessionPool.<span style="color: #006633;">release</span><span style="color: #009900;">&#40;</span>session<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+		inRefreshCycle <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">return</span> ok<span style="color: #339933;">;</span>
+	<span style="color: #009900;">&#125;</span></pre></td></tr></table></div>
+
+    </div>
+    <div class="spacer"></div>
+    <ul class="post-data">
+    
+    	<li class="fb-like">
+    		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=203947606316571&amp;xfbml=1"></script><fb:like href="http://www.jug-bb.de/2010/04/jdbc-metadaten-fur-oracle-stored-procedures/" send="true" width="400" show_faces="true" font=""></fb:like>
+    	</li>
+    	
+        <li class="comments">
+          <span>Kommentare deaktiviert</span>        </li>
+    </ul>
+    <div class="spacer"></div>
+</div>
+
+
+
+
+<div class="post" id="post-382">
+    <h2><a href="http://www.jug-bb.de/2009/05/java-anwendungen-verpackt-als-deb-package/" rel="bookmark" title="Permanent Link to Java Anwendungen verpackt als deb-package">Java Anwendungen verpackt als deb-package</a></h2>
+    <div class="entry">
+        <p>
+            21. Mai 2009 von Jan Lolling in <a href="http://www.jug-bb.de/category/java/" title="Alle Beiträge in Java ansehen" rel="category tag">Java</a>, <a href="http://www.jug-bb.de/category/java/javacode/" title="Alle Beiträge in Java Code Beispiele ansehen" rel="category tag">Java Code Beispiele</a>  <br />
+                    </p>
+        <p>Debian packages sind so ziemlich das eleganteste was es an Verteilungsmechanismen für Software gibt. Diese Art der Softwareverteilung steht auch für Java-Anwendungen zur Verfügung. Idealerweise macht man das innerhalb des build-Prozesses z.B. in Ant.<br />
+Hier wird nun kurz ein sehr hilfreicher Ant-Task vorgestellt.<br />
+Für eine Desktop-Anwendung unter Linux werden zum einen die eigentlichen Programm-Dateien benötigt als auch eine Datei (.desktop) die das Programm in den Menüs von KDE oder Gnome bekannt macht und zudem den Komfort bietet das Programm auch gleich für die Behandlung von Mimetypes zu registrieren. Es ist also kein Fummeln an irgendeiner Registry erforderlich, diese Zuordnung steht in der desktop-Datei und Gnome/KDE erkennen das automatisch.<br />
+Hier der Link zu dem Ant-Task <a href="http://code.google.com/p/ant-deb-task/" target="new">bei Google-Code</a><br />
+Es sind genau genommen 2 Ant-Tasks erforderlich:</p>
+<ul>
+<li>desktopentry erstellt die .desktop-Datei</li>
+<li>deb erstellt das Debian-Archiv</li>
+</ul>
+<p>Beide sind im Projekt sehr gut dokumentiert.<br />
+Hier ein Beispiel-Ant-task:</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="xml" style="font-family:monospace;">    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;target</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;deb&quot;</span> <span style="color: #000066;">depends</span>=<span style="color: #ff0000;">&quot;jar&quot;</span> <span style="color: #000066;">description</span>=<span style="color: #ff0000;">&quot;build the i386 deb file&quot;</span><span style="color: #000000; font-weight: bold;">&gt;</span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;delete</span> <span style="color: #000066;">failonerror</span>=<span style="color: #ff0000;">&quot;false&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;fileset</span> <span style="color: #000066;">dir</span>=<span style="color: #ff0000;">&quot;${distrib}&quot;</span><span style="color: #000000; font-weight: bold;">&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;sqlrunner*.deb&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;sqlrunner*.desktop&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/fileset<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/delete<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;taskdef</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;desktopentry&quot;</span> <span style="color: #000066;">classname</span>=<span style="color: #ff0000;">&quot;com.googlecode.ant_deb_task.DesktopEntry&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;desktopentry</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">toFile</span>=<span style="color: #ff0000;">&quot;${distrib}/sqlrunner.desktop&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;SQLRunner&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">comment</span>=<span style="color: #ff0000;">&quot;Database SQL Client&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">icon</span>=<span style="color: #ff0000;">&quot;/usr/local/sqlrunner/sqlrunner.png&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">exec</span>=<span style="color: #ff0000;">&quot;/usr/local/sqlrunner/sqlrunner.sh %f&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">type</span>=<span style="color: #ff0000;">&quot;Application&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">terminal</span>=<span style="color: #ff0000;">&quot;false&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">mimeType</span>=<span style="color: #ff0000;">&quot;text/x-sql&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">path</span>=<span style="color: #ff0000;">&quot;/usr/local/sqlrunner&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">categories</span>=<span style="color: #ff0000;">&quot;Development;&quot;</span></span>
+<span style="color: #009900;">        <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;taskdef</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;deb&quot;</span> <span style="color: #000066;">classname</span>=<span style="color: #ff0000;">&quot;com.googlecode.ant_deb_task.Deb&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;deb</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">todir</span>=<span style="color: #ff0000;">&quot;${distrib}&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">package</span>=<span style="color: #ff0000;">&quot;sqlrunner&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">section</span>=<span style="color: #ff0000;">&quot;devel&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">architecture</span>=<span style="color: #ff0000;">&quot;all&quot;</span></span>
+<span style="color: #009900;">            <span style="color: #000066;">depends</span>=<span style="color: #ff0000;">&quot;sun-java5-jre|sun-java6-jre&quot;</span><span style="color: #000000; font-weight: bold;">&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;version</span> <span style="color: #000066;">upstream</span>=<span style="color: #ff0000;">&quot;${version}&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;maintainer</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;Jan Lolling&quot;</span> <span style="color: #000066;">email</span>=<span style="color: #ff0000;">&quot;jan.lolling@mac.com&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;description</span> <span style="color: #000066;">synopsis</span>=<span style="color: #ff0000;">&quot;Java based database client&quot;</span><span style="color: #000000; font-weight: bold;">&gt;</span></span>
+SQLRunner is a Java programm to handle database with a easy to use SQL interface.
+.
+The SQLRunner has advanced import and export capabilities. 
+.
+SQLRunner ships with a large number of JDBC driver (e.g. Oracle, Postgres, DB2, MS-SQL, Informix, Derby, Sybase, MaxDB, MySQL).
+.
+Download at SourceForge: 
+.
+http://sourceforge.net/projects/jugbbsqlrunner/
+.
+Homepage for Java Web Start:
+.
+http://web.me.com/jan.lolling/SQLRunner/SQLRunner.html
+&nbsp;
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/description<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;tarfileset</span> <span style="color: #000066;">dir</span>=<span style="color: #ff0000;">&quot;${lib}&quot;</span> <span style="color: #000066;">prefix</span>=<span style="color: #ff0000;">&quot;usr/local/sqlrunner&quot;</span><span style="color: #000000; font-weight: bold;">&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;hsqldb.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;ifxjdbc.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;jconn3.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;ldapjdbc.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;ojdbc14.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;sqljdbc.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;mssql2000_jdbc.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;mysql-connector-java-5.1.5-bin.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;postgresql-8.2-506.jdbc2.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;sapdbc-7_6_00_30_5567.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;looks-2.1.4.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;liquidlnf.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;log4j-1.2.15.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;servlet.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;ui.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;derby.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;db2jcc4.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;db2jcc_license_cu.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;poi-3.1-FINAL-20080629.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+                <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;include</span> <span style="color: #000066;">name</span>=<span style="color: #ff0000;">&quot;jnlp.jar&quot;</span> <span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/tarfileset<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;tarfileset</span> <span style="color: #000066;">file</span>=<span style="color: #ff0000;">&quot;${distrib}/sqlrunner2.jar&quot;</span> <span style="color: #000066;">prefix</span>=<span style="color: #ff0000;">&quot;usr/local/sqlrunner&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;tarfileset</span> <span style="color: #000066;">file</span>=<span style="color: #ff0000;">&quot;${src}/sqlrunner.png&quot;</span> <span style="color: #000066;">prefix</span>=<span style="color: #ff0000;">&quot;usr/local/sqlrunner&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;tarfileset</span> <span style="color: #000066;">file</span>=<span style="color: #ff0000;">&quot;${src}/sqlrunner.sh&quot;</span> <span style="color: #000066;">prefix</span>=<span style="color: #ff0000;">&quot;usr/local/sqlrunner&quot;</span> <span style="color: #000066;">filemode</span>=<span style="color: #ff0000;">&quot;755&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+            <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;tarfileset</span> <span style="color: #000066;">file</span>=<span style="color: #ff0000;">&quot;${distrib}/sqlrunner.desktop&quot;</span> <span style="color: #000066;">prefix</span>=<span style="color: #ff0000;">&quot;usr/share/applications&quot;</span><span style="color: #000000; font-weight: bold;">/&gt;</span></span>
+        <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/deb<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/target<span style="color: #000000; font-weight: bold;">&gt;</span></span></span></pre></td></tr></table></div>
+
+<p><strong>Hinweise zum desktopentry-Task:</strong><br />
+Da man leider nicht direkt die Extention einer Datei referenzieren kann, muss man wenn man sein Programm für einen Dateityp registrieren lassen will erst den passenden mime-type finden. Gnome war so nett in den Dateiattributen z.B. für SQL-Scripte den mime-type text/x-sql zu nennen.<br />
+Das Attribute &#8220;categories&#8221; beschreibt in welchem Menü später der Eintrag auftauchen soll. Es gibt festgelegte Hauptmenüpunkte &#8211; diese werden englisch vorgegeben.</p>
+<p><strong>Hinweise zum deb-Task:</strong><br />
+Bei der Synopsis ist zu beachten, dass der Punkt in eigener Zeile eine Leerzeile provoziert ohne den Punkt selbst darzustellen.<br />
+Besonders hervorzuheben ist das depends-Attribute. Hier kann man z.B. vorgeben welche packages zuvor installiert werden müssen (was dann auch automatisch getan wird. Im Fall von Java-Anwendungen sichern wir hier die Existenz der virtuellen Maschiene ab. Das Pipe ist als Oder-Verknüpfung zu verstehen.<br />
+Ein deb-Archiv ist im Grunde sehr einfach. Es enthält die Dateien genauso wie sie auf dem Zielsystem auch vorhanden sein sollen. Die tarfilesets enthalten also hier alle notwendigen Dateien (inklusive der zuvor erstellten desktop-Datei). Die Pfadangaben sind allesamt relativ zu / (deshalb fehlt irritierenderweise das /-Symbol -> Kein Fehler !)</p>
+    </div>
+    <div class="spacer"></div>
+    <ul class="post-data">
+    
+    	<li class="fb-like">
+    		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=203947606316571&amp;xfbml=1"></script><fb:like href="http://www.jug-bb.de/2009/05/java-anwendungen-verpackt-als-deb-package/" send="true" width="400" show_faces="true" font=""></fb:like>
+    	</li>
+    	
+        <li class="comments">
+          <span>Kommentare deaktiviert</span>        </li>
+    </ul>
+    <div class="spacer"></div>
+</div>
+
+
+
+
+<div class="post" id="post-220">
+    <h2><a href="http://www.jug-bb.de/2009/02/jeditorpane-mit-zeilenhervorhebung/" rel="bookmark" title="Permanent Link to <!--:de-->JEditorPane mit Zeilenhervorhebung<!--:-->"><!--:de-->JEditorPane mit Zeilenhervorhebung<!--:--></a></h2>
+    <div class="entry">
+        <p>
+            7. Februar 2009 von Jan Lolling in <a href="http://www.jug-bb.de/category/java/" title="Alle Beiträge in Java ansehen" rel="category tag">Java</a>, <a href="http://www.jug-bb.de/category/java/javacode/" title="Alle Beiträge in Java Code Beispiele ansehen" rel="category tag">Java Code Beispiele</a>  <br />
+            Schlagwörter: <a href="http://www.jug-bb.de/tag/java/" rel="tag">Java</a>, <a href="http://www.jug-bb.de/tag/sql/" rel="tag">SQL</a>, <a href="http://www.jug-bb.de/tag/sun/" rel="tag">Sun</a>        </p>
+        <p><!--:de-->Ich habe für meinen Editor eine Möglichkeit gesucht die aktuelle Zeile unter dem Cursor vollständig mit einer anderen Hintergrundfarbe hervorzuheben. Diese Möglichkeit habe ich folgendermassen realisiert:</p>
+<p>Zusammenfassung:</p>
+<p>Der JEditorPane füge ich einen speziellen CaretListener hinzu der bei Veränderungen des Cursors einen wiederum für die aktuelle Zeile einen Highlighter einrichtet. Das besondere ist der als innere Klasse realisierte HightlighterPainter. Dieser ist so entwickelt, dass er die ganze Zeile unabhängig von der Zeichenanzahl also auf die sichtbare Breite des Editors hervorhebt.</p>
+<p>Hier nun der Quelltext des CaretListeners:</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="java" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">package</span> <span style="color: #006699;">sqlrunner.text</span><span style="color: #339933;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.awt.Color</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.awt.Graphics</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.awt.Rectangle</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">java.awt.Shape</span><span style="color: #339933;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.event.CaretEvent</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.event.CaretListener</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.plaf.TextUI</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.BadLocationException</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.Element</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.Highlighter</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.JTextComponent</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.LayeredHighlighter</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.Position</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.Utilities</span><span style="color: #339933;">;</span>
+<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">javax.swing.text.View</span><span style="color: #339933;">;</span>
+&nbsp;
+<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">class</span> HighlightCurrentLineCaretListener <span style="color: #000000; font-weight: bold;">implements</span> <span style="color: #003399;">CaretListener</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Color</span> DEFAULT_COLOR <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> <span style="color: #003399;">Color</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">230</span>, <span style="color: #cc66cc;">230</span>, <span style="color: #cc66cc;">250</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">private</span> <span style="color: #003399;">Highlighter.<span style="color: #006633;">HighlightPainter</span></span> painter<span style="color: #339933;">;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">private</span> <span style="color: #003399;">Object</span> highlight<span style="color: #339933;">;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">public</span> HighlightCurrentLineCaretListener<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+        <span style="color: #000000; font-weight: bold;">this</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    <span style="color: #009900;">&#125;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">public</span> HighlightCurrentLineCaretListener<span style="color: #009900;">&#40;</span><span style="color: #003399;">Color</span> highlightColor<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+        <span style="color: #003399;">Color</span> c <span style="color: #339933;">=</span> highlightColor <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">?</span> highlightColor <span style="color: #339933;">:</span> DEFAULT_COLOR<span style="color: #339933;">;</span>
+        <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">painter</span> <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> LineHighlightPainter<span style="color: #009900;">&#40;</span>c<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    <span style="color: #009900;">&#125;</span>
+&nbsp;
+    <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">void</span> caretUpdate<span style="color: #009900;">&#40;</span><span style="color: #003399;">CaretEvent</span> evt<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+        <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">JTextComponent</span> comp <span style="color: #339933;">=</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">JTextComponent</span><span style="color: #009900;">&#41;</span> evt.<span style="color: #006633;">getSource</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>comp <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span> <span style="color: #339933;">&amp;</span>amp<span style="color: #339933;">;&amp;</span>amp<span style="color: #339933;">;</span> <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">highlight</span> <span style="color: #339933;">!=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+            comp.<span style="color: #006633;">getHighlighter</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">removeHighlight</span><span style="color: #009900;">&#40;</span><span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">highlight</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">highlight</span> <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span>
+        <span style="color: #000066; font-weight: bold;">int</span> pos <span style="color: #339933;">=</span> comp.<span style="color: #006633;">getCaretPosition</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Element</span> elem <span style="color: #339933;">=</span> <span style="color: #003399;">Utilities</span>.<span style="color: #006633;">getParagraphElement</span><span style="color: #009900;">&#40;</span>comp, pos<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #000066; font-weight: bold;">int</span> start <span style="color: #339933;">=</span> elem.<span style="color: #006633;">getStartOffset</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #000066; font-weight: bold;">int</span> end <span style="color: #339933;">=</span> elem.<span style="color: #006633;">getEndOffset</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+            <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">highlight</span> <span style="color: #339933;">=</span> comp.<span style="color: #006633;">getHighlighter</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">addHighlight</span><span style="color: #009900;">&#40;</span>start,
+                                                                end,
+                                                                <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">painter</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            comp.<span style="color: #006633;">repaint</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">BadLocationException</span> ex<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+            ex.<span style="color: #006633;">printStackTrace</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span>
+    <span style="color: #009900;">&#125;</span>
+&nbsp;
+    <span style="color: #008000; font-style: italic; font-weight: bold;">/**
+     * Simple highlight painter that fills a highlighted area with
+     * a solid color.
+     */</span>
+    <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">static</span> <span style="color: #000000; font-weight: bold;">class</span> LineHighlightPainter <span style="color: #000000; font-weight: bold;">extends</span>
+        <span style="color: #003399;">LayeredHighlighter.<span style="color: #006633;">LayerPainter</span></span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+        <span style="color: #000000; font-weight: bold;">private</span> <span style="color: #003399;">Color</span> color<span style="color: #339933;">;</span>
+&nbsp;
+        <span style="color: #008000; font-style: italic; font-weight: bold;">/**
+         * Constructs a new highlight painter. If &lt;code&gt;c&lt;/code&gt; is null,
+         * the JTextComponent will be queried for its selection color.
+         *
+         * @param c
+         *            the color for the highlight
+         */</span>
+        <span style="color: #000000; font-weight: bold;">public</span> LineHighlightPainter<span style="color: #009900;">&#40;</span><span style="color: #003399;">Color</span> c<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+            <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">color</span> <span style="color: #339933;">=</span> c<span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span>
+&nbsp;
+        <span style="color: #008000; font-style: italic; font-weight: bold;">/**
+         * Returns the color of the highlight.
+         *
+         * @return the color
+         */</span>
+        <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #003399;">Color</span> getColor<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+            <span style="color: #000000; font-weight: bold;">return</span> <span style="color: #000000; font-weight: bold;">this</span>.<span style="color: #006633;">color</span><span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span>
+&nbsp;
+        <span style="color: #666666; font-style: italic;">// --- HighlightPainter methods ---------------------------------------</span>
+        <span style="color: #008000; font-style: italic; font-weight: bold;">/**
+         * Paints a highlight.
+         *
+         * @param g
+         *            the graphics context
+         * @param offs0
+         *            the starting model offset &amp;gt;= 0
+         * @param offs1
+         *            the ending model offset &amp;gt;= offs1
+         * @param bounds
+         *            the bounding box for the highlight
+         * @param c
+         *            the editor
+         */</span>
+        <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000066; font-weight: bold;">void</span> paint<span style="color: #009900;">&#40;</span><span style="color: #003399;">Graphics</span> g, <span style="color: #000066; font-weight: bold;">int</span> offs0, <span style="color: #000066; font-weight: bold;">int</span> offs1, <span style="color: #003399;">Shape</span> bounds,
+                          <span style="color: #003399;">JTextComponent</span> c<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+            <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Rectangle</span> alloc <span style="color: #339933;">=</span> bounds.<span style="color: #006633;">getBounds</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            <span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+                <span style="color: #666666; font-style: italic;">// --- determine locations ---</span>
+                <span style="color: #003399;">TextUI</span> mapper <span style="color: #339933;">=</span> c.<span style="color: #006633;">getUI</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Rectangle</span> p0 <span style="color: #339933;">=</span> mapper.<span style="color: #006633;">modelToView</span><span style="color: #009900;">&#40;</span>c, offs0<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Rectangle</span> p1 <span style="color: #339933;">=</span> mapper.<span style="color: #006633;">modelToView</span><span style="color: #009900;">&#40;</span>c, offs1<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+                <span style="color: #666666; font-style: italic;">// --- render ---</span>
+                <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>getColor<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">==</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                    g.<span style="color: #006633;">setColor</span><span style="color: #009900;">&#40;</span>c.<span style="color: #006633;">getSelectionColor</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+                    g.<span style="color: #006633;">setColor</span><span style="color: #009900;">&#40;</span>getColor<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #009900;">&#125;</span>
+                <span style="color: #000000; font-weight: bold;">final</span> <span style="color: #003399;">Rectangle</span> r <span style="color: #339933;">=</span> p0.<span style="color: #006633;">union</span><span style="color: #009900;">&#40;</span>p1<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                g.<span style="color: #006633;">fillRect</span><span style="color: #009900;">&#40;</span>r.<span style="color: #006633;">x</span>, r.<span style="color: #006633;">y</span>, r.<span style="color: #006633;">width</span>, r.<span style="color: #006633;">height</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">BadLocationException</span> e<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                <span style="color: #666666; font-style: italic;">// can't render</span>
+            <span style="color: #009900;">&#125;</span>
+        <span style="color: #009900;">&#125;</span>
+&nbsp;
+        <span style="color: #666666; font-style: italic;">// --- LayerPainter methods ----------------------------</span>
+        <span style="color: #008000; font-style: italic; font-weight: bold;">/**
+         * Paints a portion of a highlight.
+         *
+         * @param g
+         *            the graphics context
+         * @param offs0
+         *            the starting model offset &amp;gt;= 0
+         * @param offs1
+         *            the ending model offset &amp;gt;= offs1
+         * @param bounds
+         *            the bounding box of the view, which is not
+         *            necessarily the region to paint.
+         * @param c
+         *            the editor
+         * @param view
+         *            View painting for
+         * @return region drawing occured in
+         */</span>
+        @Override
+        <span style="color: #000000; font-weight: bold;">public</span> <span style="color: #003399;">Shape</span> paintLayer<span style="color: #009900;">&#40;</span><span style="color: #003399;">Graphics</span> g, <span style="color: #000066; font-weight: bold;">int</span> offs0, <span style="color: #000066; font-weight: bold;">int</span> offs1, <span style="color: #003399;">Shape</span> bounds,
+                                <span style="color: #003399;">JTextComponent</span> c, <span style="color: #003399;">View</span> view<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+&nbsp;
+            <span style="color: #000000; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>getColor<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">==</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                g.<span style="color: #006633;">setColor</span><span style="color: #009900;">&#40;</span>c.<span style="color: #006633;">getSelectionColor</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">else</span> <span style="color: #009900;">&#123;</span>
+                g.<span style="color: #006633;">setColor</span><span style="color: #009900;">&#40;</span>getColor<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+            <span style="color: #009900;">&#125;</span>
+            <span style="color: #666666; font-style: italic;">// Should only render part of View.</span>
+            <span style="color: #000000; font-weight: bold;">try</span> <span style="color: #009900;">&#123;</span>
+                <span style="color: #666666; font-style: italic;">// --- determine locations ---</span>
+                <span style="color: #003399;">Shape</span> shape <span style="color: #339933;">=</span> view.<span style="color: #006633;">modelToView</span><span style="color: #009900;">&#40;</span>
+                                               offs0,
+                                               <span style="color: #003399;">Position.<span style="color: #006633;">Bias</span></span>.<span style="color: #006633;">Forward</span>,
+                                               offs1,
+                                               <span style="color: #003399;">Position.<span style="color: #006633;">Bias</span></span>.<span style="color: #006633;">Backward</span>,
+                                               bounds<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #003399;">Rectangle</span> r <span style="color: #339933;">=</span> shape <span style="color: #000000; font-weight: bold;">instanceof</span> <span style="color: #003399;">Rectangle</span> <span style="color: #339933;">?</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">Rectangle</span><span style="color: #009900;">&#41;</span> shape
+                        <span style="color: #339933;">:</span> shape.<span style="color: #006633;">getBounds</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                g.<span style="color: #006633;">fillRect</span><span style="color: #009900;">&#40;</span>r.<span style="color: #006633;">x</span>, r.<span style="color: #006633;">y</span>, c.<span style="color: #006633;">getWidth</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>, r.<span style="color: #006633;">height</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                <span style="color: #000000; font-weight: bold;">return</span> r<span style="color: #339933;">;</span>
+            <span style="color: #009900;">&#125;</span> <span style="color: #000000; font-weight: bold;">catch</span> <span style="color: #009900;">&#40;</span><span style="color: #003399;">BadLocationException</span> e<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+                <span style="color: #666666; font-style: italic;">// can't render</span>
+            <span style="color: #009900;">&#125;</span>
+            <span style="color: #000000; font-weight: bold;">return</span> <span style="color: #000066; font-weight: bold;">null</span><span style="color: #339933;">;</span>
+        <span style="color: #009900;">&#125;</span>
+    <span style="color: #009900;">&#125;</span>
+<span style="color: #009900;">&#125;</span></pre></td></tr></table></div>
+
+<p>Diesen CaretListener muss man nun mit:</p>
+
+<div class="wp_syntax"><table><tr><td class="code"><pre class="java" style="font-family:monospace;">textComp.<span style="color: #006633;">addCaretListener</span><span style="color: #009900;">&#40;</span><span style="color: #000000; font-weight: bold;">new</span> HighlightCurrentLineCaretListener<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></td></tr></table></div>
+
+<p>der Textkomponente hinzufügen. Hat bei mir ausgezeichnet funktioniert. Ich habe diesen Code unter Mac OS X und Windows getestet und er läuft abwärts bis Java 5.<!--:--></p>
+    </div>
+    <div class="spacer"></div>
+    <ul class="post-data">
+    
+    	<li class="fb-like">
+    		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=203947606316571&amp;xfbml=1"></script><fb:like href="http://www.jug-bb.de/2009/02/jeditorpane-mit-zeilenhervorhebung/" send="true" width="400" show_faces="true" font=""></fb:like>
+    	</li>
+    	
+        <li class="comments">
+          <span>Kommentare deaktiviert</span>        </li>
+    </ul>
+    <div class="spacer"></div>
+</div>
+
+
+
+
+<p align="center"><a href="http://www.jug-bb.de/category/java/javacode/page/2/" >&laquo; vorherige Beiträge</a> </p>
+
+	
+	</div>
+
+
+<div id="sidebarcontainer">
+
+
+
+<div id="wrap">
+
+
+
+
+ <!--Main Ad Body End-->
+
+	<div id="sidebar">
+	
+	
+			<h3>Tag Cloud</h3>
+            <a href='http://www.jug-bb.de/tag/2009/' class='tag-link-45' title='2 Themen' style='font-size: 9.4566473988439pt;'>2009</a>
+<a href='http://www.jug-bb.de/tag/amazon/' class='tag-link-54' title='2 Themen' style='font-size: 9.4566473988439pt;'>amazon</a>
+<a href='http://www.jug-bb.de/tag/bed-con/' class='tag-link-69' title='2 Themen' style='font-size: 9.4566473988439pt;'>bed-con</a>
+<a href='http://www.jug-bb.de/tag/berlin/' class='tag-link-9' title='77 Themen' style='font-size: 20.867052023121pt;'>Berlin</a>
+<a href='http://www.jug-bb.de/tag/berlinjar/' class='tag-link-12' title='3 Themen' style='font-size: 10.42774566474pt;'>berlin.jar</a>
+<a href='http://www.jug-bb.de/tag/bigdata/' class='tag-link-92' title='2 Themen' style='font-size: 9.4566473988439pt;'>bigdata</a>
+<a href='http://www.jug-bb.de/tag/blazeds/' class='tag-link-25' title='1 Thema' style='font-size: 8pt;'>BlazeDS</a>
+<a href='http://www.jug-bb.de/tag/cfp/' class='tag-link-70' title='2 Themen' style='font-size: 9.4566473988439pt;'>cfp</a>
+<a href='http://www.jug-bb.de/tag/democamp/' class='tag-link-18' title='3 Themen' style='font-size: 10.42774566474pt;'>DemoCamp</a>
+<a href='http://www.jug-bb.de/tag/drools/' class='tag-link-23' title='2 Themen' style='font-size: 9.4566473988439pt;'>Drools</a>
+<a href='http://www.jug-bb.de/tag/eclipse/' class='tag-link-17' title='12 Themen' style='font-size: 14.554913294798pt;'>Eclipse</a>
+<a href='http://www.jug-bb.de/tag/ejb3/' class='tag-link-34' title='2 Themen' style='font-size: 9.4566473988439pt;'>EJB3</a>
+<a href='http://www.jug-bb.de/tag/folien/' class='tag-link-52' title='3 Themen' style='font-size: 10.42774566474pt;'>folien</a>
+<a href='http://www.jug-bb.de/tag/froscon/' class='tag-link-41' title='1 Thema' style='font-size: 8pt;'>FrOSCon</a>
+<a href='http://www.jug-bb.de/tag/hypoport/' class='tag-link-72' title='2 Themen' style='font-size: 9.4566473988439pt;'>hypoport</a>
+<a href='http://www.jug-bb.de/tag/infinispan/' class='tag-link-47' title='1 Thema' style='font-size: 8pt;'>Infinispan</a>
+<a href='http://www.jug-bb.de/tag/james-gosling/' class='tag-link-44' title='1 Thema' style='font-size: 8pt;'>James Gosling</a>
+<a href='http://www.jug-bb.de/tag/java/' class='tag-link-8' title='107 Themen' style='font-size: 22pt;'>Java</a>
+<a href='http://www.jug-bb.de/tag/jax-rs/' class='tag-link-29' title='2 Themen' style='font-size: 9.4566473988439pt;'>JAX-RS</a>
+<a href='http://www.jug-bb.de/tag/jazoon-2009/' class='tag-link-43' title='1 Thema' style='font-size: 8pt;'>Jazoon 2009</a>
+<a href='http://www.jug-bb.de/tag/jboss/' class='tag-link-20' title='9 Themen' style='font-size: 13.664739884393pt;'>JBoss</a>
+<a href='http://www.jug-bb.de/tag/jboss-cache/' class='tag-link-46' title='1 Thema' style='font-size: 8pt;'>JBoss Cache</a>
+<a href='http://www.jug-bb.de/tag/jbpm/' class='tag-link-22' title='2 Themen' style='font-size: 9.4566473988439pt;'>jBPM</a>
+<a href='http://www.jug-bb.de/tag/jclouds/' class='tag-link-48' title='1 Thema' style='font-size: 8pt;'>jclouds</a>
+<a href='http://www.jug-bb.de/tag/jee/' class='tag-link-35' title='3 Themen' style='font-size: 10.42774566474pt;'>JEE</a>
+<a href='http://www.jug-bb.de/tag/jsf/' class='tag-link-27' title='2 Themen' style='font-size: 9.4566473988439pt;'>JSF</a>
+<a href='http://www.jug-bb.de/tag/jug-bb/' class='tag-link-16' title='18 Themen' style='font-size: 15.93063583815pt;'>JUG BB</a>
+<a href='http://www.jug-bb.de/tag/konferenz/' class='tag-link-14' title='17 Themen' style='font-size: 15.768786127168pt;'>Konferenz</a>
+<a href='http://www.jug-bb.de/tag/ldap/' class='tag-link-28' title='3 Themen' style='font-size: 10.42774566474pt;'>LDAP</a>
+<a href='http://www.jug-bb.de/tag/nosql/' class='tag-link-91' title='2 Themen' style='font-size: 9.4566473988439pt;'>nosql</a>
+<a href='http://www.jug-bb.de/tag/oracle-jdbc-meta-data/' class='tag-link-51' title='1 Thema' style='font-size: 8pt;'>Oracle JDBC Meta data</a>
+<a href='http://www.jug-bb.de/tag/osgi/' class='tag-link-40' title='1 Thema' style='font-size: 8pt;'>OSGi</a>
+<a href='http://www.jug-bb.de/tag/platforms/' class='tag-link-76' title='2 Themen' style='font-size: 9.4566473988439pt;'>platforms</a>
+<a href='http://www.jug-bb.de/tag/restful/' class='tag-link-30' title='2 Themen' style='font-size: 9.4566473988439pt;'>RESTful</a>
+<a href='http://www.jug-bb.de/tag/roblet%c2%ae-technik/' class='tag-link-50' title='1 Thema' style='font-size: 8pt;'>Roblet®-Technik</a>
+<a href='http://www.jug-bb.de/tag/sankt-augustin/' class='tag-link-42' title='1 Thema' style='font-size: 8pt;'>Sankt Augustin</a>
+<a href='http://www.jug-bb.de/tag/soa/' class='tag-link-37' title='6 Themen' style='font-size: 12.450867052023pt;'>SOA</a>
+<a href='http://www.jug-bb.de/tag/spring/' class='tag-link-32' title='9 Themen' style='font-size: 13.664739884393pt;'>Spring</a>
+<a href='http://www.jug-bb.de/tag/sql/' class='tag-link-33' title='5 Themen' style='font-size: 11.884393063584pt;'>SQL</a>
+<a href='http://www.jug-bb.de/tag/sun/' class='tag-link-36' title='39 Themen' style='font-size: 18.520231213873pt;'>Sun</a>
+<a href='http://www.jug-bb.de/tag/testng/' class='tag-link-39' title='1 Thema' style='font-size: 8pt;'>TestNG</a>
+<a href='http://www.jug-bb.de/tag/tomcat/' class='tag-link-10' title='8 Themen' style='font-size: 13.260115606936pt;'>Tomcat</a>
+<a href='http://www.jug-bb.de/tag/treffen/' class='tag-link-3' title='58 Themen' style='font-size: 19.895953757225pt;'>Treffen</a>
+<a href='http://www.jug-bb.de/tag/vortrag/' class='tag-link-19' title='35 Themen' style='font-size: 18.196531791908pt;'>Vortrag</a>
+<a href='http://www.jug-bb.de/tag/web-service/' class='tag-link-31' title='4 Themen' style='font-size: 11.236994219653pt;'>Web Service</a>	
+			<h3>Finde uns bei Facebook</h3>
+			<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="https://www.facebook.com/JavaUserGroupBerlinBrandenburg" width="315" height="270" show_faces="true" border_color="#FBF8EE" stream="false" header="false"></fb:like-box>
+
+<!--
+			<h3>Autoren</h3>
+			<ul>
+						    </ul>
+-->
+<!--
+			<h3>Kategorien</h3>
+			<ul>
+					<li class="cat-item cat-item-1"><a href="http://www.jug-bb.de/category/allgemein/" title="Alle unter Allgemein abgelegten Beiträge ansehen">Allgemein</a> (141)
+</li>
+	<li class="cat-item cat-item-8 current-cat-parent"><a href="http://www.jug-bb.de/category/java/" title="Alle unter Java abgelegten Beiträge ansehen">Java</a> (56)
+<ul class='children'>
+	<li class="cat-item cat-item-38 current-cat"><a href="http://www.jug-bb.de/category/java/javacode/" title="Alle unter Java Code Beispiele abgelegten Beiträge ansehen">Java Code Beispiele</a> (7)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.jug-bb.de/category/mac-fan-club/" title="Alle unter Mac Fan Club abgelegten Beiträge ansehen">Mac Fan Club</a> (16)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.jug-bb.de/category/off-topic/" title="Alle unter Off-Topic abgelegten Beiträge ansehen">Off-Topic</a> (14)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.jug-bb.de/category/treffen/" title="Alle unter Treffen abgelegten Beiträge ansehen">Treffen</a> (80)
+</li>
+		    </ul>
+-->
+<!--
+			<h3>Links</h3>
+			<ul>
+				<li><a href="http://berlin.jar.jug-bb.de/" title="die Java Konferenz in Berlin" target="_blank">berlin.jar<br/></a>
+die Java Konferenz in Berlin</li>
+<li><a href="https://www.xing.com/app/forum?op=showforum;id=97266" title="ein paar &#8220;Java&#8221; Jobs aus der Region" target="_blank">Jobs<br/></a>
+ein paar &#8220;Java&#8221; Jobs aus der Region</li>
+<li><a href="https://www.xing.com/net/jugbb/" rel="me" title="unser Forum" target="_blank">JUG BB bei Xing<br/></a>
+unser Forum</li>
+<li><a href="http://groups.google.com/group/jug-bb" target="_blank">Mailingliste der Gruppe<br/></a></li>
+			</ul>
+-->
+			<h3>Archiv</h3>
+			<ul>
+					<li><a href='http://www.jug-bb.de/2013/12/'>Dezember 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2013/10/'>Oktober 2013</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2013/09/'>September 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2013/08/'>August 2013</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2013/07/'>Juli 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2013/06/'>Juni 2013</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2013/05/'>Mai 2013</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2013/04/'>April 2013</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2013/03/'>März 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2013/02/'>Februar 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2013/01/'>Januar 2013</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2012/12/'>Dezember 2012</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2012/11/'>November 2012</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2012/10/'>Oktober 2012</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2012/09/'>September 2012</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2012/07/'>Juli 2012</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2012/06/'>Juni 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2012/05/'>Mai 2012</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2012/03/'>März 2012</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2012/02/'>Februar 2012</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2012/01/'>Januar 2012</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2011/12/'>Dezember 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2011/11/'>November 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2011/10/'>Oktober 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2011/09/'>September 2011</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2011/08/'>August 2011</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2011/07/'>Juli 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2011/06/'>Juni 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2011/05/'>Mai 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2011/04/'>April 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2011/03/'>März 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2011/02/'>Februar 2011</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2011/01/'>Januar 2011</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2010/12/'>Dezember 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2010/11/'>November 2010</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2010/10/'>Oktober 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2010/06/'>Juni 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2010/04/'>April 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2010/03/'>März 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2010/01/'>Januar 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2009/12/'>Dezember 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2009/10/'>Oktober 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2009/08/'>August 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2009/07/'>Juli 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2009/06/'>Juni 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2009/05/'>Mai 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.jug-bb.de/2009/04/'>April 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2009/03/'>März 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2009/02/'>Februar 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2009/01/'>Januar 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2008/10/'>Oktober 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2008/09/'>September 2008</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2008/08/'>August 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2008/07/'>Juli 2008</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2008/05/'>Mai 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2008/03/'>März 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2008/02/'>Februar 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2008/01/'>Januar 2008</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2007/12/'>Dezember 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2007/11/'>November 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2007/10/'>Oktober 2007</a>&nbsp;(10)</li>
+	<li><a href='http://www.jug-bb.de/2007/09/'>September 2007</a>&nbsp;(13)</li>
+	<li><a href='http://www.jug-bb.de/2007/08/'>August 2007</a>&nbsp;(22)</li>
+	<li><a href='http://www.jug-bb.de/2007/07/'>Juli 2007</a>&nbsp;(6)</li>
+	<li><a href='http://www.jug-bb.de/2007/06/'>Juni 2007</a>&nbsp;(4)</li>
+	<li><a href='http://www.jug-bb.de/2007/05/'>Mai 2007</a>&nbsp;(8)</li>
+	<li><a href='http://www.jug-bb.de/2007/04/'>April 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.jug-bb.de/2007/02/'>Februar 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2007/01/'>Januar 2007</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2006/12/'>Dezember 2006</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2006/11/'>November 2006</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2006/10/'>Oktober 2006</a>&nbsp;(1)</li>
+	<li><a href='http://www.jug-bb.de/2006/09/'>September 2006</a>&nbsp;(3)</li>
+	<li><a href='http://www.jug-bb.de/2006/08/'>August 2006</a>&nbsp;(9)</li>
+	<li><a href='http://www.jug-bb.de/2006/07/'>Juli 2006</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2006/06/'>Juni 2006</a>&nbsp;(7)</li>
+	<li><a href='http://www.jug-bb.de/2006/05/'>Mai 2006</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2006/04/'>April 2006</a>&nbsp;(5)</li>
+	<li><a href='http://www.jug-bb.de/2006/01/'>Januar 2006</a>&nbsp;(5)</li>
+			</ul>
+		
+
+
+			
+			
+			
+			<h3>Meta</h3>
+			<ul>
+										<li><a href="http://www.jug-bb.de/wp-login.php">Anmelden</a></li>
+									</ul>
+
+			
+			
+
+	</div>
+
+	
+
+
+	</div>
+
+</div></div><div id="footer">
+		<p>
+
+		Java User Group Berlin Brandenburg is powered by <a href='http://wordpress.org'>Wordpress</a>. 
+<a href='http://topwpthemes.com'>Wordpress theme</a> designed by <a href='http://designed.nu'>Design Blog</a>.
+
+</p>
+		</div>
+		
+
+</div>
+</body>
+</html>
+
+
