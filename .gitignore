@@ -1,6 +1,7 @@
 # Directories to exclude
 /output
 /.idea
+.DS_Store
 
 # Files to exclude
 *~
