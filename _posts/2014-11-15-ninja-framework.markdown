@@ -1,38 +1,61 @@
 ---
 layout: post
-title: "ninja framework"
+title: "Rapid RESTful web application development with Ninja"
 date: 2014-11-15 14:54:15 +0100
 comments: false
 author: Oliver B. Fischer
-published: false
+published: true
 categories: 
   - Treffen
 ---
 
 
-Am **XXXXXX** lädt die Java Usergroup Berlin-Brandenburg und die 
+Am **4. Dezember 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
 [Votum AG](http://www.votum.de/kontakt/) zu dem Vortrag
-**XXXXXXXXXXXXX**
+**Rapid RESTful web application development with Ninja**
 mit 
 **Raphael André Bauer**
 ein.
 
 ## Der Vortrag
 
-**XXXX**
-(*XXXX*):
+**Rapid RESTful web application development with Ninja**
+(*Raphael André Bauer*): Web application development has changed dramatically 
+within the last
+years. In many companies DevOps are running their own applications and
+the once ubiquitous monolith has been replaced by maintainable
+microservices talking to each other. Subsequently the requirements for
+web application frameworks have changed heavily.
 
+Ninja is a modern, restful MVC web framework. It is built by and for
+Java developers and the Java ecosystem. In contrast to many frameworks
+it not only provides support for rapid web application development,
+but also for testing, deployment and maintenance. Ninja is a
+productivity and happiness tool covering the whole web application /
+service lifecycle.
 
-XXXX
+The talk will covers the following topics:
+
+  - Creating a Ninja web app in seconds
+  - Dev productivity features, hot reload server and world class IDE support
+  - Structure of a Ninja application, Restful routes, Json and Xml
+  - Html rendering capabilities
+  - Testability and continuous integration is a first class citizen in Ninja
+  - Stateless scalability and deployment options (war, fat jar, App Engine...)
+  - Monitoring in production
 
 
 ## Der Redner
 
-**Raphael André Bauer** XXXXx
+**Raphael André Bauer** works as IT consultant with international 
+companies like Holtzbrinck, Macmillan and Springer Science. Apart from 
+that he is involved in several startups like SciPlanet and 
+BackupGoo and loves to contribute to Open Source projects.
+
 
 ## Treffpunkt 
 
-Votum AG
+VOTUM GmbH, Ohlauer Straße 43, 10999 Berlin
 
 ## Der Ablauf
 
