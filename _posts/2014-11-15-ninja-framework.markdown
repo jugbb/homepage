@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rapid RESTful web application development with Ninja"
+title: "Extrem produktive Webentwicklung mit dem Ninja Web Framework"
 date: 2014-11-15 14:54:15 +0100
 comments: false
 author: Oliver B. Fischer
@@ -12,46 +12,44 @@ categories:
 
 Am **4. Dezember 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
 [Votum AG](http://www.votum.de/kontakt/) zu dem Vortrag
-**Rapid RESTful web application development with Ninja**
+**Extrem produktive Webentwicklung mit dem Ninja Web Framework**
 mit 
 **Raphael André Bauer**
 ein.
 
 ## Der Vortrag
 
-**Rapid RESTful web application development with Ninja**
-(*Raphael André Bauer*): Web application development has changed dramatically 
-within the last
-years. In many companies DevOps are running their own applications and
-the once ubiquitous monolith has been replaced by maintainable
-microservices talking to each other. Subsequently the requirements for
-web application frameworks have changed heavily.
+**Extrem produktive Webentwicklung mit dem Ninja Web Framework** 
+(*Raphael André Bauer*): In 
+den letzten Jahren hat sich die Art und Weise wie Webanwendungen
+entwickelt werden dramatisch verändert.  Der einst allgegenwärtige
+Monolith wird Stück für Stück durch agile Microservices ersetzt. Der
+Trend zu DevOps Teams ist ungebrochen. Durch diesen Wandel haben sich
+die Anforderungen an Web Frameworks stark verändert.
 
-Ninja is a modern, restful MVC web framework. It is built by and for
-Java developers and the Java ecosystem. In contrast to many frameworks
-it not only provides support for rapid web application development,
-but also for testing, deployment and maintenance. Ninja is a
-productivity and happiness tool covering the whole web application /
-service lifecycle.
+Ninja ist die Java Antwort auf diese neuen Herausforderungen: Ein
+modernes, stateless, restful MVC Web Framework. Im Gegensatz zu vielen
+anderen Frameworks bietet Ninja nicht nur Unterstützung bei der reinen
+Entwicklung sondern auch während dem Deployment und Livebetrieb. Ninja
+ist von Java Entwicklern für Java Entwickler geschrieben.
 
-The talk will covers the following topics:
+Schwerpunkte des Vortrags:
+  - Erstellung einer Ninja Anwendung in Sekunden
+  - Produktivität für Entwickler: SuperDevMode und komfortable IDE Unterstützung.
+  - Struktur einer Ninja Anwendung: Restful Routen, Html, Json und Xml rendering
+  - Inversion of Control, Testbarkeit und Continuous Integration Systeme
+  - Stateless Deployment und Skalierbarkeit (war, fat jar, App Engine…)
+  - Monitoring und Maintenance im Livebetrieb
 
-  - Creating a Ninja web app in seconds
-  - Dev productivity features, hot reload server and world class IDE support
-  - Structure of a Ninja application, Restful routes, Json and Xml
-  - Html rendering capabilities
-  - Testability and continuous integration is a first class citizen in Ninja
-  - Stateless scalability and deployment options (war, fat jar, App Engine...)
-  - Monitoring in production
-
+Mehr über Ninja: http://ninjaframework.org
 
 ## Der Redner
 
-**Raphael André Bauer** works as IT consultant with international 
-companies like Holtzbrinck, Macmillan and Springer Science. Apart from 
-that he is involved in several startups like SciPlanet and 
-BackupGoo and loves to contribute to Open Source projects.
-
+**Raphael André Bauer** arbeitet als freiberuflicher IT Consultant 
+mit internationalen
+Firmen wie Holtzbrinck, Macmillan und Springer Science. Darüber hinaus
+ist er an verschiedenen Berliner Startups beteiligt und aktiver
+Contributor verschiedener Open Source Projekte.
 
 ## Treffpunkt 
 
