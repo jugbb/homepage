@@ -11,7 +11,7 @@ categories:
 
 
 Am **4. Dezember 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
-[Votum AG](http://www.votum.de/kontakt/) zu dem Vortrag
+[Votum GmbH](http://www.votum.de) zu dem Vortrag
 **Extrem produktive Webentwicklung mit dem Ninja Web Framework**
 mit 
 **Raphael André Bauer**
@@ -34,6 +34,7 @@ Entwicklung sondern auch während dem Deployment und Livebetrieb. Ninja
 ist von Java Entwicklern für Java Entwickler geschrieben.
 
 Schwerpunkte des Vortrags:
+
   - Erstellung einer Ninja Anwendung in Sekunden
   - Produktivität für Entwickler: SuperDevMode und komfortable IDE Unterstützung.
   - Struktur einer Ninja Anwendung: Restful Routen, Html, Json und Xml rendering
@@ -50,6 +51,7 @@ mit internationalen
 Firmen wie Holtzbrinck, Macmillan und Springer Science. Darüber hinaus
 ist er an verschiedenen Berliner Startups beteiligt und aktiver
 Contributor verschiedener Open Source Projekte.
+Mehr Informationen gibt es unter http://raphaelbauer.com/
 
 ## Treffpunkt 
 
