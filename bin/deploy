@@ -1,0 +1,10 @@
+#!/bin/bash
+
+basedir=$(cd $(dirname ${0}); cd ..; pwd)
+outputdir=${basedir}/output
+
+
+
+rsync -r -a -v \
+    ${outputdir}/* \
+	zerberus.swe-blog.net:~/public_html/jug-berlin-brandenburg.de
