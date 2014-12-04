@@ -1,0 +1,77 @@
+= Feature Toggles On Steroids
+Oliver B. Fischer
+2014-12-04 06:46:10 +0100
+:jbake-event-date: 2014-12-17
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **17. Dezember 2014** lädt die Java Usergroup Berlin-Brandenburg und die 
+http://info.thoughtworks.com/berlin[ThoughtWorks Werkstatt Berlin] zu dem Vortrag
+**Feature Toggles On Steroids**
+mit 
+**Michael Tamm**
+ein.
+
+== Der Vortrag
+
+**Feature Toggles On Steroids** 
+(_Michael Tamm_): By now it is well known that feature 
+branch based development is problematic 
+(because of merge conflicts) and trunk based development 
+with feature toggles is a good alternative. But the 
+simple idea of a feature toggle can be extended in 
+several ways e.g. to allow much more fine grained control
+when and where a feature becomes visible or to verify 
+the new code behind a feature toggle before the toggle 
+is switched. Join this session to learn new patterns which 
+ensure that everything works when a new feature is finally 
+activated in production. 
+
+Participants will learn several not wildly known extension to
+the simple idea of a feature toggle, which can be easily 
+implemented and enable delivering new features with very 
+high quality (not only functional correctness but also robustness 
+and performance) without costing much compared to other QA activities.
+
+
+== Der Redner
+
+**Michael Tamm** is a Java Expert and Agile Coach with 25 
+years experience in programming. He has specialized in 
+automated quality assurance -- that is not only automated 
+testing but also automated code reviews, deployment pipelines, 
+monitoring, and profiling. He is author of the book 
+"JUnit-Profiwissen", has published several articles in IT 
+magazines, and is a regular speaker at IT conferences.
+
+
+== Treffpunkt 
+
+ThoughtWorks Werkstatt Berlin, Mülhauser Str. 6, 10405 Berlin
+
+== Danksagung
+
+Wir danken ThoughtWorks und ganz speziell der 
+ThoughtWorks Werkstatt Berlin für die Unterstützung mit 
+Räumlichkeiten und Getränken.
+
+image::/grafix/2014/twwb.png[ThoughtWorks Werkstatt Berlin]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das 
+XING-Event der 
+http://xing.to/jugbb[XING-Gruppe der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+
