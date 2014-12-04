@@ -1,6 +1,7 @@
 = Extrem produktive Webentwicklung mit dem Ninja Web Framework
 Oliver B. Fischer
 2014-11-15 14:54:15 +0100
+:jbake-event-date: 2014-12-04
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published

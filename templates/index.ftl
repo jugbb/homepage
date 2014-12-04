@@ -21,6 +21,7 @@
   		</#list>
 	</div>
 	<div class="col-md-4">
+	    <#include "snippets/nextevents.ftl">
 		<#include "snippets/lastposts.ftl">
 	</div>
 </div>

@@ -14,6 +14,7 @@
 		<p>${content.body}</p>
 	</div>
     <div class="col-md-4">
+        <#include "snippets/nextevents.ftl">
 		<#include "snippets/lastposts.ftl">
     </div>
 </div>
