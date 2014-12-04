@@ -18,8 +18,8 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [Acrolinx GmbH](http://www.acrolinx.de/)
 * [akquinet tech@spree GmbH](http://www.akquinet.de/)
 * [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
-* [iJUG](http://www.ijug.eu/)
 * [Hypoport AG](http://www.hypoport.ag/)
+* [iJUG](http://www.ijug.eu/)
 * [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
 * [ThoughtWorks Werkstatt Berlin](http://info.thoughtworks.com/berlin)
 
