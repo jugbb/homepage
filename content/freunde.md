@@ -21,6 +21,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [iJUG](http://www.ijug.eu/)
 * [Hypoport AG](http://www.hypoport.ag/)
 * [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
+* [ThoughtWorks Werkstatt Berlin](http://info.thoughtworks.com/berlin)
 
 ## Freunde 2013
 
