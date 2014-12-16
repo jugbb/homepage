@@ -1,0 +1,66 @@
+= Top Java Performance Mistakes
+Oliver B. Fischer
+2014-12-16 23:18:00 +0100
+:jbake-event-date: 2015-01-13
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **13. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.diazhilterscheid.de/de/[Díaz & Hilterscheid Unternehmensberatung GmbH]
+zu dem Vortrag **s** mit **Andreas Grabner** von
+http://www.dynatrace.com/de/index.html[Dynatrace]
+ein.
+
+== Der Vortrag
+
+**Top Java Performance Mistakes**
+(_Andreas Grabner_):
+Have you ever wondered why your e-Banking system is down yet
+again for maintenance or what problem it was that caused your
+check-out to take forever until it terminatqed with a weird error message?
+Misconfigured O/R Mappers causing millions of SQL Queries and "leaking" DB
+connection leaks, excessive logging that consumes all Disk I/O, memory
+leaks that bring the JVM to crash every couple of hours or a forgotten XML
+configuration entry that causes millions of "Control-Flow Exceptions" that
+never make it to any log file. These are some of the problems that crashed
+large enterprise applications in the last 12 years (some even made it to
+national & international news). In this session we learn how to avoid
+these top problems by automatically looking at key performance a
+architectural metrics along your continuous deployment pipeline.
+
+== Der Redner
+
+**Andreas Grabner** has 15+ years' experience as a tester, architect
+and developer in the Java, .NET and Web space. Did Performance Testing
+for Segue Software (later Borland) before he joined Dynatrace for the last
+7 years. He is a Developer Advocate promoting Best Practices around web
+performance optimization, application performance and user experience
+management. You is running the communities for the free tools dynaTrace
+AJAX Edition and Dynatrace Application Monitoring and User Experience
+Management. He is a frequent speaker at technology conferences such as
+Velocity, JAX, Agile Testing Days ... on performance and architecture
+related topics and regularly publishes articles blogs on
+http://blog.dynatrace.com[blog.dynatrace.com].
+
+== Treffpunkt 
+
+Díaz & Hilterscheid Unternehmensberatung GmbH, Kurfürstendamm 179, 10707 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das 
+XING-Event der 
+http://xing.to/jugbb[XING-Gruppe der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+
