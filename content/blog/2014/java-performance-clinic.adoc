@@ -1,0 +1,130 @@
+= Java Performance Clinic
+Oliver B. Fischer
+2014-12-16 23:48:00 +0100
+:jbake-event-date: 2015-01-14
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+:lnk-eventbrite: http://www.eventbrite.com/e/berlin-application-performance-clinic-workshop-bring-your-own-app-byoa-tickets-13988914219
+
+
+Am **14. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.diazhilterscheid.de/de/[Díaz & Hilterscheid Unternehmensberatung GmbH]
+zur **Java Performance Klink** mit **Andreas Grabner** von
+http://www.dynatrace.com/de/index.html[Dynatrace]
+ein.
+
+== Die Java Performance Clinic
+
+
+Here is the deal! If you are responsible for performance and quality
+of a software application or are just interested in discussing and
+sharing thoughts about how to build better software then join me.
+This event is not about talking hot air - its about _Hands-On_
+learning and doing.
+
+**Agenda**: Check out my slides online that I used at a
+recent
+http://de.slideshare.net/grabnerandi/from-zero-to-performance-hero-in-minutes-agile-testing-days-2014-potsdam[Performance Clinic in Potsdam, Germany]:
+
+I walk you through the most common performance problems in the Frontend (Web, Mobile, Rich Client),
+Backend (Web Server, App Server, Database, ...) and talk about common deployment mistakes.
+After these individual sections we go into a Hands-On mode where I show you how to analyze
+these things on your own Application. Thats why we hope that you BYOA
+
+Detailed Schedule:
+
+    - 5:00 pm - 6:30 pm: Walk Through of Slides and presentation of my best practices
+    - 6:30 pm - Open End: Hands-On on your Applications
+
+BYOA: Bring Your Own Application and learn how to identify the typical performance hotspots in
+your Java, .NET, PHP, Web or Mobile Android or iOS Application using free
+available tools such as dynaTrace, JMeter, YSlow, PageSpeed, ...
+
+BYPP: Bring Your PurePath and we are going to analyze your
+performance data and find the problems.
+
+What's in for you? If you are new to performance I will give you a quick crash
+course on software performance. The goal for me is that you will leave this
+hands-on workshop with a handful of PurePaths, Log files, Graphs, Metrics and New Ideas
+that you can show and share with your peers after you return to your office the next
+day. I will show you how to analyze performance, scalability and functional problems
+in your application – whether it is a problem in the web front-end, on the
+application server or in the data access layer.
+
+Bonus: Attendees of this workshop will receive an extended free trial license
+for dynaTrace to apply what they learned in the workshop in your environment
+at home as well as a dynaTrace APMaaS account.
+
+== FAQs
+
+Is this really for free? Why a donation?:: Yes! It is free but we want people to donate €5
+ to show a sign of commitment. If you show up we will return that donation to
+ you. If you don't show up we will donate the money to a charity!
+
+Is this a marketing event from Dynatrace?:: No! Everybody has to work somewhere and for
+me that is Dynatrace (check out my bio for more details). The important thing is that
+I am a performance enthusiast and want to continue educating the developer, tester
+and ops community on building and running better apps. I've blogged and presented best
+practices over the years. Of course - it requires tools to follow these best practices.
+But we will stick with free available tools without you needing to spend a dime or
+having to fear about follow up emails from sales or marketing.
+
+Whats the detailed Schedule?:: I will give a general introduction to Performance
+Management. After that its going to be hands-on. "Walk-Ins" are allowed any time.
+
+What do I need to bring?:: Your App! Just bring your laptop with the application
+on it that you want to performance analyse. If you dont feel comfortable bringing
+a real life app bring a similar sample app so we show you how it is done.
+Alternatively we can also set this up remotely if you have remote access
+to your system in the office
+
+Your Performance Reports!:: If you can't bring your application feel free to
+bring your performance reports. Whether this is log files, load testing
+reports or any data from your APM tools.
+
+What do I need to prepare?:: Tools! We are going to use some free tools in
+the performance space. It helps if you register and download tools such as
+dynaTrace, New Relic, AppDynamics, JMeter, YSlow, PageSpeed. It is also ok to
+bring any other tools that you use on your day-to-day basis. The main product
+I will focus on is the dynaTrace Free Trial (because I am part of the
+engineering team). If you dont get to register before the event I will
+bring the tool with me and hand it out.
+
+
+== Der Arzt und Therapeut
+
+**Andreas Grabner** has 15+ years' experience as a tester, architect
+and developer in the Java, .NET and Web space. Did Performance Testing
+for Segue Software (later Borland) before he joined Dynatrace for the last
+7 years. He is a Developer Advocate promoting Best Practices around web
+performance optimization, application performance and user experience
+management. You is running the communities for the free tools dynaTrace
+AJAX Edition and Dynatrace Application Monitoring and User Experience
+Management. He is a frequent speaker at technology conferences such as
+Velocity, JAX, Agile Testing Days ... on performance and architecture
+related topics and regularly publishes articles blogs on
+http://blog.dynatrace.com[blog.dynatrace.com].
+
+== Treffpunkt 
+
+Díaz & Hilterscheid Unternehmensberatung GmbH, Kurfürstendamm 179, 10707 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Für diese Veranstaltung erfolgt die
+{lnk-eventbrite}[Anmeldung über Eventbrite]. Die zu zahlenden 5 Euro
+werden bei Teilnahme an der Performance Klink erstattet oder
+können für wohltätige Zwecke gespendet werden.
+
+
+
+
+
