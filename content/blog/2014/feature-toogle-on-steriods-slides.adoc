@@ -1,0 +1,29 @@
+= Folien zu Feature Toggles On Steroids online
+Oliver B. Fischer
+2014-12-19 20:27:37 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+Die Folien zum Vortrag **Feature Toggles on Steroids**
+von **Michael Tamm** sind jetzt via
+[Slideshare] verfügbar. Vielen Dank an Michael Tamm für
+den Vortrag und die
+http://info.thoughtworks.com/berlin[ThoughtWorks Werkstatt Berlin]
+für den gestellten Raum.
+
+++++
+<iframe src="http://www.slideshare.net/slideshow/embed_code/42878769"
+        width="425" height="355" frameborder="0" marginwidth="0" marginheight="0"
+        scrolling="no"
+        style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; margin-top: 2em; max-width: 100%;"
+        allowfullscreen> </iframe>
+        <div style="margin-bottom:5px">
+           <strong>
+              <a href="http://de.slideshare.net/jug-berlin-brandenburg/feature-toggles-on-steroids"
+                 title="Feature Toggles On Steroids" target="_blank">Feature Toggles On Steroids</a>
+           </strong> from
+           <strong><a href="http://www.slideshare.net/jug-berlin-brandenburg"
+                      target="_blank">Java Usergroup Berlin-Brandenburg</a></strong> </div>
+++++
+
