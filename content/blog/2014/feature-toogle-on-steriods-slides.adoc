@@ -12,6 +12,7 @@ den Vortrag und die
 http://info.thoughtworks.com/berlin[ThoughtWorks Werkstatt Berlin]
 für den gestellten Raum.
 
+// @todo Ersetzen durch Macro
 ++++
 <iframe src="http://www.slideshare.net/slideshow/embed_code/42878769"
         width="425" height="355" frameborder="0" marginwidth="0" marginheight="0"
