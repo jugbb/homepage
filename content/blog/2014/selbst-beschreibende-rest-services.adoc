@@ -1,0 +1,51 @@
+= Selbst-beschreibend­e REST-Services mit RAML und BPMN
+Oliver B. Fischer
+2014-12-22 10:25:00 +0100
+:jbake-event-date: 2015-01-13
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **13. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+zu dem Vortrag **Selbst-beschreibende REST-Services mit RAML und BPMN**
+mit **Andreas Drobisch** von der **E-Post Development GmbH**
+ein.
+
+== Der Vortrag
+
+**Selbst-beschreibend­e REST-Services mit RAML und BPMN**
+(_Andreas Drobisch_):
+"_Der Code ist die Dokumentation_" stimmt ... für Entwickler. Aber welche
+Dokumentation ist die richtige für die Fachseite, den Nutzer meiner API
+oder den Entwickler im Team nebenan? Und wie halte ich die Dokumentation
+so aktuell wie den Code, ohne die Entwickler zu nerven?
+
+Am Beispiel einer Java Web-App wird im Talk gezeigt, wie man
+mit *RAML* und *BPMN* Anwendungen schreiben kann, die sich
+selbst beschreiben und dokumentieren und wie durch einen
+Contract-First Ansatz zusätzlich noch Zeit bei der
+Implementierung gespart werden kann.
+
+== Der Redner
+
+**Andreas Drobisch**
+(https://twitter.com/adrobisch[@adrobisch])
+ist Senior (Java) Developer bei der Deutsche Post E-Post Development GmbH,
+Contributor bei diversen OSS Projekten und Autor im Java-Magazin.
+
+== Treffpunkt
+
+https://www.google.com/maps/preview?f=q&hl=en&q=Ehrenbergstra%C3%9Fe+11-14,+Berlin,+de[Deutsche Post E-Post Development GmbH, Ehrenbergstraße 11-14, 10245 Berlin]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Die Anmeldung zu diesem Vortrag erfolgt über die
+http://www.meetup.com/eposttechtalk/[Meetup-Gruppe der Deutsche Post E-Post Development GmbH].
