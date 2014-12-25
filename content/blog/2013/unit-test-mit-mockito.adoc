@@ -1,0 +1,53 @@
+= Unit-Tests mit Mockito
+Oliver B. Fischer
+2013-01-27 00:00:00 +0100
+:jbake-event-date: 2013-02-14
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+// @todo Richtiger Title ist: Happy Hour: Unit-Tests mit Mockito
+//       Allerdings gibt es Probleme mit dem Doppelpunkt nach Happy Hour
+//
+
+Am **14. Februar 2013** lädt die Java Usergroup Berlin-Brandenburg
+zusammen mit der
+http://www.ijug.eu/[iJUG – Interessenverbund der Java User Groups e.V.]
+zum Vortrag **Happy Hour: Unit-Tests mit Mockito** mit
+**Frank Schwarz** ein.
+
+
+== Der Vortrag
+
+**Happy Hour: Unit-Tests mit Mockito** (_Frank Schwarz_):
+Ihre Testabdeckung ist weit über 50%. Ihre Testfälle starten aus
+der IDE heraus und dauern jeweils nur wenige Millisekunden.
+Ihr Continuous-Build läuft mehr als einmal nachts. Wenn Tests
+fehlschlagen, fällt nicht die halbe Test-Suite um.
+
+Nicht Ihre Party? Diese Session zeigt Ihnen, wie leicht Unit-Tests
+mit Mockito gelingen.
+
+
+== Der Redner
+
+**Frank Schwarz** arbeitet als Berater bei der buschmais GbR. Sein
+Schwerpunkt liegt in der Entwicklung von Backend-Anwendungen
+auf Basis der Java-Enterprise-Edition.
+
+
+== Treffpunkt
+
+DOAG Dienstleistungen GmbH, Tempelhofer Weg 64, 12347 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß und Zeit zum Networking
+- 19:00 Uhr Vortragsbeginn
+
+== Die Anmeldung
+
+Da es sich um eine Kooperationsveranstaltung mit der iJUG
+handelt, bitte unter https://www.doag.org/termine/anmeldung.php?tid=455119
+anmelden. Die Anmeldung ist nicht zwingend erforderlich. Wir freuen
+uns auf jeden Teilnehmer.

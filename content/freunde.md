@@ -29,6 +29,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 Durchführung unserer Veranstaltungen unterstützt:
 
 * [Acrolinx GmbH](http://www.acrolinx.de/)
+* [DOAG Dienstleistungen GmbH](http://www.doag.org)
 * [Groupon GmbH](http://www.groupon.de/)
 * [Hypoport AG](http://www.hypoport.ag/)
 * [Zanox AG](http://www.zanox.com/)
