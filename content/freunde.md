@@ -9,6 +9,13 @@ nicht existieren. Daher möchten wir uns auf diese bei allen denen herzlich beda
 die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen 
 rund um die JVM und Java zu teilen.
 
+## Freunde 2015
+
+2015 wurden wir von den folgenden Firmen und Organisationen bei der
+Durchführung unserer Veranstaltungen unterstützt:
+
+* [Díaz & Hilterscheid Unternehmensberatung GmbH](http://www.diazhilterscheid.de/de/)
+
 
 ## Freunde 2014
 
