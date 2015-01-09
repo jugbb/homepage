@@ -8,7 +8,7 @@ Oliver B. Fischer
 :lnk-eventbrite: http://www.eventbrite.com/e/berlin-application-performance-clinic-workshop-bring-your-own-app-byoa-tickets-13988914219
 
 
-Am **14. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+Am **14. Januar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
 http://www.diazhilterscheid.de/de/[Díaz & Hilterscheid Unternehmensberatung GmbH]
 zur **Java Performance Klink** mit **Andreas Grabner** von
 http://www.dynatrace.com/de/index.html[Dynatrace]

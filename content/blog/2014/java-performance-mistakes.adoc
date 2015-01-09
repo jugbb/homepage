@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **13. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+Am **13. Januar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
 http://www.diazhilterscheid.de/de/[Díaz & Hilterscheid Unternehmensberatung GmbH]
 zu dem Vortrag **Top Java Performance Mistakes** mit **Andreas Grabner** von
 http://www.dynatrace.com/de/index.html[Dynatrace] ein. Am folgenden Tag
