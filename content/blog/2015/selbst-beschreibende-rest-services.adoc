@@ -1,0 +1,67 @@
+= JavaFX – Die neue UI Technologie im JDK 8
+Oliver B. Fischer
+2015-01-27 23:22:00 +0100
+:jbake-event-date: 2015-02-18
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **18. Februar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.hypoport.ag[Hypoport AG]
+zu dem Vortrag **JavaFX – Die neue UI Technologie im JDK 8**
+mit **Wolfgang Weigend** von der
+http://www.oracle.com/de/index.html[Oracle Deutschland B.V. & Co. KG]
+ein.
+
+== Der Vortrag
+
+**JavaFX – Die neue UI Technologie im JDK 8** (_Wolfgang Weigend_):
+Erfahren Sie mehr über die Einsatzmöglichkeiten von JavaFX und dessen Reifegrad.
+JavaFX ist die strategische Java UI-Technologie im JDK 8 und zielt auf die
+Entwicklung von nativen Java-Clients ab. Die vielfältigen Verbesserungen von
+JavaFX erleichtern den Entwicklern das Leben erheblich. Im Vortrag wird das
+Konzept und das Potenzial von JavaFX besprochen und in einer Demo werden
+einzelne Bestandteile von JavaFX gezeigt.
+
+Im Einzelnen werden unter anderem die folgenden Punkte behandelt:
+
+* Aktueller Status von JavaFX 8
+* Open Source Projekt OpenJFX
+* JavaFX-Aufbau und Architekturkonzept
+* Migration von Java Swing Komponenten
+* Automatisiertes Testen von JavaFX UI Komponenten
+* Die Vorteile von JavaFX bei der Entwicklung von JavaFX Anwendungen,
+  komplett in der Java-Programmiersprache und mit den
+  Java-Entwicklungswerkzeugen, werden erläutert
+* JavaFX Demo
+
+== Der Redner
+
+**Wolfgang Weigend** ist Systemberater für Oracle Fusion Middleware
+bei der Oracle Deutschland B.V. & Co. KG und zuständig für Java-Technologie
+und -Architektur in der Entwickler-Community, sowie dem Einsatz bei Kunden
+und Partnern, verfügt über langjährige Erfahrung in der Systemberatung und
+im Bereich objektorientierter Software-Entwicklung mit Java.
+
+
+
+== Treffpunkt
+
+Hypoport AG, Klosterstr. 71, 10179 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das
+XING-Event der
+http://xing.to/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
