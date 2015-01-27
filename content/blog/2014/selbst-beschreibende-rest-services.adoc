@@ -8,6 +8,7 @@ Oliver B. Fischer
 
 
 Am **13. Januar 2014** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.epost.de/[E-Post Development GmbH]
 zu dem Vortrag **Selbst-beschreibende REST-Services mit RAML und BPMN**
 mit **Andreas Drobisch** von der **E-Post Development GmbH**
 ein.
