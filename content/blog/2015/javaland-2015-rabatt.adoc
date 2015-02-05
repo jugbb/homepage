@@ -1,0 +1,26 @@
+= Rabatt für die JavaLand 2015
+Oliver B. Fischer
+2015-01-27 23:22:00 +0100
+:jbake-event-date: 2015-02-18
+:jbake-type: post
+:jbake-tags: mitteilungen
+:jbake-status: published
+
+Vom **24. bis 26. März 2015** findet die wieder die JavaLand,
+die Konferenz für Java-Enthusiasten, statt. Für Mitglieder
+der JUG Berlin-Brandenburg gibt es noch bis zum **31. Januar**
+einen besonderen Frühbucherrabatt, da die JUG Mitglied
+im http://www.ijug.eu[iJUG e.V.] ist.
+
+== JavaLand 2015: Catch the Early Bird
+
+Mit dem **Early-Bird- und dem iJUG-Mitglieder-Tarif** könnt
+ihr kombiniert fast 300,- Euro sparen, wenn ihr den **Rabattcode
+JL-R2EK9-2015** nutzt.
+
+Geht dafür auf http://www.javaland.eu/tickets/buchen.html
+und springt gleich auf den Reise _3. Gebühren_ der Anmeldemaske und
+löst den Rabattcode ein. Durch den Rabattcode werden für Euch
+andere Preise geladen. Dann könnt ihr den Buchungsvorgang ganz
+normal fortsetzen.
+
