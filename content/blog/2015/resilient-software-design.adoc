@@ -1,13 +1,13 @@
 = Patterns of Resilience - die Geheimnisse guten Softwaredesigns
 Oliver B. Fischer
 2015-02-04 08:00:00 +0100
-:jbake-event-date: 2015-02-23
+:jbake-event-date: 2015-02-24
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published
 
 
-Am **23. Februar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+Am **24. Februar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
 http://www.acrolinx.de/[Acrolinx GmbH]
 zu dem Vortrag **Patterns of Resilience - die Geheimnisse guten Softwaredesigns**
 mit **Uwe Friedrichsen** von der
