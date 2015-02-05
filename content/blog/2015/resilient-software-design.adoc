@@ -1,0 +1,61 @@
+= Patterns of Resilience - die Geheimnisse guten Softwaredesigns
+Oliver B. Fischer
+2015-02-04 08:00:00 +0100
+:jbake-event-date: 2015-02-23
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **23. Februar 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.acrolinx.de/[Acrolinx GmbH]
+zu dem Vortrag **Patterns of Resilience - die Geheimnisse guten Softwaredesigns**
+mit **Uwe Friedrichsen** von der
+https://www.codecentric.de/[codecentric AG]
+ein.
+
+== Der Vortrag
+
+**Patterns of Resilience - die Geheimnisse guten Softwaredesigns** (_Uwe Friedrichsen_):
+In der Produktion wird das Geld gemacht und werden die Kunden zufrieden
+gestellt - aber nur so lange, wie unsere Software läuft und zügig
+antwortet. Läuft unsere Anwendung nicht oder ist langsam, ist sie wertlos
+ - schlimmer noch: Wir verlieren Geld und Reputation.
+
+Genau darum geht es bei Resilience: Wie man eine Anwendung gestaltet, dass
+sie hochverfügbar ist und zügig antwortet - selbst unter unerwarteten
+Fehler- und Lastsituationen.
+
+In dieser Session lernen Sie eine (kleine) Resilience-Mustersprache
+kennen, natürlich garniert mit Code und jeder Menge Tipps und Tricks.
+
+== Der Redner
+
+**Uwe Friedrichsen** ist ein langjähriger Reisender in der IT-Welt.
+Als Fellow der codecentric AG ist er stets auf der Suche nach
+innovativen Ideen und Konzepten. Seine aktuellen Schwerpunktthemen
+sind Skalierbarkeit, Resilience und die IT von (über)morgen.
+Er teilt und diskutiert seine Ideen regelmäßig auf Konferenzen,
+als Autor von Artikeln, Blog Posts, Tweets und natürlich gerne
+auch im direkten Gespräch.
+
+
+== Treffpunkt
+
+Acrolinx GmbH, Friedrichstraße 100, 10117 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
