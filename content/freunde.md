@@ -14,6 +14,7 @@ rund um die JVM und Java zu teilen.
 2015 wurden wir von den folgenden Firmen und Organisationen bei der
 Durchführung unserer Veranstaltungen unterstützt:
 
+* [Acrolinx GmbH](http://www.acrolinx.de/)
 * [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
 * [Díaz & Hilterscheid Unternehmensberatung GmbH](http://www.diazhilterscheid.de/de/)
 * [Hypoport AG](http://www.hypoport.ag/)
