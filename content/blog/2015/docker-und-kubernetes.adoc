@@ -1,0 +1,73 @@
+= Package your Java applications using Docker and Kubernetes
+Oliver B. Fischer
+2015-03-03 06:04:00 +0100
+:jbake-event-date: 2015-03-23
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **23. März 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.epost.de[E-Post Development GmbH]
+zu dem Vortrag **Package your Java applications using Docker and Kubernetes**
+mit **Arun Gupta** von der
+https://www.redhat.com/[Red Hat]
+ein.
+
+== Der Vortrag
+
+**Package your Java applications using Docker and Kubernetes** (_Arun Gupta_):
+
+Docker simplifies software delivery by making it easy to build and
+share images that contain your application’s operating system. It
+packages your application and infrastructure together, managed as one
+component. These images are then used to create Docker containers
+which run on the container virtualization platform, provided by
+Docker. These images can be distributed using Docker Registry.
+Kubernetes provides an open source orchestration of Docker containers.
+
+This talk will provide an introduction to Docker images (build time),
+containers (run time), and registry (distribution). Java EE
+application require operating system, JDK, database, application
+server, tuning of different parts of the stack, WAR file, and much
+more. The talk will explain how to create and publish Docker images
+that package these components and talk to each other. Design patterns
+and anti-patterns that show how to create cluster of such applications
+will be shown. Replicating your development, test, and production
+environments using Docker images will be shown. Basic terminology of
+Kubernetes will be introduced. Attendees will learn how Kubernetes’s
+self-healing mechanism can be used to create cluster of these
+containers.
+
+== Der Redner
+
+Arun Gupta is Director of Developer Advocacy at Red Hat and focuses
+on JBoss Middleware. As a founding member of the Java EE team
+at Sun Microsystems, he spread the love for technology all around
+the world. At Oracle, he led a cross-functional team to drive the
+global launch of the Java EE 7 platform through strategy, planning,
+and execution of content, marketing campaigns, and program. He is a
+prolific blogger since 2005 and have authored 1500+ blogs on
+technology. Arun has extensive speaking experience in ~40 countries
+on myriad topics and is a JavaOne Rockstar. He also founded the
+Devoxx4Kids chapter in the USA and continues to promoting technology
+education amongst kids. An author of a best-selling book, an avid
+runner, a globe trotter, a Java Champion, JUG leader, he is easily
+accessible at @arungupta.
+
+== Treffpunkt
+
+https://www.google.com/maps/preview?f=q&hl=en&q=Ehrenbergstra%C3%9Fe+11-14,+Berlin,+de[Deutsche Post E-Post Development GmbH, Ehrenbergstraße 11-14, 10245 Berlin]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Die Anmeldung zu diesem Vortrag erfolgt über die
+http://www.meetup.com/eposttechtalk/[Meetup-Gruppe der Deutsche Post E-Post Development GmbH].
+
