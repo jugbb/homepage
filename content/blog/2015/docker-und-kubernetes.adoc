@@ -17,7 +17,6 @@ ein.
 == Der Vortrag
 
 **Package your Java applications using Docker and Kubernetes** (_Arun Gupta_):
-
 Docker simplifies software delivery by making it easy to build and
 share images that contain your application’s operating system. It
 packages your application and infrastructure together, managed as one
