@@ -32,6 +32,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [iJUG](http://www.ijug.eu/)
 * [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
 * [ThoughtWorks Werkstatt Berlin](http://info.thoughtworks.com/berlin)
+* [Votum GmbH](http://www.votum.de/)
 
 ## Freunde 2013
 
