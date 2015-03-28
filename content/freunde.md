@@ -18,6 +18,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
 * [Díaz & Hilterscheid Unternehmensberatung GmbH](http://www.diazhilterscheid.de/de/)
 * [Hypoport AG](http://www.hypoport.ag/)
+* [Votum GmbH](http://www.votum.de/)
 
 ## Freunde 2014
 
