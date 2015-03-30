@@ -1,0 +1,68 @@
+= Programming Kotlin
+Oliver B. Fischer
+2015-03-30 05:45:00 +0100
+:jbake-event-date: 2015-04-16
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **16. April 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.idealo.de[idealo internet GmbH]
+zu dem Vortrag
+**How to build Enterprise mobile apps that integrate with your Java EE backend**
+mit **Dmitry Jemerov**
+von http://www.jetbrains.com[JetBrains] ein.
+
+== Der Vortrag
+
+**Programming Kotlin** (_Dmitry Jemerov_):
+Kotlin is a new programming language currently in development
+at JetBrains, targeting the JVM and JavaScript platforms. Kotlin's
+design is heavily focused on pragmatism and interoperability,
+providing an alternative to Java which is more safe, concise
+and productive, while maintaining the same performance and
+tooling quality.
+
+At JetBrains, we've been using Kotlin for a while now,
+both for the development of the language itself and for
+other projects, and we've already gained a significant amount
+of experience with it. In this talk, I will introduce the
+key features of Kotlin, in light of that experience: showing
+how Kotlin helps you improve your the day-to-day development
+experience and the design of the code that you write.
+
+
+== Der Redner
+
+**Dmitry Jemerov** has been with JetBrains since 2003, working on different
+projects, primarily around the IntelliJ Platform. He was one of
+the early contributors to Kotlin; in particular, he created the
+initial version of the Java bytecode generator in the compiler.
+After spending most of 2014 working at Google, Dmitry is now
+back at JetBrains and on the Kotlin team, working on the
+compiler and promoting the language, both internally
+and outside of the company.
+
+== Treffpunkt
+
+idealo Internet GmbH, Ritterstraße 11, 10969 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+Die Veranstaltung wird in den nächsten Tagen nach dieser
+Ankündigung im JUG-Blog auf Meetup veröffentlicht.
+
