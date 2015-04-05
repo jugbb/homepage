@@ -1,0 +1,36 @@
+= Call for Papers für die JBCNConf 2015
+Oliver B. Fischer
+2015-04-05 23:06:00 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+Vom **26. bis 27. Juni 2015** findet in Barcelona (Spanien)
+die erste, von der http://www.barcelonajug.org/[Java Usergroup Barcelona]
+organisierte http://www.jbcnconf.com/[JBCNConf] statt,
+für die noch interessante Vorträge gesucht werden.
+
+Der **Call for Papers** hierfür läuft **bis zum 1. Mai 2015**. Gesucht
+werden Vortragsvorschläge zu allen Themen rund um
+die folgenden Bereiche:
+
+- Java
+- JVM Languages (Scala, Cloujure, Groovy...)
+- Functional Programming
+- JavaFX
+- Testing
+- NoSQL
+- SOA
+- Cloud
+- Mobile
+- Integration
+- Architecture
+- Scalabilty
+- IoT
+
+Vortragsvorschläge können über das
+https://docs.google.com/forms/d/1-Gtw1oENdKzzN4ZspjGK6629R3ahSfnNELnWIpDH-QA/viewform[Call-for-Papers-Formular]
+bis zum 1. Mail 2015 eingereicht werden.
+
+Wir würden uns freuen, wenn Mitglieder unserer JUG
+the JBCNConf aktiv mitgestalten würden. Also, auf!
