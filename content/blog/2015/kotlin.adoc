@@ -10,7 +10,7 @@ Oliver B. Fischer
 Am **16. April 2015** lädt die Java Usergroup Berlin-Brandenburg und die
 http://www.idealo.de[idealo internet GmbH]
 zu dem Vortrag
-**How to build Enterprise mobile apps that integrate with your Java EE backend**
+**Programming Kotlin**
 mit **Dmitry Jemerov**
 von http://www.jetbrains.com[JetBrains] ein.
 
