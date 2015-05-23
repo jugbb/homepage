@@ -1,0 +1,76 @@
+= CQRS und Event Sourcing
+Oliver B. Fischer
+2013-09-10 00:00:00 +0100
+:jbake-event-date: 2013-09-27
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **27. September 2013** lädt die Java Usergroup Berlin-Brandenburg
+und die
+http://www.groupon.de/[Groupon GmbH] zum Vortrag **CQRS und Event Sourcing**
+mit **Philip Jander** und **Marco Heimeshoff** ein.
+
+
+== Der Vortrag
+
+**CQRS und Event Sourcing**
+(_Marco Heimeshoff_, _Philip Jander_):
+Das Architekturpattern CQRS erlaubt flexible und schlanke Domänenmodelle
+mit performantem Lesezugriff zu kombinieren. Nebenbei vermeidet es
+den unnötigen Einsatz komplexer ORMs (Hibernate, Entity Framework).
+Getrennte Modelle für die Umsetzung von variablen Geschäftsregeln
+einerseits und eine performante Abfrage von optimiert aufbereiteten
+Daten andererseits lösen den tiefen Konflikt der unterschiedlichen
+Zielsetzungen von objektorientierter Geschäftssoftware und der
+relationalen Datenhaltung für Reporting und BI.
+
+In einem zweistündigen Vortrag werden Philip und Marco euch in die
+Welt von CQRS und Event Sourcing einführen. Wer das ganze dann
+selber ausprobieren möchte, ist danach herzlich zu einem
+offenen Workshop eingeladen.
+
+== Die Redner
+
+**Philip Jander** ist freier Software-Entwickler, IT-Berater
+und Trainer in Münster/Westf. Mit Schwerpunkt auf .net ist
+er vorrangig im Backend-Bereich tätig. Als bekennender Agilist
+befasst er sich gerne mit Softwarearchitekturen für komplexe
+Anwendungsszenarien und mit funktionaler Programmierung.
+Die Erfahrungen aus der Projektarbeit gibt er in Vorträgen und
+Trainings weiter und begleitet Entwicklerteams in Softwareunternehmen
+bei Projekten im und Migrationsvorhaben in das .net Umfeld. Mehr
+Informationen und Kontakt im
+http://www.xing.com/profile/Philip_Jander[XING-Profil]
+oder unter
+http://jander.it/[http://Jander.IT]
+
+**Marco Heimeshoff** ist leitender Softwareentwickler in Osnabrück.
+Als passionierter Softwarecraftsman und Mitbegründer des
+SoCraMOB tauscht er sich regelmäßig auf OpenSpaces und Konferenzen
+zu funktionalen Softwarearchitekturen und agilen Prinzipien aus.
+Marco ist seit einigen Jahren als Technologieevangelist für CQRS
+und DomainDrivenDesign unterweg und bloggt unter
+http://www.heimeshoff.de[http://www.heimeshoff.de]. Kontakte zu Xing,
+Twitter, Google+ und Facebook sind auf der Webseite zu finden.
+
+
+== Treffpunkt
+
+Groupon GmbH, Oberwallstraße 6, 10117 Berlin
+
+== Der Ablauf
+
+- 15:30 Uhr Einlaß
+- 16:00 Uhr Beginn des Vortrags
+- 18:00 Uhr Offener Workshop
+
+Anschließend gibt es die Möglichkeit zu Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das
+XING-Event der
+https://www.xing.com/net/pri4a51a0x/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
