@@ -1,0 +1,59 @@
+= Entwicklung von hochperformanten, reaktiven und polyglotten Anwendungen mit Vert.x 3
+Oliver B. Fischer
+2015-07-22 21:31:00 +0100
+:jbake-event-date: 2015-08-20
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **20. April 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.immobilienscout24.de[Immobilien Scout GmbH]
+zu dem Vortrag
+**Entwicklung von hochperformanten, reaktiven und polyglotten Anwendungen mit Vert.x 3**
+mit **Daniel Sachse**
+von http://www.wombatsoftware.de/[Wombat Software] ein.
+
+== Der Vortrag
+
+**Entwicklung von hochperformanten, reaktiven und polyglotten Anwendungen mit Vert.x 3**
+(_Daniel Sachse__):
+Vert.x ist eine leichtgewichtige, hochperformante, polyglotte und
+asynchrone Anwendungsplattform für die JVM. Diese Session deckt vor allem
+die Motivation, Design Prinzipien und das Concurrency Modell hinter Vert.x 3
+ab und diskutiert, warum sich Vert.x perfekt für stark nebenläufige
+Anwendungen eignet. Außerdem werden weitere Highlights von Vert.x
+dargestellt - darunter der verteilte Event-Bus und die Hochverfügbarkeit.
+Die Präsentation beinhaltet Demos in mehreren JVM Sprachen wie z.B. Java und
+JavaScript, aber auch Docker und Monitoring Support.
+
+== Der Redner
+
+**Daniel Sachse** ist Gründer von Wombat Software aus Köln und in den
+Bereichen Web- und Mobile Technologien sowie Systemarchitektur tätig. Neben seiner
+Haupttätigkeit ist er Gründer und Unterstützer von Startups, veranstaltet kostenlose
+Programmier-Workshops für Kinder und auf verschiedenen Konferenzen als
+Speaker anzutreffen.
+
+== Treffpunkt
+
+Immobilien Scout GmbH, Andreasstraße 10, 10243 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+Die Veranstaltung wird in den nächsten Tagen nach dieser
+Ankündigung im JUG-Blog auf Meetup veröffentlicht.
+
