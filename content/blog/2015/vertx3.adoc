@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **20. April 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+Am **20. August 2015** lädt die Java Usergroup Berlin-Brandenburg und die
 http://www.immobilienscout24.de[Immobilien Scout GmbH]
 zu dem Vortrag
 **Entwicklung von hochperformanten, reaktiven und polyglotten Anwendungen mit Vert.x 3**
@@ -17,7 +17,7 @@ von http://www.wombatsoftware.de/[Wombat Software] ein.
 == Der Vortrag
 
 **Entwicklung von hochperformanten, reaktiven und polyglotten Anwendungen mit Vert.x 3**
-(_Daniel Sachse__):
+(_Daniel Sachse_):
 Vert.x ist eine leichtgewichtige, hochperformante, polyglotte und
 asynchrone Anwendungsplattform für die JVM. Diese Session deckt vor allem
 die Motivation, Design Prinzipien und das Concurrency Modell hinter Vert.x 3
