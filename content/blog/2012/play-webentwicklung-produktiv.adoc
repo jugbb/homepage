@@ -1,0 +1,58 @@
+= Play! – Webentwicklung, diesmal produktiv!
+Oliver B. Fischer
+2012-01-24 00:00:00 +0100
+:jbake-event-date: 2012-02-06
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+
+Am **6. Februar 2012** lädt die Java Usergroup Berlin-Brandenburg zusammen
+mit
+http://www.immobilienscout24.de/[ImmobilienScout24]
+zum Vortrag **Play! – Webentwicklung, diesmal produktiv!**
+mit Jörg Viola von
+http://www.objectcode.de/[ObjectCode] ein.
+
+
+
+== Der Vortrag
+
+**Play! – Webentwicklung, diesmal produktiv!** (_Jörg Viola_): Schon wieder ein neues
+Web-Framework für Java.
+Play! stellt die Produktivität des Entwicklers kompromisslos in den
+Vordergrund: Möglichst wenig und einfach zu lesender Quellcode,
+rasante Turnaroundzeiten und das mit vollem Zugriff auf das
+Java-Ökosystem. Ansonsten: Zustandslose REST-Architektur, asynchrones I/O,
+eingebautes Template- und Plugin-System. Klingt cool? – Dafür gehen
+allerdings einige liebgewonnene Traditionen über Bord...
+
+
+== Der Redner
+
+**Jörg Viola** ist Geschäftsführer bei der ObjectCode GmbH in Lünen.
+
+== Treffpunkt
+
+ScoutLounge, ImmobilienScout24, Andreasstr. 10, 10243 Berlin
+
+== Der Ablauf
+
+- 18:00 Uhr: Türen auf
+- 18:30 Uhr: Einleitung
+- 18:35 Uhr: Vortrag + Q&A
+
+Im Anschluss gibt es ein Get Togehter zum Austausch und dem Knüpfen
+von Kontakten.
+
+- 18:30 Uhr Einlaß und Zeit zum Networking
+- 19:00 Uhr Vortragsbeginn
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das
+XING-Event der
+https://www.xing.com/net/pri4a51a0x/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
