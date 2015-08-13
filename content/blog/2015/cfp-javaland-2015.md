@@ -12,7 +12,7 @@ Der **[Call For Papers](https://www.javaland.eu/referenten-cfp/)** der
 Die Organisatoren der JavaLand suchen Vorträge von 40 Minuten. 
 Ob Erfahrungs- und Projektberichte, Tipps und Tricks, neue Features oder 
 Best Practices – je mehr Praxisbezug, desto besser.
-Für die Einreichung wird kaum mehr als einen kurzen Abstract von 500 bis 1.800 
+Für die Einreichung wird kaum mehr als ein kurzer Abstract von 500 bis 1.800 
 Zeichen benötigt.  
 
 Der **Call For Paper läuft bis zum 18.08.2015** und wir
