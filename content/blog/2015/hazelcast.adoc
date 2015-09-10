@@ -1,0 +1,87 @@
+= Hazelcast
+Oliver B. Fischer
+2015-09-10 16:42:00 +0100
+:jbake-event-date: 2015-09-16
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+
+Am **16. September  2015** lädt die Java Usergroup Berlin-Brandenburg und
+http://www.thoughtworks.com/locations/berlin[ThoughtWorks Werksatadt Berlin]
+zu dem Vortrag **Hazelcast** mit **Greg** Luck von
+https://hazelcast.com/[Hazelcast, Inc.] ein. Der Vortrag wird auf
+Englisch gehalten.
+
+== Der Vortrag
+
+**Hazelcast** (_Greg Luck_):
+
+Hazelcast is an open source, operational in-memory computing platform built on
+the JVM that helps leading companies worldwide bring their existing applications
+into the age of web scale and cloud computing. At its core is an elastic,
+self-balancing, self-healing cluster of highly-available, distributed computing
+and memory servers that provide fast, reliable access to scalable in-memory data
+for applications.
+
+Use familiar data structures like maps, lists, and queues as well as standard interfaces
+like ExecutorService, MapReduce, JCache, and Memcache. Hazelcast works with Java
+as well as a host of other languages including C, C++, .NET and any platform
+with a memcache or REST client.
+
+With Hazelcast, you can easily speed up a single application
+or use it as a centralized, enterprise-wide utility to:
+- Seamlessly share terabytes of in-memory data between many applications
+- Create multi-application processes that operate faster and more
+  fluidly than with traditional databases
+- Easily share computational execution among applications, and scale to hundreds
+  of cores to achieve massive economies of scale––whether onsite, virtualized,
+  Docker, or cloud
+
+This hands-on talk will enable you to get started exploring Hazelcast and
+give your project a jump start in application speed and scale.
+
+== Der Redner
+
+**Greg Luck** has worked with Java for 15 years. He is spec lead of the recently
+completed JSR107:JCache and the founder of Ehcache. He is a JCP Executive
+Committee alumni. Prior to Hazelcast, Greg was CTO at Terracotta, Inc which
+was acquired by Software AG. He was also Chief Architect at Australian
+travel startup Wotif.com which went to IPO. Earlier roles include consultant
+at ThoughtWorks and KPMG, and CIO at Virgin Blue, Tempo Services, Stamford
+Hotels and Resorts, and Australian Resorts. Greg has a Master’s degree in
+Information Technology from QUT and a
+Bachelor of Commerce from the University of Queensland.
+
+
+== Treffpunkt
+
+ThoughtWorks Werkstatt Berlin, Mülhauser Str. 6, 10405 Berlin
+
+== Danksagung
+
+Wir danken ThoughtWorks und ganz speziell der
+ThoughtWorks Werkstatt Berlin für die Unterstützung mit
+Räumlichkeiten und Getränken.
+
+image::/grafix/2014/twwb.png[ThoughtWorks Werkstatt Berlin]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+Die Veranstaltung wird in den nächsten Tagen nach dieser
+Ankündigung im JUG-Blog auf Meetup veröffentlicht.
+
