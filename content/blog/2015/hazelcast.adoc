@@ -32,6 +32,7 @@ with a memcache or REST client.
 
 With Hazelcast, you can easily speed up a single application
 or use it as a centralized, enterprise-wide utility to:
+
 - Seamlessly share terabytes of in-memory data between many applications
 - Create multi-application processes that operate faster and more
   fluidly than with traditional databases

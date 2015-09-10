@@ -19,6 +19,7 @@ Durchführung unserer Veranstaltungen unterstützt:
 * [Díaz & Hilterscheid Unternehmensberatung GmbH](http://www.diazhilterscheid.de/de/)
 * [Hypoport AG](http://www.hypoport.ag/)
 * [idealo Internet AG](http://www.idealo.de)
+* [ThoughtWorks Werkstatt Berlin](http://www.thoughtworks.com/locations/berlin)
 * [Votum GmbH](http://www.votum.de/)
 
 ## Freunde 2014
