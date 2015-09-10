@@ -1,0 +1,62 @@
+= Java Concurrency für Fortgeschrittene
+Oliver B. Fischer
+2015-08-24 22:42:00 +0100
+:jbake-event-date: 2015-09-04
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **7. September 2015** lädt die Java Usergroup Berlin-Brandenburg und die
+http://www.hypoport.ag[Hypoport AG]
+zu dem Vortrag
+**Java Concurrency für Fortgeschrittene**
+mit **Arno Haase** ein.
+
+== Der Vortrag
+
+**Java Concurrency für Fortgeschrittene** (_Arno Haase_):
+Java hat ein solides Memory Model und eine Reihe guter Bibliotheken für
+Concurrency. Trotzdem taucht eine Fülle an Stolperfallen auf, wenn man
+mit mehreren Threads arbeitet - besonders wenn ein Programm auch noch
+schnell und korrekt arbeiten soll.
+
+Dieser Vortrag zeigt praxiserprobte Lösungen für typische Probleme. Vor
+allem aber trainiert er, Programmcode durch die "nebenläufige Brille" zu
+betrachten: Welche Threads teilen sich welche Daten, und wie? Wie
+reduziere ich den Anteil von Locks an der Gesamtlaufzeit? Wann komme ich
+ganz ohne sie aus - und wann lohnt sich das?
+
+== Der Redner
+
+**Arno Haase** ist freiberuflicher Softwareentwickler. Er programmiert Java
+aus Leidenschaft, arbeitet aber auch als Architekt, Coach und Berater.
+Seine Schwerpunkte sind modellgetriebene Softwareentwicklung,
+Persistenzlösungen mit oder ohne relationale Datenbank, und nebenläufige
+und verteilte Systeme. Arno spricht regelmäßig auf Konferenzen und ist
+Autor von Fachartikeln und Büchern. Er lebt mit seiner Frau und seinen
+drei Kindern in Braunschweig.
+
+== Treffpunkt
+
+Hypoport AG, Klosterstr. 71, 10179 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+Die Veranstaltung wird in den nächsten Tagen nach dieser
+Ankündigung im JUG-Blog auf Meetup veröffentlicht.
+
