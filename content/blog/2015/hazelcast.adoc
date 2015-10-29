@@ -9,7 +9,7 @@ Oliver B. Fischer
 
 
 Am **16. September  2015** lädt die Java Usergroup Berlin-Brandenburg und
-http://www.thoughtworks.com/locations/berlin[ThoughtWorks Werksatadt Berlin]
+http://www.thoughtworks.com/locations/berlin[ThoughtWorks Werkstadt Berlin]
 zu dem Vortrag **Hazelcast** mit **Greg** Luck von
 https://hazelcast.com/[Hazelcast, Inc.] ein. Der Vortrag wird auf
 Englisch gehalten.
