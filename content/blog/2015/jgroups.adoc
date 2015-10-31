@@ -1,0 +1,127 @@
+= The JGroups Project
+Oliver B. Fischer
+2015-31-10 12:35:00 +0100
+:jbake-event-date: 2015-11-19
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **19. November 2015** lädt die Java Usergroup Berlin-Brandenburg und
+die http://www.epost.de/[E-Post Development GmbH] zum Themenabend
+rund um das http://www.jgroups.org/[JGroups Project] mit
+Bela Ban, Galder Zamarreño, Tristan Tarrant und Paul Ferro ein.
+Alle Vorträge werden auf Englisch gehalten.
+
+== Die Vorträge
+
+**Overview on JGroups** (_Bela Ban_):
+JGroups is a library for cluster communication. It provides cluster management
+(joining and leaving members, and handling crashed members), sending and
+receiving of messages reliably (e.g. over IP multicast), plus high-level
+functionality such as RPCs across clusters.
+In this talk, Bela will give an overview of what JGroups is and what it can
+be used for, and show some code samples.
+
+
+**Java 8 in Infinispan 8: Distributed Streams and Functional Map**
+(_Galder Zamarreño_):
+Infinispan is a distributed in-memory key/value data store and recently
+Infinispan 8 was released which takes advantage of the new Java 8
+features to provide new ways to interact with the data:
+
+- Stream operations exposed by Infinispan’s ConcurrentMap
+  implementation can now be distributed, meaning that the
+  processing can be distributed increasing the level of
+  parallelization to be cluster wide.
+- A brand new experimental Functional Map API has been developed
+  that provides a fully-asynchronous, lambda-based, API for interacting
+  with data. The aim of this API is to complement existing Infinispan APIs
+  while at the same time offering an improved key/value data store
+  experience compared to Java’s ConcurrentMap and JSR-107’s JCache.
+
+In this talk, Galder give an introduction about the Distributed
+Streams and Functional Map API, explaining the best use cases for them and
+showing examples on how to make the most of these new APIs.
+
+**Infinispan: Distributed Cross-Application Caching**
+(_Tristan Tarrant_):
+Infinispan is a Java library for embedded caching. It is also a server
+for remote caching. It can run as a local cache. It can also scale
+to hundreds of distributed nodes. You can use it to store, retrieve,
+query, compute and listen to changes in your data.
+
+In this talk Tristan will provide an overview of the variety of uses
+to which you can put Infinispan in your applications, from simple
+Java applications, to cross-language, cross-platform application
+ecosystems.
+
+
+**Clustering in WildFly 10** (_Paul Ferro_):
+WildFly, formerly JBoss Application Server, has made its name as the
+world's fastest Java EE7 application server. This talk will provide
+an overview of new and improved clustering features in the latest
+releases, including the public clustering API, singleton deployments,
+and using WildFly as a pure-java load balancer.
+
+== Die Redner
+
+**Galder Zamarreño** is a core R&D engineer at JBoss, a division of Red Hat.
+He is one of the founding engineers of Infinispan, Red Hat's distributed,
+in-memory key-value store and he currently spends most of his time developing
+Infinispan's Functional Map API as well as other data grid and caching
+functionality. He is very keen on functional programming and has been
+developing Scala since 2009. Galder has previously worked with JBoss
+customers helping them build highly distributed and massively scalable
+Application Server clusters based on technologies such as
+JGroups and JBoss Cache.  Prior to joining Red Hat, Galder worked in the
+Retail industry where he was a software developer involved in the
+development of an EFT software switch solution based on JBoss technologies.
+The love for distributed systems and open source software comes from his
+days at ESIDE faculty at University of Deusto (Bilbao, Spain) where he
+studied a master's degree in Computer Science.
+
+**Bela Ban** completed his PhD at the University of Zurich (on network
+management) and worked 4 years as a researcher at IBM Research,
+Bela spent 2 years at Cornell as a post-doc, and starting JGroups,
+a toolkit for reliable group communication.
+
+Bela then worked for Fujitsu Network Communications in San Jose, CA,
+for 4 years (network management for optical switches).
+
+In 2003, he joined JBoss (as employee #007) to work full-time on
+JBossCache and JGroups. Later, he handed over JBossCache to focus only
+on JGroups. To this day he's still working on JGroups... but recently started
+a new project jgroups-raft
+
+Bela's interests include network protocols, performance, group
+communication, running, biking, beerathlon and tennis, but not
+necessarily in that order.
+
+Bela doesn't like maven, scala and talking about himself in the third
+person.
+
+
+**Tristan Tarrant** has been coding since 1984, using and contributing
+to open source since 1993 (Exult, SANE, GNOME, Wine, etc),
+coding in Java since 1996, at Red Hat since 2011 and leading
+the Infinispan team since 2014... but he's still young at heart!
+He doesn't favour either vi or Emacs, although he's still fond
+of the Turbo Pascal IDE with its Wordstar keybindings.
+In his spare time he plays guitar and hikes on mountain paths.
+
+== Treffpunkt
+
+https://www.google.com/maps/preview?f=q&hl=en&q=Ehrenbergstra%C3%9Fe+11-14,+Berlin,+de[Deutsche Post E-Post Development GmbH, Ehrenbergstraße 11-14, Berlin^]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Die Anmeldung zu diesem Vortrag erfolgt über die Meetup-Gruppe der
+http://www.meetup.com/eposttechtalk/[Deutsche Post E-Post Development GmbH^].
