@@ -1,4 +1,4 @@
-= The JGroups Project
+= JBoss Middleware Clustering: status and outloook
 Oliver B. Fischer
 2015-31-10 12:35:00 +0100
 :jbake-event-date: 2015-11-19
@@ -9,7 +9,7 @@ Oliver B. Fischer
 
 Am **19. November 2015** lädt die Java Usergroup Berlin-Brandenburg und
 die http://www.epost.de/[E-Post Development GmbH] zum Themenabend
-rund um das http://www.jgroups.org/[JGroups Project] mit
+**JBoss Middleware Clustering: status and outloook** mit
 Bela Ban, Galder Zamarreño, Tristan Tarrant und Paul Ferro ein.
 Alle Vorträge werden auf Englisch gehalten.
 
