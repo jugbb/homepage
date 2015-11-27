@@ -1,0 +1,15 @@
+= 20% Preisvorteil für die Voxxed Days Berlin 2015
+Oliver B. Fischer
+2015-11-27 14:00:00 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+Vom **28. bis zum 29. Januar 2016** finden zum ersten Mal
+die https://voxxeddays.com/berlin16/[Voxxed Days Berlin] in Berlin statt.
+
+Für JUG-Mitglieder gibt es **20% Preisvorteil** auf Konferenztickets
+mit dem Promocode **VXB16_JUG_4g7Rc**.
+
+Wir würden uns freuen, wenn Ihr diesen Code nutzen würdet oder an
+Eure Kollegen und Freunde weitergeben würdet.

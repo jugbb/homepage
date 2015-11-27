@@ -1,6 +1,6 @@
 = JBoss Middleware Clustering: status and outloook
 Oliver B. Fischer
-2015-31-10 12:35:00 +0100
+2015-10-31 12:35:00 +0100
 :jbake-event-date: 2015-11-19
 :jbake-type: post
 :jbake-tags: treffen
