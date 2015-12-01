@@ -1,0 +1,72 @@
+= Mind the Gap – Architektur vs. Code
+Oliver B. Fischer
+2015-12-01 11:07:00 +0100
+:jbake-event-date: 2015-12-09
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **9. Dezember 2015** lädt die Java Usergroup Berlin-Brandenburg
+und http://www.jugsaxony.org/[die Java User Group Saxony] zum
+Vortrag **Mind the Gap - Architektur versus Code**
+mit **Dirk Mahler** von der http://www.buschmais.de[buschmais GbR]
+und **Oliver Fischer** von der http://www.epost.de[E-Post Development GmbH]
+ein. Der Vortrag wird in **Dresden** gehalten.
+
+== Die Vorträge
+
+
+**Mind the Gap - Architektur versus Code** (_Dirk Mahler_, _Oliver Fischer_):
+Software-Architekturen werden mit Begriffen beschrieben, für die keine überprüfbaren
+Repräsentationen in Programmiersprachen existieren. Die Folge:
+Architekturdefinitionen mit ihren Konzepten und Constraints sind nur als
+Dokumentation vorhanden, über deren Inhalt alle Entwickler auf dem Laufenden
+gehalten werden müssen. Dieses Vorgehen scheitert meist in der Praxis,
+ein Auseinanderdriften von Architektur und Code-Basis ist kaum zu verhindern.
+
+Der Vortrag präsentiert einen Ansatz der statischen Code-Analyse, welcher
+Informationen aus strukturrelevanten Artefakten – vom Buildsystem über
+Packages und Klassen, bis hin zu Framework-Deskriptoren – extrahiert und als
+Graph in einer Datenbank ablegt. Die gewonnenen Daten werden automatisiert
+über Regeln in Beziehung gesetzt, und um projektspezifische Konzepte bzw.
+Begriffe angereichert und validiert. Entwickler erhalten so stets
+aussagekräftiges Feedback über vorliegende Verletzungen.
+
+== Die Redner
+
+**Dirk Mahler** ist Senior-Consultant bei der buschmais GbR, einem Beratungshaus
+mit Sitz in Dresden. Der Schwerpunkt seiner mehr als 10-jährigen Tätigkeit
+liegt im Bereich Architektur und Entwicklung von Java-Applikationen im
+Unternehmensumfeld. Den Fokus setzt er dabei auf die Umsetzung von Lösungen,
+die im Spannungsfeld zwischen Pragmatismus, Innovation und Nachhaltigkeit
+liegen. In diesem Rahmen engagiert er sich für die Open-Source-Projekte
+jQAssistant und eXtended Objects.
+
+**Oliver Fischer** arbeitet als Senior Software Engineer bei der E-Post Development
+GmbH in Berlin und ist Committer bei der Apache Software Foundation.
+Regelmäßig publiziert er vorrangig zu Java-relevanten Themen für
+verschiedene Zeitschriften und Online-Magazine. Seine Interessensschwerpunkte
+liegen auf innovativen Systemen und Ideen, am liebsten in Java, aber auch mit
+zunehmenden Interesse an DevOps-bezogenen Themen. Zudem leitet Oliver die
+Java Usergroup Berlin-Brandenburg und wirkt an der Organisation
+verschiedener Konferenzen mit.
+
+== Treffpunkt
+
+Staats- und Universitätsbibliothek Dresden (SLUB Dresden),
+Vortragssaal, Ebene 1, Zellescher Weg 18, 01069 Dresden
+
+== Der Ablauf
+
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Die Anmeldung erfolgt über die
+http://www.jugsaxony.org/event-categories/zukunftige-veranstaltungen/[die Webseite der JUG
+Saxony^], da **dieser Vortrag in Dresden** stattfindet.
+
+**Bitte meldet Euch nur an, wenn Ihr wirklich plant zu kommen. Danke.**
