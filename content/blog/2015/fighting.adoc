@@ -1,0 +1,71 @@
+= Fighting the Big Guys - the history of an architecture
+Oliver B. Fischer
+2015-12-04 11:17:00 +0100
+:jbake-event-date: 2015-12-15
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **15. Dezember 2015** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.storecast.de[Storecast GmbH] zum Vortrag
+**Fighting the Big Guys - the history of an architecture**
+mit **Gregor Zeitlinger** und **Ronnie**
+von der Storecast GmbH ein.
+
+== Der Vortrag
+
+
+**Fighting the Big Guys - the history of an architecture**
+(_Gregor Zeitlinger_, _Ronnie_):
+How trying to do a better product than Amazon, Google, and Apple is surprisingly hard.
+The hosts tell the story of a group of daring people who created a platform for
+ereading in 2007. Their original code base morphed from a desktop ebook management
+tool into
+http://txtr.com/[txtr.com],
+a fully grown e-commerce platform selling books on phones, tablets,
+ereaders and the web, in many languages, all over Europe. Unfortunately,
+Amazon had also noticed that this was a good idea. Then Google noticed. Then Apple.
+
+Keeping the code base afloat under the kind of pressure that resulted was
+hard, but proved just about possible. When, in the end, the company had
+to give up, the platform stood strong: Storecast bought the code base to
+keep the platform running for JUKE! (a property of Media-Saturn), and
+convinced some of the developers to stay on.
+
+== Die Redner
+
+**Gregor Zeitlinger** is a passionate Java developer for 10 years who joined
+Ronnie's txtr as one of the first developers in ereading.
+After the end of txtr, Gregor joined Storecast to continue to grow t
+he txtr platform for JUKE! as Head of Development of Storecast.
+Apart from work, Gregor is a familiy guy and likes to play Cello.
+
+**Ronnie** is one of the co-founders of txtr, which pioneered multi-device
+ereading ecosystems -- before the kindle existed and long before
+it was introduced in Germany.
+He is now leading an artificial intelligence company in Berlin.
+
+== Treffpunkt
+
+Storecast GmbH,
+Wallstr. 15a,
+10179 Berlin
+
+https://goo.gl/maps/6LZwvPfkAxk[Treffpunkt auf Google Maps^]
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
