@@ -1,0 +1,61 @@
+= Prinzipien für nachhaltige Softwareevolution
+Oliver B. Fischer
+2015-12-29 01:33:00 +0100
+:jbake-event-date: 2016-01-14
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **14. Januar 2015** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.hypoport.ag/[Hypoport AG] zum Vortrag
+**Prinzipien für nachhaltige Softwareevolution** mit
+**Frank Pientka** von der http://www.materna.de/[MATERNA GmbH] ein.
+
+== Der Vortrag
+
+**Prinzipien für nachhaltige Softwareevolution**
+(_Frank Pientka_):
+Nichts bleibt für die Ewigkeit. Oft wurde die Software auf Plattformen mit
+Werkzeugen entwickelt, die heute gar nicht mehr existieren und hat inzwischen
+sogar seine Ersteller überlebt.
+Damit eine Software den aktuellen fachlichen und technologischen Anforderungen genügt,
+muss sie permanent angepasst und einige Kardinalfehler früh vermieden werden.
+Das gern zitierte IT-Mantra "never change a running system" kommt meist daher, dass
+Änderungen am Code für viele Firmen hoch riskant geworden sind.
+Das Thema Wartung ist nicht nur eine technisches oder methodisches
+Problem, sondern auch ein soziales.
+Das Prinzip der Nachhaltigkeit kann, um unnötige Ressourcenverschwendung zu
+vermeiden, auch auf die Softwareentwicklung übertragen werden.
+
+== Der Redner
+
+**Frank Pientka** arbeitet als Dipl.-Informatiker (TH Karlsruhe)
+bei der MATERNA GmbH in Dortmund. Als Software Architect
+sorgt er für mehr Qualität in der Software und kümmert sich, als
+Gründungsmitglied des iSAQB, um eine verbesserte Ausbildung
+und Zertifizierung von Architekten. Seit mehr als zwei Jahrzehnten
+unterstützt er Firmen bei der Umsetzung tragfähiger
+Software-Architekturen auf Basis von Java EE.
+Dabei führt er externe Reviews und Architekturbewertungen
+als Gutachter durch. Dazu hat er auch schon mehrere
+Fachartikel veröffentlicht und Vorträge gehalten.
+
+== Treffpunkt
+
+Hypoport AG, Klosterstr. 71, 10179 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
