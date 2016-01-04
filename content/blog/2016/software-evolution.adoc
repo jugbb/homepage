@@ -1,12 +1,12 @@
 = Prinzipien für nachhaltige Softwareevolution
 Oliver B. Fischer
 2015-12-29 01:33:00 +0100
-:jbake-event-date: 2016-01-14
+:jbake-event-date: 2016-01-21
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published
 
-Am **14. Januar 2015** lädt die Java Usergroup Berlin-Brandenburg
+Am **21. Januar 2015** lädt die Java Usergroup Berlin-Brandenburg
 und die http://www.hypoport.ag/[Hypoport AG] zum Vortrag
 **Prinzipien für nachhaltige Softwareevolution** mit
 **Frank Pientka** von der http://www.materna.de/[MATERNA GmbH] ein.
