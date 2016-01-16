@@ -6,7 +6,7 @@ Oliver B. Fischer
 :jbake-tags: treffen
 :jbake-status: published
 
-Am **21. Januar 2016* lädt die Java Usergroup Berlin-Brandenburg
+Am **21. Januar 2016** lädt die Java Usergroup Berlin-Brandenburg
 und die http://www.hypoport.ag/[Hypoport AG] zum Vortrag
 **Prinzipien für nachhaltige Softwareevolution** mit
 **Frank Pientka** von der http://www.materna.de/[MATERNA GmbH] ein.
