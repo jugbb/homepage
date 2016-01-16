@@ -1,5 +1,5 @@
 title=Freunde und Unterstützer der JUG
-date=2013-12-04 18:01
+date=2016-01-02 18:01
 type=page
 status=published
 ~~~~~~
@@ -9,8 +9,16 @@ nicht existieren. Daher möchten wir uns auf diese bei allen denen herzlich beda
 die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen 
 rund um die JVM und Java zu teilen.
 
+## Freunde 2016
+
+2016 werden wir bis jetzt von folgenden Firmen und Organisationen bei
+der Durchführung unserer Veranstaltungen unterstützt:
+
+* [Hypoport AG](http://www.hypoport.ag/) 
+
 ## Freunde 2015
 
+// Nicht vollständig
 2015 wurden wir von den folgenden Firmen und Organisationen bei der
 Durchführung unserer Veranstaltungen unterstützt:
 
