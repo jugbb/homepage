@@ -1,0 +1,12 @@
+= Folien zu "Nachhaltige Software-Entwicklung" online
+Oliver B. Fischer
+2016-02-01 23:36:00 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+Die Folien von Frank Pientkas Vortrag **Nachhaltige Software-Entwicklung**
+sind jetzt auf http://de.slideshare.net/[SlideShare] unter
+http://de.slideshare.net/jug-berlin-brandenburg/built-to-last-nachhaltige-softwareentwicklung[^]
+verfügbar.
+
