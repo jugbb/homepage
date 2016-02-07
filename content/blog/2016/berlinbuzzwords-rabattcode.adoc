@@ -1,0 +1,18 @@
+= Promocode für die Berlin Buzzwords
+Oliver B. Fischer
+2016-02-07 16:24:00 +0100
+//:jbake-event-date: 2016-
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+Für die 2016er http://www.berlinbuzzwords.de/[Berlin Buzzwords^]
+gibt es für Mitglieder der Java Usergroup gibt es in
+diesem Jahr auch wieder einen **Promocode**.
+
+
+Der Code _JUG_bbuzz16_ kann für Early Bird und Standard Tickets eingelöst
+werden und gibt einen **Rabatt von 10%**.
+Der Code kann auf der
+http://www.berlinbuzzwords.de/tickets[Ticketseite der Berlin Buzzwords]
+eingelöst werden.
