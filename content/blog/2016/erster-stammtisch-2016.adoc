@@ -1,0 +1,18 @@
+= Stammtisch zu Themen und Ideen
+Oliver B. Fischer
+2016-02-25 12:01:00 +0100
+:jbake-event-date: 2016-03-01
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Ab März 2016 findet **jeden ersten Dienstag** im Monat ein
+offener Stammtisch zu Themen und Ideen rund um die
+Java Usergroup in Berlin und Brandenburg statt.
+Bei dem Treffen geht es um ein gegenseitiges Kennenlernen, den
+Austausch von Ideen und allem, was sich sonst so an einem
+solchen Abend ergeben kann.
+
+Wir laden daher jeden an unserer JUG Interessierten herzlich zu unserem Treffen
+am nächsten Dienstag, den 1. März 2016, ab 18:30 Uhr ein.
+Treffpunkt ist das http://www.cafe-vianova.de/nova2#kontakt[Cafe Via Nova II, Universtitätsstraße 2, 10117 Berlin^].                           
