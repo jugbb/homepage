@@ -1,0 +1,62 @@
+= Developing with TeamCity 7.1
+Oliver B. Fischer
+2013-02-08 00:00:00 +0100
+:jbake-event-date: 2013-02-18
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **18. Februar 2013** lädt die Java Usergroup Berlin-Brandenburg und die
+http://blog-it.hypoport.de[Hypoport AG (IT Blog)^]
+zum  Vortrag **Developing with TeamCity 7.1: from remote runs to feature branches**
+mit **Dmitry Neverov** und **Pavel Sher** ein.
+
+
+== Der Vortrag
+
+**Developing with TeamCity 7.1: from remote runs to feature branches**
+(_Dmitry Neverov_, _Pavel Sher_): Continuous integration tools play important
+role in software development these days. In an ideal world every commit in
+version control system must be checked by running a build on it, builds must
+be fast and broken builds must be fixed quickly. But we do not live in the
+ideal world, so how we can protect ourselves from breaking changes? How
+we can minimize effects of breaking changes on our teammates?
+
+This talk covers effective ways of using TeamCity, a CI server from
+JetBrains, with different version control systems. You will see how
+to commit only a verified code with help of pre-tested commits,
+how to use personal branches if you’re using Git or Mercurial, and
+how to implement your favorite DVCs workflow using
+TeamCity feature branches support.
+
+== Die Redner
+
+**Dmitry Neverov** works in JetBrains for almost 3 years and his
+responsibilities include wide range of tasks related to distributed
+version control systems, from integration with Git and Mercurial
+to feature branches support in TeamCity core.
+
+**Pavel Sher** started working on TeamCity almost from the beginning,
+7 years ago. As such he took part in many aspects of TeamCity
+functionality and is responsible for many architectural decisions
+in TeamCity core.
+
+
+== Der Treffpunkt
+
+Hypoport AG, Klosterstraße 71, D-10179 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß und Zeit zum Networking
+- 19:00 Uhr Vortragsbeginn
+
+Anschließend git es Gelegenheit zu Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das XING-Event
+der https://www.xing.com/net/pri047e5ex/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg^],
+würden wir uns freuen, jedoch ist die Anmeldung nicht
+zwingend erforderlich. Wir freuen uns auf jeden Teilnehmer.
