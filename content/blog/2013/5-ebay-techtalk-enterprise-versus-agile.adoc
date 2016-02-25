@@ -1,0 +1,59 @@
+= 5. Ebay Techtalk Enterprise versus Agile
+Oliver B. Fischer
+2013-03-22 00:00:00 +0100
+:jbake-event-date: 2013-03-28
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **28.03.2013** lädt die Java Usergroup Berlin-Brandenburg und
+http://www.brands4friends.de[brands4friends^]
+zum  Vortrag
+**Enterprise versus Agile** mit **Stephan Schmidt**, CTO von brands4friends, ein.
+
+
+== Der Vortrag
+
+**Enterprise versus Agile** (_Stephan Schmidt_): Sind das Gegensätze? Und wenn ja,
+sind sie vereinbar? Entwickler fordern mehr agile Entwicklung und
+tragen die Arbeitsweise von Startups immer mehr auch in das klassische
+Enterprise Unternehmen. Kann eine Integration in klassische Unternehmen mit
+vorgegebenen Strategien, Deadlines und Hierarchien gelingen? Und umgekehrt,
+können Entwickler von der Professionalität, der Erfahrung und dem Management
+profitieren ohne sich aufzugeben?
+
+Stephan Schmidt, CTO bei brands4friends, wird auf dem Hintergrund der Integration
+des jungen Internet StartUp brands4friends als Tochter des internationalen
+Konzern eBay Antworten entwickeln und Konzeptentwürfe vorstellen.
+Im Focus steht dabei: Was kann ein Entwickler dazu beitragen diese Veränderung
+zu treiben und wie gehen &#8220;New Enterprises&#8221; damit um?
+
+
+== Der Redner
+
+**Stephan Schmidt**, CTO brands4friends, arbeitet seit über 20 Jahren
+mit Internettechnologien als Entwickler, Berater, Entwicklungsleiter
+oder CTO. Seine Programmiererfahrung erstreckt sich auf über 30 Jahre
+in Dutzenden Programmiersprachen und unterschiedlichsten Architekturen.
+Besonders interessieren ihn &#8220;Time to Market&#8221; und
+Produktivität in der Software-Entwicklung.
+
+
+== Treffpunkt
+
+brands4friends, eBay Inc.,  brands4friends, Kommandantenstr. 22, 10969 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß und Zeit zum Networking
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend git es Gelegenheit zu Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung zur Veranstaltung über das XING-Event der
+https://www.xing.com/net/pri047e5ex/jugbb/[XING-Gruppe der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend erforderlich.
+Wir freuen uns auf jeden Teilnehmer.
