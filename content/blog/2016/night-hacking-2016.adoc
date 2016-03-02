@@ -31,7 +31,7 @@ dust off your old 8 and 16 bit consoles to prepare.
 
 This presentation is about the most fun you can have while still legitimately calling
 this conference “work.”  In fact, I will hopefully inspire you to do your own
-creative “work” leveraging Java and Raspberry Pi to hack the real world."
+creative “work” leveraging Java and Raspberry Pi to hack the real world.
 
 **Putting Hypermedia Back in REST with JAX-RS** (_Sebastian Daschner_):
 Everybody is doing REST -- at least everybody claims they are. But mostly web APIs
