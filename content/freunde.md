@@ -15,6 +15,7 @@ rund um die JVM und Java zu teilen.
 der Durchführung unserer Veranstaltungen unterstützt:
 
 * [Hypoport AG](http://www.hypoport.ag/) 
+* [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
 
 ## Freunde 2015
 
