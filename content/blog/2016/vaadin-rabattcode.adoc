@@ -6,7 +6,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 Für den http://vaadin.com/devday[Vaadin Dev Day^] am
-**24. Mai 2016** gibt es einen **15% Rabattcode** für
+**24. Mai 2016** in **Berlin** gibt es einen **15% Rabattcode** für
 die Mitglieder unserer JUG.
 
 Der Code _LocalJUG_ kann unter https://vaadin.com/devday[^] eingelöst
