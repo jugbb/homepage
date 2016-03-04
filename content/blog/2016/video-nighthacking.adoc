@@ -1,0 +1,18 @@
+= Video zur Nighthacking Tour Germany in Berlin
+Oliver B. Fischer
+2016-03-04 17:00:00 +0100
+// :jbake-event-date: 2016-03-01
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Unsere Veranstaltung im Rahmen des http://nighthacking.com/[Nighthackings^]
+mit http://www.twitter.com/steveonjava[Stephen Chin^] und
+http://www.twitter.com/daschners[Sebastian Daschner^] wurde nicht
+nur über die Webseite von Nighthacking live übertragen, sondern
+auch aufgezeichnet.
+
+Die Aufzeichnung ist über http://nighthacking.com/jug-berlin-brandenburg-nighthacking/[Nighthacking^]
+und https://youtu.be/T3AnECbXoow[Youtube^] abrufbar.
+
+video::T3AnECbXoow[youtube,width=640,height=480]
