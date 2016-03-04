@@ -1,6 +1,6 @@
 = 15% Rabatt für den Vaadin Dev Day
 Oliver B. Fischer
-2016-03-04 19:41:00 +0100
+2016-03-04 04:45:00 +0100
 :jbake-type: post
 :jbake-tags: hinweise, promocode
 :jbake-status: published
