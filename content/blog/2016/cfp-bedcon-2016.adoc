@@ -1,0 +1,42 @@
+= BED-Con 2016 - Call For Papers eröffnet
+Oliver B. Fischer
+2016-03-14 20:54:00 +0100
+//:jbake-event-date: 2016-
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+Die **BED-Con 2016 findet am 15. und 16. September 2016**
+zum sechsten Mal statt und wird auch in diesem Jahr wieder
+von der **Java Usergroup Berlin-Brandenburg unterstützt**.
+Auch 2016 wird sich alles rund um die folgenden Themen
+drehen:
+
+- Java
+- JavaScript
+- Continuous Delivery
+- User Experience
+- aktuelle Frameworks
+- Programmiersprachen
+- DevOps
+- Responsive Design
+- Java EE und Spring
+- NoSQL
+- Docker, Infrastructure
+- Mobile / App
+
+Das
+neutrale und offene Programmkomitee wird auch 2016 wieder eine
+tolle Mischung hochwertiger und praxisorientierter
+Talks zusammenstellen.
+
+Der **Call For Papers läuft bis zum 30.04.2016** und wir
+würden uns über eine Vielzahl von Vorschlägen aus dem Kreis
+der JUG Berlin-Brandenburg freuen.
+Vorschläge für die BED-Con 2016 können unter
+http://bed-con.org/2016/cfp[^]
+eingereicht werden. Die Organisatoren der BED-Con
+und die Java Usergroup Berlin-Brandenburg
+freuen sich auf Eure Beiträge.
+
+
