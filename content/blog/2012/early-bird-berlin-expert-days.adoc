@@ -1,0 +1,27 @@
+= Early-Bird-Tarif für die BerlinExpertDays 2012 noch bis zum 5. März 2012
+Oliver B. Fischer
+2012-03-03 00:00:00 +0100
+// :jbake-event-date: xxxx-xx-xx
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Der Early-Bird-Tarif für die http://bed-con.org/[BerlinExpertDays 2012]
+endet am 5. März und damit auch die Möglichkeit für 70,- anstatt von 90,-
+Euro an der am 29. und 30. März in Berlin stattfindenden Konferenz teilzunehmen.
+
+Die technisch-orientierte Konferenz bietet eine Plattform zum Erfahrungsaustausch
+und persönlichem Gespräch. Die Themenbereiche drehen sich rund um die
+Java-Welt, z.B.: Java, Java EE, Spring, JavaScript, funktionale Sprachen und NoSQL.
+
+Wer sich noch schnell ein Ticket zum Vorteilspreis sichern möchte, kann dies natürlich
+online unter http://bed-con.org/tickets/[^] tun.
+
+Ein Blick auf das inzwischen http://bed-con.org/programm[online-verfügbare Programm^]
+ zeigt, warum es sich lohnt: Interessante Themen und interessante Sprecher werden erwartet.
+
+Viele Grüße
+
+Oliver Fischer
+
+P.S.: Die Java Usergroup Berlin-Brandenburg ist in diesem Jahr Partner der BerlinExpertDays.
