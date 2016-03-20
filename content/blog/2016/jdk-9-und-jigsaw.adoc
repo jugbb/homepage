@@ -8,10 +8,10 @@ Oliver B. Fischer
 
 
 Am **12. April 2016** lädt die Java Usergroup Berlin-Brandenburg
-und die http://www.hypoport.ag/[Hypoport AG] zum Vortrag
+und die http://www.hypoport.ag/[Hypoport AG^] zum Vortrag
 **JDK 9 und die modulare Plattform Jigsaw** mit **Wolfgang Weigend**
 von der
-http://www.oracle.com/de/index.html[Oracle Deutschland B.V. & Co. KG]
+http://www.oracle.com/de/index.html[Oracle Deutschland B.V. & Co. KG^]
 ein.
 
 == Der Vortrag
@@ -60,6 +60,6 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
 Über eine Vorabanmeldung Veranstaltung über die
 http://meetup.com/jug-bb/[Meetup-Gruppe
-der JUG Berlin-Brandenburg]
+der JUG Berlin-Brandenburg^]
 würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
 erforderlich. Wir freuen uns auf jeden Teilnehmer.
