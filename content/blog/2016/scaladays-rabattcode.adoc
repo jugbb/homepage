@@ -1,0 +1,22 @@
+= 100 Euro Rabatt für die Scaladays 2016
+Oliver B. Fischer
+2016-03-23 22:56:00 +0100
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+Für JUG-Mitglieder gibt es **bis zum 20. April 2016** einen
+**Rabatt von 100,- Euro** für die
+http://event.scaladays.org/scaladays-berlin-2016[Scala Days 2016]
+in Berlin.
+
+Hier sind die Konditionen für JUG-Mitglieder:
+
+- Konferenz für 700,- Euro anstatt für 800,- Euro
+- Konferenz und Training 1600,- Euro anstatt für 1.900,- Euro
+- Training alleine für 1.000,- Euro anstatt für 1.200,- Euro
+
+Den Promocode gibt es per Mail an mailto:o.b.fischer@swe-blog.net[o.b.fischer@swe-blog.net].
+Bitte gebt in Eurer Mail einen Link auf Euer XING- oder Meetup-Profil an,
+aus dem ersichtlich ist, daß Ihr in einer unserer JUG-Gruppen Mitglied seid.
+
