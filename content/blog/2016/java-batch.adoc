@@ -1,0 +1,60 @@
+= Java Batch: Der Standard für‘s Stapeln
+Oliver B. Fischer
+2016-03-26 13:53:00 +0100
+:jbake-event-date: 2016-04-12
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **14. April 2016** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.axelspringer.de/[Axel Springer SE^] zum Vortrag
+**Java Batch: Der Standard für‘s Stapeln** mit **Dirk Weil**
+von der
+http://www.gedoplan.de[GEDOPLAN IT Consulting^]
+ein.
+
+== Der Vortrag
+
+**Java Batch: Der Standard für‘s Stapeln**
+(_Dirk Weil_):
+Die Java-EE-Welt hat sich bislang um das Thema Batchverarbeitung gedrückt,
+was zur Entwicklung von Batch-Frameworks wie Spring Batch geführt hat. Die
+Hintergrund-Verarbeitung von (i.d.R.) Massendaten ist aber ein wichtiger
+Bestandteil vieler Enterprise-Anwendungen, dem der Einzug von
+_Batch Applications for the Java Platform_ (JSR 352) in den Standard Java
+EE 7 nun Rechnung trägt. Der Vortrag stellt die Grundzüge der
+Offline-Verarbeitung mit Jobs, Steps, Chunks, Splits, Flows, Decisions
+etc. dar und demonstriert einige Beispiele auf dem
+Java-EE-7-Server WildFly 9.
+
+== Der Redner
+
+**Dirk Weil** ist seit 1998 als Berater im Bereich Java tätig.
+Als Geschäftsführer der GEDOPLAN GmbH in Bielefeld ist er für die
+Konzeption und Realisierung von Informationssystemen auf Basis
+von Java EE verantwortlich. Seine langjährige Erfahrung in der
+Entwicklung anspruchsvoller Unternehmenslösungen machen ihn zu
+einem kompetenten Ansprechpartner und anerkannten Experten
+auf dem Gebiet Java EE. Er ist Fachbuchautor, schreibt Artikel
+für Fachmagazine, hält Vorträge und leitet Seminare und
+Workshops zu diversen Java-SE-/EE-Themen.
+
+== Treffpunkt
+
+Axel Springer Penthouse, Markgrafenstrasse 14, 10969 Berlin
+
+== Der Ablauf
+
+- 18:00 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
