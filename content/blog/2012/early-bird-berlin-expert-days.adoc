@@ -3,7 +3,7 @@ Oliver B. Fischer
 2012-03-03 00:00:00 +0100
 // :jbake-event-date: xxxx-xx-xx
 :jbake-type: post
-:jbake-tags: treffen
+:jbake-tags: hinweis
 :jbake-status: published
 
 Der Early-Bird-Tarif für die http://bed-con.org/[BerlinExpertDays 2012]
