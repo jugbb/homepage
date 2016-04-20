@@ -8,9 +8,9 @@ Oliver B. Fischer
 
 
 Am **10. Mail 2016** lädt die Java Usergroup Berlin-Brandenburg
-und die http://www.epost.de[E-Post Development GmbH]
+und die http://www.epost.de[E-Post Development GmbH^]
 zum Vortragsabend **How does Java envolves** ein.
-Die gesamte Veranstaltung wird auf English stattfinden.
+Die gesamte Veranstaltung wird auf Englisch stattfinden.
 
 == Die Vorträge
 
