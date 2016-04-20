@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **10. Mail 2016** lädt die Java Usergroup Berlin-Brandenburg
+Am **10. Mai 2016** lädt die Java Usergroup Berlin-Brandenburg
 und die http://www.epost.de[E-Post Development GmbH^]
 zum Vortragsabend **How Java evolves** ein.
 Die gesamte Veranstaltung wird auf Englisch stattfinden.
@@ -41,11 +41,11 @@ cross-section of the Java Community. The EC is responsible
 for approving the passage of specifications through key points
 of the JCP.
 
-Current EC Members: https://jcp.org/en/press/news/ec-feature#shelby
+Current EC Members: https://jcp.org/en/press/news/ec-feature#shelby[^]
 
 
 **Dive into a short session on some JSRs** (_Greg Luck_,
-_Leonardo Lima_, _Otavio Goncalves de Santana_, _Werner Keil)_:
+_Leonardo Lima_, _Otavio Goncalves de Santana_, _Werner Keil_):
 Following a short break, we will dive into a short session on
 some JSRs developed through the JCP Program:
 
