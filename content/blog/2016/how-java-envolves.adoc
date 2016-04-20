@@ -1,0 +1,118 @@
+= How Java envolves
+Oliver B. Fischer
+2016-04-20 06:35:00 +0100
+:jbake-event-date: 2016-05-10
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **10. Mail 2016** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.epost.de[E-Post Development GmbH]
+zum Vortragsabend **How does Java envolves** ein.
+Die gesamte Veranstaltung wird auf English stattfinden.
+
+== Die Vorträge
+
+**How Java envolves** (_Patrick Curran_):
+The Java Community Process (JCP) is key to the evolution of Java
+technology. This session emphasizes the value of transparency and
+participation in the JCP program, through both Java User Groups (JUGs),
+and through the Adopt-a-JSR program, the community led and developed
+program to empower Java developers around the world to make a
+contribution to Java technology. Find out how to become an active
+participant in advancing the Java platform - JSRs for Java Enterprise
+Edition (Java EE) 8 and Java Standard Edition (Java SE) 9 are being
+developed now. This session discusses the transparency that enables
+participation in the JCP program and how to get involved through
+the Adopt-a-JSR program. You will also hear about some upcoming
+changes to the Java Specification Request (JSR) process itself
+through the latest version of the JCP, and learn how you can
+get involved. Come with your questions/suggestions, and leave with
+the motivation and information you need in order to become an active
+participant in advancing the Java platform now and in the future.
+
+**Panel on the Java Community Process**:
+This session will be followed by a panel discussion with the
+JCP Executive Committee (EC) Members. The EC is the group of
+Members guiding the evolution of Java technology in the JCP.
+The EC represents both major stakeholders and a representative
+cross-section of the Java Community. The EC is responsible
+for approving the passage of specifications through key points
+of the JCP.
+
+Current EC Members: https://jcp.org/en/press/news/ec-feature#shelby
+
+
+**Dive into a short session on some JSRs** (_Greg Luck_,
+_Leonardo Lima_, _Otavio Goncalves de Santana_, _Werner Keil)_:
+Following a short break, we will dive into a short session on
+some JSRs developed through the JCP Program:
+
+- JSR 107, JCACHE, with Hazelcast CEO and JCP EC Member Greg Luck.
+- JSR 354, Money & Currency API and JSR 363, Units of Measurement
+  with JCP EC Members, Leonardo Lima, Otavio Goncalves de Santana, and Werner Keil
+
+
+== Die Redner
+
+**Patrick Curran** is Chair of the JCP. In this role he oversees the
+activities of the JCP Program Office including driving the process,
+managing its membership, guiding specification leads and experts through
+the process, leading the Executive Committee meetings, and managing the
+http://www.jcp.org[JCP.org web site^]. Patrick has worked in the software
+industry for more than 20 years and at Sun for 15 years. He has a
+long-standing record in conformance testing, and most recently led
+the Java Conformance Engineering team in Sun's Client Software Group.
+He was also chair of Sun's Conformance Council, which is responsible
+for defining Sun's policies and strategies around
+Java conformance and compatibility.
+
+**Greg Luck** has worked with Java for 15 years. He is spec
+lead of the recently completed JSR107:JCache and the founder
+of Ehcache. He is a JCP Executive Committee alumni.
+Prior to Hazelcast, Greg was CTO at Terracotta, Inc. which was
+acquired by Software AG. He was also Chief Architect at
+Australian travel startup Wotif.com which went to IPO.
+
+**Leonardo Lima** is Software Development Manager at V2COM,
+leading the development of both embedded software for
+edge/field devices and server-side software that receives
+field data and enables fast communication with remote devices.
+
+More than eight years of development and architectural experience
+on mobile, embedded and server platforms to enable management and
+operation of highly scalable and fast telemetry and
+network control systems.
+
+**Otavio Goncalves de Santana** TBD
+
+**Werner Keil** is Distinct Architect for a provider of
+Embedded and Realtime solutions. Helping Global 500 Enterprises across
+industries, as well as leading IT vendors. He has worked for more than
+25 years as Program Manager, Coach, SW architect, and consultant
+for Finance, Telco/Mobile, Media and Public sector.
+Werner is Apache and Eclipse Committer, UOMo Project Lead and member
+of the JCP, e.g. in JSRs like 321 (Trusted Java), 331, 333,
+342 (Java EE 7), 344, 346 (CDI 1.1), 354 (Money) or 358 (JCP.next)
+and the Executive Committee.
+
+== Treffpunkt
+
+https://www.google.com/maps/place/Ehrenbergstraße+11,+10245+Berlin,+Germany/@52.5038424,13.4504276,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84e50b3705a47:0x165a3ca11d43d9d?hl=de[Deutsche Post E-Post Development GmbH, Ehrenbergstraße 11-14, 10245 Berlin^]
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
