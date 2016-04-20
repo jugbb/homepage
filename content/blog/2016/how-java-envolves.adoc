@@ -1,4 +1,4 @@
-= How Java envolves
+= How Java evolves
 Oliver B. Fischer
 2016-04-20 06:35:00 +0100
 :jbake-event-date: 2016-05-10
@@ -9,7 +9,7 @@ Oliver B. Fischer
 
 Am **10. Mail 2016** lädt die Java Usergroup Berlin-Brandenburg
 und die http://www.epost.de[E-Post Development GmbH^]
-zum Vortragsabend **How does Java envolves** ein.
+zum Vortragsabend **How Java evolves** ein.
 Die gesamte Veranstaltung wird auf Englisch stattfinden.
 
 == Die Vorträge
