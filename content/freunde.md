@@ -16,6 +16,7 @@ der Durchführung unserer Veranstaltungen unterstützt:
 
 * [Hypoport AG](http://www.hypoport.ag/) 
 * [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
+* [InnoQ](http://www.innoq.com)
 
 ## Freunde 2015
 
