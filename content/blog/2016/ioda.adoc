@@ -1,0 +1,62 @@
+= IODA - Ein Architekturmodell für bessere Evolvierbarkeit
+Oliver B. Fischer
+2016-05-07 00:02:00 +0100
+:jbake-event-date: 2016-05-30
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **30. Mai 2016** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.interhyp.de/[Interhyp AG^] zum Vortragsabend
+**IODA - Ein Architekturmodell für bessere Evolvierbarkeit**
+mit  **http://ralfw.de/[Ralf Westphal^]** ein.
+
+== Der Vortrag
+
+**IODA - Ein Architekturmodell für bessere Evolvierbarkeit**
+(_Ralf Westphal_): Komplexe funktionale Abhängigkeiten sind
+ein Merkmal von Legacy Code. Und das, obwohl es an
+Architekturmustern wie Schichten, Zwiebeln, Hexagonen
+nicht mangelt. Der Grund? Diese Muster brauchen solche Abhängigkeiten.
+
+Zur Verbesserung der Situation stellt der Vortrag eine grundlegende
+Alternative für jede Art von Software vor. Sie macht Schluss mit
+funktionalen Abhängigkeiten (oder minimiert sie zumindest). Sie ist
+orthogonal zu überkommenen Vorstellungen inhaltlicher Modularisierung.
+Und sie verbindet Objektorientierte mit Funktionaler Programmierung.
+
+== Der Redner
+
+**Ralf Westphal** ist freiberuflicher Berater, Projektbegleiter, Referent,
+Autor und Trainer für Themen rund um Softwarearchitektur und die
+Organisation von Softwareteams. Er ist Mitgründer der Initiative
+http://clean-code-developer.de[_Clean Code Developer_ (CCD) für mehr Softwarequalität^],
+propagiert
+http://ccd-school.de[kontinuierliches Lernen mit der CCD School^]
+und möchte mit http://ich-verspreche.org[^] zu mehr Zuverlässigkeit motivieren.
+
+Im Netz kann Ralf Westphal unter http://ralfw.de[^] gefunden werden.
+
+== Treffpunkt
+
+Interhyp AG, Potsdamer Platz 10, 10785 Berlin
+
+Eine ausführliche Wegbeschreibung
+http://www.interhyp.de/medien/pdf/interhyp-wegbeschreibung-berlin.pdf[kann als PDF heruntergeladen^]
+werden.
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
