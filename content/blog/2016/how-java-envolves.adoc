@@ -44,12 +44,12 @@ of the JCP.
 Current EC Members: https://jcp.org/en/press/news/ec-feature#shelby[^]
 
 
-**Dive into a short session on some JSRs** (_Greg Luck_,
+**Dive into a short session on some JSRs** (_Chris Engelbert_,
 _Leonardo Lima_, _Otavio Goncalves de Santana_, _Werner Keil_):
 Following a short break, we will dive into a short session on
 some JSRs developed through the JCP Program:
 
-- JSR 107, JCACHE, with Hazelcast CEO and JCP EC Member Greg Luck.
+- JSR 107, JCACHE, with Chris Engelbert.
 - JSR 354, Money & Currency API and JSR 363, Units of Measurement
   with JCP EC Members, Leonardo Lima, Otavio Goncalves de Santana, and Werner Keil
 
@@ -68,22 +68,7 @@ He was also chair of Sun's Conformance Council, which is responsible
 for defining Sun's policies and strategies around
 Java conformance and compatibility.
 
-**Greg Luck** has worked with Java for 15 years. He is spec
-lead of the recently completed JSR107:JCache and the founder
-of Ehcache. He is a JCP Executive Committee alumni.
-Prior to Hazelcast, Greg was CTO at Terracotta, Inc. which was
-acquired by Software AG. He was also Chief Architect at
-Australian travel startup Wotif.com which went to IPO.
-
-**Leonardo Lima** is Software Development Manager at V2COM,
-leading the development of both embedded software for
-edge/field devices and server-side software that receives
-field data and enables fast communication with remote devices.
-
-More than eight years of development and architectural experience
-on mobile, embedded and server platforms to enable management and
-operation of highly scalable and fast telemetry and
-network control systems.
+**Chris Engelbert** TBD
 
 **Otavio Goncalves de Santana** TBD
 
