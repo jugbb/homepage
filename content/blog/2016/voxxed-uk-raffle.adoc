@@ -1,0 +1,39 @@
+= 10% discount for the Devoxx UK 2016
+Oliver B. Fischer
+2016-05-08 12:10:00 +0100
+:jbake-event-date: 2016-05-03
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+
+Hi everyone,
+
+The line-up for http://cfp.devoxx.co.uk/2016/speakers.html[Devoxx UK^]
+is out and we hope you’ll agree that it looks pretty amazing.
+We wouldn’t have been able to do it without such amazing JUG support,
+so as a Thank you we’ve got a free ticket up for grabs for the
+Berlin-Brandenburg JUG.
+
+http://www.devoxx.co.uk/[Devoxx UK^] takes place June 8-10th at
+the Business Design Centre, London, for 3 days of conference sessions,
+Hands-on-Labs, hacks, quick-fire sessions, hackergarten and parties. We’ve
+got a fair few Java Champions and experts joining us, such as Ted Neward,
+Trisha Gee, Hadi Hariri, Simon Brown, Martin Thompson,
+Antonio Goncalves, James Weaver, Josh Long, Liz Keogh,
+Matt Raible and many more.
+
+They’ll be a heap of cool new tech for you to try out - from
+http://cfp.devoxx.co.uk/2016/talk/GKN-5104/Playing_with_Pepper_robot[workshops with humanoid robots^]
+to the low down on
+http://cfp.devoxx.co.uk/2016/talk/UZA-8885/Taking_the_friction_out_of_microservice_frameworks_with_Lagom[cool new frameworks
+for microservices^]. We’ve also got tips on a
+heap of other useful things - from
+http://cfp.devoxx.co.uk/2016/talk/TXJ-1443/Java_Collections:_The_Force_Awakens[Java Collections]
+to
+http://cfp.devoxx.co.uk/2016/talk/LSP-1318/Performance_Testing_Distributed_Systems_for_the_Masses_-_Two_Years_Worth_of_Lessons_Learned[performance
+testing]^ to http://cfp.devoxx.co.uk/2016/talk/CJQ-3574/Cybercrime_and_the_Developer._How_to_start_defending_against_the_darker_side_of_the_web[how to defend against cybercrime^].
+
+To use this special discount for Berlin-Brandenburg JUG members, enter
+**IJUGBL167** to get 10% off all Devoxx UK ticket types.
+
