@@ -14,9 +14,11 @@ rund um die JVM und Java zu teilen.
 2016 werden wir bis jetzt von folgenden Firmen und Organisationen bei
 der Durchführung unserer Veranstaltungen unterstützt:
 
+* [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
 * [Hypoport AG](http://www.hypoport.ag/) 
 * [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
 * [InnoQ](http://www.innoq.com)
+* [Interhyp AG](http://www.interhyp.de/)
 
 ## Freunde 2015
 
