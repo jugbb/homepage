@@ -1,0 +1,61 @@
+= The Gradle 3.0 Preview by René Gröschke
+Oliver B. Fischer
+2016-06-09 00:34:00 +0100
+:jbake-event-date: 2016-06-20
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **20. Juni 2016** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.psi.de/[PSI AG^] zum Vortragsabend
+**The Gradle 3.0 Preview by René Gröschke**
+mit **René Gröschke** von **https://gradle.com[Gradle Inc.^]**
+ein.
+
+== Der Vortrag
+
+
+**The Gradle 3.0 Preview by René Gröschke**
+(_René Gröschke_):
+2.14 is likely to be the last 2.X release of Gradle, the popular
+multipurpose build system. 3.0 is pretty damn close and we take the
+opportunity to take a closer look on what the next major release has
+to offer for build authors and developers. We start with a short
+overview of the Gradle build system, before we explore new functionalities
+like
+
+* Latest dependency management improvements and Composite builds,
+* Functional testing of build logic,
+* The new software model for defining software components,
+* Latest IDE support improvements,
+* Kotlin Gradle DSL
+
+We finish up the talk with an outlook of what the Gradle team is
+working on next and what you can expect beyond Gradle 3.0.
+
+
+== Der Redner
+
+**René Gröschke** is a principal engineer at Gradle and working
+on its core codebase. He also helps customers and development
+teams all over the world adopting Gradle.
+
+
+== Treffpunkt
+
+PSI AG, Dircksenstraße 42-44, 10178 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
