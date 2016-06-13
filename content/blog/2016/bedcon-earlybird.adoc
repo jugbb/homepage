@@ -1,0 +1,16 @@
+= Early-Bird-Tickets für die BED-Con 2016
+Oliver B. Fischer
+2016-06-13 23:26:00 +0100
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+Der
+http://bed-con.org/2016/tickets[Early-Bird-Ticket-Verkauf für die sechste Ausgabe der Berlin Expert Days^]
+ist seit kurzem offen. **Bis zum 30. Juni** gibt es die normalen Tickets
+für **95,- Euro** und die Stundententickets für nur **65,- Euro**.
+
+Der Ticketpreis beinhaltet kompletten Zugang zur Konferenz, die am
+15. und 16. September 2016 stattfindet,
+inklusive aller Talks an beiden Tagen sowie Verpflegung vor Ort
+(Warm- und Kaltgetränke, Baguettes, Kekse, Obst).
