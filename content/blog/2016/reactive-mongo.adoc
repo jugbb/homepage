@@ -1,0 +1,90 @@
+= Reactive access to MongoDB with Java 8
+Oliver B. Fischer
+2016-08-26 22:00:00 +0100
+:jbake-event-date: 2016-09-13
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **20. September 2016** lädt die Java Usergroup Berlin-Brandenburg
+und http://www.hypoport.ag/[Hypoport AG] zu dem Vortrag
+**Reactive access to MongoDB with Java 8**
+mit **Herrmann Hück** ein.
+
+
+== Der Vortrag
+
+
+**Reactive access to MongoDB with Java 8**
+(_Herrmann Hück_): This
+talk explores different Java Drivers for MongoDB and different
+(mostly asynchronous) strategies to access the database. The combination
+of Mongo drivers and programming strategies result in a great variety of
+possible solutions each shown by a small code sample. With the samples
+we can discuss the advantages and drawbacks of these stragegies.
+
+Beginning with a discussion of "_What is asynchronous and what is reactive_"?
+
+The code samples are using the following Mongo drivers for Java:
+
+- Sychronous Java Driver
+- Asychronous Java Driver (using Callbacks)
+- Asychronous Java Driver (using RxJava)
+- Asychronous Java Driver (implementing Reactive Streams Interface)
+
+The code samples use the drivers in combination with the following
+access strategies:
+
+- Synchronous DB access
+- Async DB access with Future (from Java 5)
+- Async DB access with CompletableFuture (from Java 8)
+- Async DB access with Callbacks
+- Reactive DB access with Callbacks and CompletableFuture
+- Reactive DB access with RxJava Observables
+- Reactive DB access with Reactive Streams Interface + RxJava Observables
+- Reactive DB access with Reactive Streams Interface + Akka Streams
+
+All code samples are written in Java 8 using Java 8 features like
+Lambdas, java.util.Optional and java.util.concurrent.CompletableFuture.
+
+A great introduction to CompletableFutures by Angelika Langner can be
+viewed at https://www.youtube.com/watch?v=Q_0_1mKTlnY.
+
+
+
+== Der Redner
+
+**Herrmann Hück** is a Software Developer and Architect
+for Functional Reactive Programming with Scala,
+Java 8, Akka and Play.
+
+In the 90s he was programming C/C++ under Unix and Windows. After a short
+intermezzo as Perl hacker in 2000/2001 he moved to the world of Java
+Enterprise Applications using Servlets, JSP, EJB,
+Spring and Hibernate (since 2001).
+Since 2014 he is focussing on Scala based Technologies
+(Akka, Play, Spark). Scala taught him a new way of thinking and also
+improved his Java programming skills.
+
+For more details see his XING profile at
+https://www.xing.com/profile/Hermann_Hueck[^].
+
+
+== Treffpunkt
+
+Hypoport AG, Klosterstr. 71, 10179 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
