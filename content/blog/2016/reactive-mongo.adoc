@@ -45,7 +45,8 @@ access strategies:
 - Reactive DB access with Reactive Streams Interface + Akka Streams
 
 All code samples are written in Java 8 using Java 8 features like
-Lambdas, java.util.Optional and java.util.concurrent.CompletableFuture.
+Lambdas, {{java.util.Optional}} and
+{{java.util.concurrent.CompletableFuture}}.
 
 A great introduction to CompletableFutures by Angelika Langner can be
 viewed at https://www.youtube.com/watch?v=Q_0_1mKTlnY.
