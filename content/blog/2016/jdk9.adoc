@@ -8,7 +8,7 @@ Oliver B. Fischer
 
 An **12. Oktober 2016** lädt die Java Usergroup Berlin-Brandenburg
 und http://immobilienscout24.de/[Immobilien Scout GmbH^] zu
-unserem JDK 9 Hackathon "Testen wir JDK 9!" mit
+unserem JDK 9 Hackathon **Testen wir JDK 9!** mit
 **Dalibor Topić** ein.
 
 
@@ -29,7 +29,7 @@ Voraussetzungen:
 
 == Der Redner
 
-**Dalibor Topic** lebt in Hamburg und arbeitet für Oracle als Principal Product Manager.
+**Dalibor Topić** lebt in Hamburg und arbeitet für Oracle als Principal Product Manager.
 Er unterstützt das OpenJDK-Projekt, um zu seinem Erfolg als Open Source Projekt
 beizutragen. Dalibor wirkt auch um Java Strategy Team von Oracle mit, um
 dabei zu helfen, die Meinung und Wünsche der Java-Community in Oracles
