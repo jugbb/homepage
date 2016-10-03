@@ -1,0 +1,60 @@
+= Testen wir JDK 9!
+Oliver B. Fischer
+2016-10-03 10:00:00 +0100
+:jbake-event-date: 2016-10-12
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+An **12. Oktober 2016** lädt die Java Usergroup Berlin-Brandenburg
+und http://immobilienscout24.de/[Immobilien Scout GmbH^] zu
+unserem JDK 9 Hackathon "Testen wir JDK 9!" mit
+**Dalibor Topić** ein.
+
+
+== Der Hackathon
+
+
+**Testen wir JDK 9!** (_Dalibor Topić_):
+Nach einem Einstieg in die Neuerungen im JDK 9, mit dem Fokus auf Project
+Jigsaw, geht es über kurze Beispiele zu Migrationswerkzeugen wie
+jdeps & jlink daran die neuen Features im Project Jigsaw an Beispielen
+selbst kennenzulernen und auszuprobieren. Danach wenden wir uns unserem
+eigenen Code zu, und probieren gemeinsam die neuen Features daran aus.
+
+Voraussetzungen:
+
+* JDK 9 Early Access build mit Project Jigsaw (https://jdk9.java.net/jigsaw/[^])
+
+
+== Der Redner
+
+**Dalibor Topic** lebt in Hamburg und arbeitet für Oracle als Principal Product Manager.
+Er unterstützt das OpenJDK-Projekt, um zu seinem Erfolg als Open Source Projekt
+beizutragen. Dalibor wirkt auch um Java Strategy Team von Oracle mit, um
+dabei zu helfen, die Meinung und Wünsche der Java-Community in Oracles
+Langzeitplanung für Java einzubringen.
+
+
+== Treffpunkt
+
+Immobilien Scout GmbH,
+Andreasstr. 10,
+10243 Berlin
+
+== Der Ablauf
+
+- 16:30 Uhr Einlaß
+- 17:00 Uhr Beginn des JDK 9-Hackathons
+- 21:00 Uhr Ende
+
+// Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen.
+//, jedoch ist die Anmeldung nicht zwingend
+//erforderlich. Wir freuen uns auf jeden Teilnehmer.
