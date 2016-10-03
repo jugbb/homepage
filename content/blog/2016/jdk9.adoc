@@ -6,7 +6,7 @@ Oliver B. Fischer
 :jbake-tags: treffen
 :jbake-status: published
 
-An **12. Oktober 2016** lädt die Java Usergroup Berlin-Brandenburg
+Am **12. Oktober 2016** lädt die Java Usergroup Berlin-Brandenburg
 und http://immobilienscout24.de/[Immobilien Scout GmbH^] zu
 unserem JDK 9 Hackathon **Testen wir JDK 9!** mit
 **Dalibor Topić** ein.
