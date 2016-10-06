@@ -1,4 +1,4 @@
-= Testen wir JDK 9!
+= Teste Deine App mit JDK 9!
 Oliver B. Fischer
 2016-10-03 10:00:00 +0100
 :jbake-event-date: 2016-10-12
@@ -8,7 +8,7 @@ Oliver B. Fischer
 
 Am **12. Oktober 2016** lädt die Java Usergroup Berlin-Brandenburg
 und http://immobilienscout24.de/[Immobilien Scout GmbH^] zu
-unserem JDK 9 Hackathon **Testen wir JDK 9!** mit
+unserem JDK 9 Hackathon **Teste Deine App mit JDK 9!** mit
 **Dalibor Topić** ein.
 
 
