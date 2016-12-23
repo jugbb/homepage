@@ -1,0 +1,21 @@
+= JUG-Stammtisch im Januar 2017
+Oliver B. Fischer
+2016-12-23 9:00:00 +0100
+:jbake-event-date: 2017-01-03
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Der nächste Stammtisch wird am Dienstag, den 3. Januar 2017,
+stattfinden.
+
+Der Stammtisch der JUG ist offen für alle Interessierten
+und JUG-Mitglieder.
+Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den
+Austausch von Ideen zur JUG und allem, was sich sonst so an einem
+solchen Abend ergeben kann.
+
+Wir laden daher jeden an unserer JUG Interessierten herzlich zu unserem Treffen
+am Dienstag, dem 3. Januar 2017, ab 18:30 Uhr ein.
+
+Treffpunkt ist das http://www.cafe-vianova.de/nova2#kontakt[Cafe Via Nova II, Universitätsstraße 2, 10117 Berlin^].
