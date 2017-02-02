@@ -1,0 +1,87 @@
+= Apache Mesos für Java-Entwickler
+Oliver B. Fischer
+2016-12-23 09:30:00 +0100
+:jbake-event-date: 2017-01-11
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **11. Januar 2017** lädt die Java Usergroup Berlin-Brandenburg
+// und wer???
+zu den beiden Vorträgen
+**Mesos and the Architecture of the New Datacenter - BuzzWord Bingo 2.0**
+und
+**Container orchestration on Mesos - DC/OS für Java-Entwickler**
+mit ** Johannes Unterstein** und **Jörg Schad** ein.
+
+
+== Die Vorträge
+
+**Container orchestration on Mesos - DC/OS für Java-Entwickler**
+(_Johannes Unterstein_, _Jörg Schad_):
+In Zeiten von Docker, Big Data und Microservices wird es immer
+wichtiger, seine verteilte Anwendung sinnvoll auf sein Cluster
+zu verteilen und dabei trotzdem noch den Überblick zu behalten.
+Daher werden Cluster-Management-Systeme wie DC/OS immer
+wichtiger und halten in immer mehr Bereiche Einzug. In dieser
+Session werden Jörg und Johannes einen Java-basierten Service
+implementieren und ihn mit einer Handvoll umgebenden Services
+zunächst mit Docker-Compose starten. Danach werden wir sehen,
+wie einfach es ist, die gleiche verteilte Anwendung in DC/OS
+auf dem eigenen Cluster zu deployen und zu monitoren. Danach
+werden wir einzelne Services unabhängig vom restlichen System
+skalieren, im laufenden Betrieb aktualisieren und uns ein
+paar weitere nette Features ansehen.
+
+
+**Mesos and the Architecture of the New Datacenter - BuzzWord Bingo 2.0**
+(_Johannes Unterstein_, _Jörg Schad_):
+Um den wachsenden Daten- und Usermengen begegnen zu können verändert
+sich die Architektur von Anwendungen aktuell sehr stark. Eine Anwendung
+besteht immer häufiger aus vielen kleinen Services, welche verteilt und
+in Container verpackt sind. Verteilte Systeme hingegen unterliegen anderen
+Regeln als klassische monolithische Anwendungen. Insbesondere im Bereich
+Service-Discovery, Load-Balancing und Networking entstehen Herausforderungen
+für das moderne Datacenter. Um diese Probleme zu minimieren abstrahieren DC/OS
+und Mesos die Komplexität von verteilten Systemen und etabliert
+sich dadurch als Cluster-Manager vieler großer Anwendungen.
+
+In dieser Session werden Jörg und Johannes die Idee und Vorgehensweise von
+Apache Mesos erläutern, DC/OS (datacenter operating system) vorstellen und im
+Zuge einer DEMO all die coolen Features am lebenden Objekt zeigen.
+
+
+== Die Redner
+
+**Johannes Unterstein**
+ist Distributed Applications Engineer bei Mesosphere in Hamburg.
+Früher hat er in Projekten für DAX 30-Unternehmen gearbeitet und die
+Welt der Online-Wahlen modernisiert.
+
+**Jörg Schad**
+ist Distributed Systems Engineer bei Mesosphere in Hamburg.
+In seinem früheren Leben entwickelte er verteilte und
+In-Memory-Datenbanken bzw. forschte im Hadoop- und Cloud-Umfeld.
+
+== Treffpunkt
+
+http://www.stadtplandienst.de/freelink.asp?key=3470e30ee65799d278d4a084c575e1c1[InnoZ - Innovationszentrum für Mobilität und gesellschaftlichen Wandel GmbH +
+Torgauer Straße 12-15 (NEU: EUREF-Campus 16) +
+10829 Berlin (Schöneberg)^]
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
