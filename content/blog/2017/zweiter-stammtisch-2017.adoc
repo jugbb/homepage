@@ -1,7 +1,7 @@
 = JUG-Stammtisch im Februar 2017
 Oliver B. Fischer
 2017-02-02 23:11:00 +0100
-:jbake-event-date: 2017-02-7
+:jbake-event-date: 2017-02-07
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published
