@@ -1,12 +1,12 @@
 = JUG-Stammtisch im Februar 2017
 Oliver B. Fischer
 2017-02-02 23:11:00 +0100
-:jbake-event-date: 2017-02-07
+:jbake-event-date: 2017-02-21
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published
 
-Der nächste Stammtisch wird am Dienstag, den 7. Februar 2017,
+Der nächste Stammtisch wird am Dienstag, den 21. Februar 2017,
 stattfinden.
 
 Der Stammtisch der JUG ist offen für alle Interessierten
@@ -16,6 +16,6 @@ Austausch von Ideen zur JUG und allem, was sich sonst so an einem
 solchen Abend ergeben kann.
 
 Wir laden daher jeden an unserer JUG Interessierten herzlich zu unserem Treffen
-am Dienstag, dem 7. Februar 2017, ab 18:30 Uhr ein.
+am Dienstag, dem 21. Februar 2017, ab 18:30 Uhr ein.
 
 Treffpunkt ist das http://www.cafe-vianova.de/nova2#kontakt[Cafe Via Nova II, Universitätsstraße 2, 10117 Berlin^].
