@@ -1,0 +1,71 @@
+= Going reactive with Spring Data
+Oliver B. Fischer
+2017-03-08 19:16:00 +0100
+:jbake-event-date: 2017-04-06
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **6. April 2017** lädt die Java Usergroup Berlin-Brandenburg
+und die https://www.europace.de/[Europace AG^]
+zu dem Vortrag
+**I have a stream: Going reactive with Spring Data**
+mit **Mark Paluch** und **Christoph Stroble** ein. Anschließend
+gibt es die Gelegenheit zur Diskussion mit den Entwicklern
+von Spring Data.
+
+
+== Der Vortrag
+
+**I have a stream: Going reactive with Spring Data**
+(_Mark Paluch_, _Christoph Strobl_):
+Data access and application scalability are closely related. Applications
+employ threads until they are done with their work while most of the time is
+waiting for I/O. Reactive infrastructure shifts responsibilities to where they
+can be handled best. It’s a move towards data streaming that does not require
+upfront fetching and therefore optimizes memory and computational resources.
+
+This talk covers what a stream is and how reactive data access leverages
+scalability bounds by applying the most natural way of data access with
+Spring Data and Project Reactor. If you are a developer looking to consume data
+in a functional reactive style, this is your chance to gain the experience
+how your application can benefit from streaming data access and to learn
+why not everything should be reactive.
+
+== Diskussion
+
+Nach dem Vortrag wird es die Möglichkeit zur offenen Diskussion mit
+den Entwicklern hinter Spring Data geben. Dabei kann jedes Thema
+mit den Entwicklern angesprochen werden. Das Team hinter
+Spring Data wünscht sich einen offenen Austausch mit seinen Nutzern.
+
+An der Diskussion werden Mark Paluch, Christoph Strobl, John Blum,
+Jens Schauder und Oliver Gierke teilnehmen.
+
+
+== Die Redner
+
+**Mark Paluch** n/a.
+
+**Christoph Strobl** n/a.
+
+== Treffpunkt
+
+https://www.europace.de/[Europace AG^], Klosterstr. 71, 10179 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Vorabanmeldung Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
