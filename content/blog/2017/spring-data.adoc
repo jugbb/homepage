@@ -41,7 +41,7 @@ mit den Entwicklern angesprochen werden. Das Team hinter
 Spring Data wünscht sich einen offenen Austausch mit seinen Nutzern.
 
 An der Diskussion werden Mark Paluch, Christoph Strobl, John Blum,
-Jens Schauder und Oliver Gierke teilnehmen.
+Jens Schauder, Greg Turnquist und Oliver Gierke teilnehmen.
 
 
 == Die Redner
