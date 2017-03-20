@@ -11,7 +11,7 @@ Am **6. April 2017** lädt die Java Usergroup Berlin-Brandenburg
 und die https://www.europace.de/[Europace AG^]
 zu dem Vortrag
 **I have a stream: Going reactive with Spring Data**
-mit **Mark Paluch** und **Christoph Stroble** ein. Anschließend
+mit **Mark Paluch** und **Christoph Strobl** ein. Anschließend
 gibt es die Gelegenheit zur Diskussion mit den Entwicklern
 von Spring Data.
 
