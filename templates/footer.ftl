@@ -4,7 +4,11 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
+        <p class="muted credit">
+            &copy; 2017
+            | Java Usergroup Berlin-Brandenburg
+            | <a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>/impressum.html">Impressum</a>
+        </p>
       </div>
     </div>
     

@@ -29,6 +29,7 @@
 
 
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>kontakt.html">Kontakt</a></li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>impressum.html">Impressum</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archiv</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>freunde.html">Freunde</a></li>
 

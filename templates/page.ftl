@@ -9,7 +9,7 @@
 			<h1><#escape x as x?xml>${content.title}</#escape></h1>
 		</div>
 
-		<p class="text-right">${content.date?string("d. MMMM yyyy")}</p>
+		<#--<p class="text-right">${content.date?string("d. MMMM yyyy")}</p>-->
 
 		<p>${content.body}</p>
 	</div>
