@@ -1,0 +1,45 @@
+= Devoxx UK Ticket Raffle
+Sam Hepburn
+2017-03-21 21:36:00 +0100
+//:jbake-event-date: 2017-02-21
+:jbake-type: post
+:jbake-tags: hinweise
+:jbake-status: published
+
+
+Devoxx UK is less than two months away and we are offering you
+the chance to win a free ticket to this year’s event.
+
+We already have a brilliant range of content confirmed across
+11 tracks, with more than 100 hours of sessions and activities to
+choose from in 2 conference days. And there are more exciting things
+to be announced soon. Being so close to Java 9 release we’re pleased
+to have Mark Reinhold, Chief Architect of the Java Platform Group,
+join us for some technical deep-dives, whilst Trisha Gee will move
+beyond modularity in talking about Real World Java 9. With a plethora
+of Server Side Java topics, sessions spanning JVM languages, and
+delves into Architecture and Security practices, Devoxx UK has a
+core of brilliant content covered. For something a little different,
+you could check out how Programming Your Body With Chip Implants
+can be a reality, or even virtual reality in Java, for that matter.
+If you’re interested in learning about teams and leadership, we have
+plenty for you starting with the Symphony of Leadership. And if IoT
+is your thing, we have Alexa to frameworks to how to integrating
+devices into your home.
+
+For a wfull round-up of confirmed talks so far, check out http://cfp.devoxx.co.uk/2017/agenda/conf/thursday.
+
+Devoxx UK strives to give busy developers with the very latest, need to know
+information to help you improve your skills and understanding. As well
+as great conference sessions and workshops, we’ll have an amazing Hackergarten,
+the not-to-be-missed DevRoxx party and some new fun things to keep you busy.
+
+If this all sounds like your kind of thing, be sure to enter the prize
+draw. All you need to do is sign up here http://bit.ly/BerlinJUGDevoxx
+to be in with the chance of winning a free conference ticket. Entries
+close on the 27th March at Midnight, so submit your details right now.
+We’ll announce the winner on the following day, and if you are not lucky
+enough to win a free ticket this time around, as a member of Berlin Java User Group
+user group you’ll still be able to get discounted tickets anyway.
+
+We hope to see you in London in May!
