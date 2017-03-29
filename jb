@@ -4,7 +4,7 @@ mkdir -p ${HOME}/.jbake
 
 if [ -z "${JBAKE_VERSION}" ]
 then
-  JBAKE_VERSION=2.4.0
+  JBAKE_VERSION=2.5.1
 fi
 
 DOWNLOAD_BASE_DIR=/tmp
