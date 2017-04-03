@@ -1,0 +1,41 @@
+= Wir suchen Sprecher
+Oliver B. Fischer
+2017-04-03 23:39:00 +0100
+:jbake-event-date: 2017-02-21
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+In den nächsten Monaten würden wir gerne Vorträge zu einigen bestimmten Themen
+haben, die alle in der untenstehenden Liste aufgeführt sind. Wer gerne zu einem
+dieser Themen oder *einem eigenen Thema* einen Vortrag vor der JUG hier in Berlin
+halten möchte, kann sich per Mail an mailto:o.b.fischer@swe-blog.net[^] wenden.
+
+== Themenwünsche der JUG Berlin-Brandenburg
+
+* Spring Security
+* Micro-Benchmarking
+* Mutation-Testing
+* Java 9
+* OpenHAB
+* Akka mit Java
+* Apache Spark
+* JHipster
+* JSON Assert
+* RestAssured
+* Architektur in großen Projekten
+* Technologieauswahl in großen Projekten
+* Architekturtrends
+* Apache Maven
+* MariaDB
+* Spanner
+* HTTP 2.0
+* HTTP 2.0 Client in Java 9
+* JShell
+* RxJava
+* RetroFit
+* User Management via Keycloak
+
+//  Wie als erledigt markieren? => so: * [line-through]#crap#
+
+
