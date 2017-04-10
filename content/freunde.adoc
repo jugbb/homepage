@@ -1,6 +1,6 @@
 = Freunde und Unterstützer der JUG
 Oliver B. Fischer
-2017-01-02 11:40:00 +0100
+2017-04-10 22:20:00 +0100
 :jbake-type: page
 :jbake-status: published
 
@@ -8,6 +8,14 @@ Ohne die Untertützung von vielen Firmen und Organisationen könnte die Java Use
 nicht existieren. Daher möchten wir uns auf diese bei allen denen herzlich bedanken,
 die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen 
 rund um die JVM und Java zu teilen.
+
+== Freunde 2017
+
+2017 wurden wir bis jetzt von folgenden Firmen und Organisationen bei
+der Durchführung unserer Veranstaltungen unterstützt:
+
+* https://www.europace.de/[Europace AG]
+* https://www.innoz.de/[InnoZ - Innovationszentrum für Mobilität und gesellschaftlichen Wandel GmbH]
 
 == Freunde 2016
 
@@ -18,7 +26,6 @@ der Durchführung unserer Veranstaltungen unterstützt:
 * http://www.hypoport.ag/[Hypoport AG]
 * http://www.immobilienscout24.de/[Immobilien Scout GmbH]
 * http://www.innoq.com[InnoQ]
-* https://www.innoz.de/[InnoZ - Innovationszentrum für Mobilität und gesellschaftlichen Wandel GmbH]
 * http://www.interhyp.de/[Interhyp AG]
 * http://www.psi.de/[PSI AG]
 
