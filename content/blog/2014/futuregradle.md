@@ -58,7 +58,7 @@ Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
 ## Die Anmeldung
 
-Über eine Vorabanmeldung zur Veranstaltung über das 
+Über eine Voranmeldung zur Veranstaltung über das
 XING-Event der 
 [XING-Gruppe der JUG Berlin-Brandenburg](http://www.xing.to/jugbb)
 würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend 

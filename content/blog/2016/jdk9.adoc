@@ -52,7 +52,7 @@ Andreasstr. 10,
 
 == Die Anmeldung
 
-Über eine Vorabanmeldung Veranstaltung über die
+Über eine Voranmeldung zu der Veranstaltung über die
 http://meetup.com/jug-bb/[Meetup-Gruppe
 der JUG Berlin-Brandenburg^]
 würden wir uns freuen.
