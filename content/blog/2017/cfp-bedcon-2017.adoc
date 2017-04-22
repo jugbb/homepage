@@ -1,0 +1,42 @@
+= BED-Con 2017 - Call For Papers noch bis zum 15. Mai offen
+Oliver B. Fischer
+2017-04-22 05:43:00 +0100
+//:jbake-event-date: 2016-
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+Die Berlin Expert Days 2017 finden in diesem Jahr am 21. und 22. September statt
+und bis zum 15. Mai läuft der CfP noch. Es können noch Vortragsvorschläge
+zu folgenden Themen eingereicht werden:
+
+* Java
+* JavaScript
+* Continuous Delivery
+* User Experience
+* Internet of Things
+* Aktuelle Frameworks
+* Programmiersprachen
+* DevOps
+* Responsive Design
+* Cloud
+* Java EE und Spring
+* NoSQL
+* Docker, Infrastructure
+* Mobile / App
+* Serverless
+
+Auch in diesem Jahr werden die Berlin Expert Days durch die JUG Berlin-Brandenburg
+unterstützt. Daher freuen wir uns auf eine Vielzahl von Vortragsvorschlägen aus
+den Reihen der JUG.
+
+Vortragsvorschläge für die BED-Con 2017 können unter http://bed-con.org/2017/cfp[^]
+noch bis zum 15. Mai 2017 eingereicht werden.
+
+Viele Grüße
+
+Oliver und Jörg
+
+
+
+
