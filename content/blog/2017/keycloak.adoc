@@ -1,0 +1,60 @@
+= Absichern von Webanwendungen mit OAuth 2 und JBoss Keycloak
+Oliver B. Fischer
+2017-04-23 07:31:00 +0100
+:jbake-event-date: 2017-06-27
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **27. Juni 2017** lädt die Java Usergroup Berlin-Brandenburg
+und die https://www.adesso.ag/[adesso AG^]
+zu dem Vortrag
+**Absichern von Webanwendungen mit OAuth 2 und JBoss Keycloak**
+mit **Alexander Schwarz** ein.
+
+== Der Vortrag
+
+**Absichern von Webanwendungen mit OAuth 2 und JBoss Keycloak**
+(_Alexander Schwarz_):
+Mit JBoss Keycloak gibt es eine Open-Source Benutzerverwaltung, die sich
+über OAuth 2.0 auf einfache Art in die eigene Anwendung integrieren lässt.
+
+Beispielanwendungen im Vortrag zeigen die verschiedenen Integrationsmöglichkeiten:
+Angefangen von JavaEE- und Spring-Anwendungen über JavaScript-Client-Anwendungen
+bis hin zu Java-REST-Services.
+
+Alle Funktionen angefangen von der Benutzerregistrierung über die Integration von
+Google, Facebook, Twitter und LDAP stehen so ohne Programmierung zur Verfügung
+und können individuell konfiguriert werden. Teilen sich mehrere
+Anwendungen eine Benutzerverwaltung, so steht ein
+anwendungsübergreifendes Single-Sign-On und Single-Sign-Out zur Verfügung.
+
+== Der Redner
+
+*Alexander Schwartz* arbeitet als Principal IT Consultant bei msg systems ag.
+In den vergangenen Jahren hat er Softwareprojekte mit JEE und Spring in
+verschiedenen Rollen als Entwickler, ScrumMaster, Architekt und
+Projektmanager begleitet. Im Laufe der Zeit arbeitete er mit
+verschiedensten Web-Technologien. Er schätzt produktive Arbeitsumgebungen,
+agile Projekte und automatisierte Tests.
+
+== Treffpunkt
+
+https://www.adesso.de/de/[adesso AG^], Rotherstr. 19, 10245 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Eine Anmeldung ist drei bis vier Wochen vor der Veranstaltung
+über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+möglich.
