@@ -10,7 +10,7 @@ zwischen allen an Java und dem rund um Java und die Java
 Virtual Machine existierendem Ökosystem interessierten **Menschen
 und Organisationen**.
 
-Um den hierfür notwendigen Austauscsh sicherzustellen, 
+Um den hierfür notwendigen Austausch sicherzustellen, 
 organisieren wir regelmäßig Vorträge und leiten Informationen
 zu weiteren in der Region stattfindenden Veranstaltungen
 und Konferenzen an unsere Mitglieder weiter.
