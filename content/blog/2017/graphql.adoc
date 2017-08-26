@@ -1,0 +1,62 @@
+= GraphQL als Alternative zu REST
+Oliver B. Fischer
+2017-08-26 08:00:00 +0100
+:jbake-event-date: 2017-09-25
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **25. September 2017** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.signavio.de/[Signavio GmbH^]
+zu dem Vortrag
+**GraphQL als Alternative zu REST**
+mit **Manuel Mauky** ein.
+
+== Der Vortrag
+
+**GraphQL als Alternative zu REST**
+(_Manuel Mauky_):
+Für die Abfrage von Daten in Client-Server-Anwendungen sind
+RESTful-Webservices etabliert, allerdings nicht ohne Nachteile.
+Beispielsweise sind oft mehrere Requests nötig, um komplexere
+Daten abzufragen, was vor allem für mobile Anwendungen problematisch
+ist. Eine Alternative zu REST ist GraphQL, eine von Facebook
+entwickelte Abfragesprache für Web-APIs zur Umsetzung der
+Client-Server-Kommunikation. Client-Entwickler formulieren
+ihre Queries in einer JSON-ähnlichen Syntax mit genau den
+Attributen und in der Tiefe, die für die konkrete Ansicht
+nötig sind. GraphQL kümmert sich darum, die Query ohne
+unnötige Server-Roundtrips abzuwickeln.
+
+Im Vortrag wird GraphQL anhand von Beispielen vorgestellt und
+dabei sowohl die Client- als auch Serverseite betrachtet.
+
+== Die Redner
+
+**Manuel Mauky** arbeitet als Softwareentwickler bei der Saxonia Systems AG
+in Görlitz. Er beschäftigt sich mit allen Aspekten der
+Anwendungsentwicklung, wobei der Fokus auf dem Frontend liegt,
+vor allem mit JavaFX und JavaScript. Daneben interessieren ihn Themen
+wie funktionale Programmierung und Softwarearchitektur. Manuel ist
+Gründungsmitglied und Leiter der Java User Group Görlitz.
+
+== Treffpunkt
+
+http://www.signavio.de/[Signavio GmbH^], Kurfürstenstr. 111, 10787 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
