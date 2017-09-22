@@ -1,0 +1,78 @@
+= Migrating Towards Stream Processing And Microservices
+Oliver B. Fischer
+2017-09-23 01:00:00 +0100
+:jbake-event-date: 2017-10-11
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **11. Oktober 2017** lädt die Java Usergroup Berlin-Brandenburg
+und die https://www.dilax.com/[DILAX Intelcom GmbH^]
+zu dem Vortrag
+**Migrating Towards Stream Processing And Microservices***
+mit **Ankit Chaudhary** ein. **This talk will be held in English.**
+
+== Der Vortrag
+
+**Migrating Towards Stream Processing And Microservices**
+(_Ankit Chaudhary_):
+Dilax provides a market-leading passenger counting solution
+for the public transport sector (no we don’t sell clickers,
+we have intelligent devices with sensors). When we have the
+information about the number of people that were transported
+in a train/bus/tram, we try to match the data with a scheduled
+journey or create a heat map for further analytics and reporting.
+
+I am Ankit Chaudhary, a Big Data Engineer in the Public Mobility
+unit at DILAX and therefore strive to mitigate the challenges
+that we face in our use cases regarding the data collected
+from our counting systems.
+
+In this talk I will present the architectural overview of a
+core use case that our team worked on in the last months,
+i.e. matching the counting data coming from the vehicles
+with the schedules. I will describe the issues we were
+confronted with and that led to the decision of revamping
+our solution, how we achieved it by using stream processing
+(Apache Flink), document store (Elasticsearch) and a
+microservices-based architecture and what the
+advantages/disadvantages of the new stack are.
+
+The talk will be in English and focus on the architectural
+aspect of the solution only, it won’t deal with the core
+implementation of the algorithm involved.
+
+== Der Redner
+
+**Ankit Chaudhary** works as a Big Data Specialist at DILAX Intelcom
+GmbH and plays an important role in the engineering team of the Public
+Mobility unit. He studied Information Technology and Computer Science
+and has about 8 years of professional experience in software development.
+Over time he has acquired an in-depth knowledge of technologies such as
+Java, Scala, Hadoop, HBase, Storm, Spark, Kafka, Flink and many more.
+He’s really looking forward to sharing his insights and exchanging
+some ideas and opinions with you!
+
+== Treffpunkt
+
+https://www.dilax.com/[DILAX Intelcom GmbH^], Alt-Moabit 91d (3rd floor), 10559 Berlin
+
+
+== Der Ablauf
+
+- 6:30 pm: Check-in, pizza and drinks
+- 7:00 pm: Welcome & introductions
+- 7.15 pm: The Talk “Migrating towards stream processing and microservices”
+- 8.00 pm: Q&A from audience
+- 8.30 pm: Networking
+
+
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
