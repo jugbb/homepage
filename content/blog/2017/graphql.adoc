@@ -32,7 +32,7 @@ unnötige Server-Roundtrips abzuwickeln.
 Im Vortrag wird GraphQL anhand von Beispielen vorgestellt und
 dabei sowohl die Client- als auch Serverseite betrachtet.
 
-== Die Redner
+== Der Redner
 
 **Manuel Mauky** arbeitet als Softwareentwickler bei der Saxonia Systems AG
 in Görlitz. Er beschäftigt sich mit allen Aspekten der
