@@ -10,7 +10,7 @@ Oliver B. Fischer
 Am **11. Oktober 2017** lädt die Java Usergroup Berlin-Brandenburg
 und die https://www.dilax.com/[DILAX Intelcom GmbH^]
 zu dem Vortrag
-**Migrating Towards Stream Processing And Microservices***
+**Migrating Towards Stream Processing And Microservices**
 mit **Ankit Chaudhary** ein. **This talk will be held in English.**
 
 == Der Vortrag
