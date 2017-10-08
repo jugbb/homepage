@@ -1,0 +1,56 @@
+= Java 9 – Features abseits von Jigsaw und JShell
+Oliver B. Fischer
+2017-10-08 22:00:00 +0100
+:jbake-event-date: 2017-10-16
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **16. Oktober 2017** lädt die Java Usergroup Berlin-Brandenburg
+und die http://www.innoq.com[InnQ Deutschland GmbH^] zu dem Vortrag
+**Java 9 – Features abseits von Jigsaw und JShell** mit
+**Michael Vitz** ein.
+
+
+== Der Vortrag
+
+**Java 9 – Features abseits von Jigsaw und JShell**
+(_Michael Vitz_):
+Spricht man mit Entwicklern über Java 9 so fällt den meisten zuerst Jigsaw
+und nach einigem Überlegen noch JShell als neue Features ein.
+
+Neben diesen beiden, im Rampenlicht stehenden, Features bietet Java 9
+jedoch noch eine Menge an weiteren neuen Features. Einige dieser "Hidden"
+Features lernen Sie in dieser Session kennen. Und wer weiß, vielleicht ist auch
+eines dabei, dass Sie viel besser verwenden können als die beiden Großen.
+
+
+== Der Redner
+
+**Michael Vitz** ist Senior Consultant bei innoQ und verfügt
+über mehrjährige Erfahrung in der Entwicklung und im Betrieb
+von JVM-basierten Systemen. Zur Zeit beschäftigt er sich vor
+allem mit den Themen Microservices, Cloud-Architekturen, DevOps,
+Spring-Framework sowie Clojure.
+twitter: https://twitter.com/michaelvitz?lang=de[@michaelvitz^]
+
+== Treffpunkt
+
+https://www.google.de/maps/place/innoQ+Deutschland+GmbH/@52.49403,13.427006,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84fb457ec5c5b:0xa406bef9bec3c42[innoQ Deutschland GmbH, Ohlauer Str. 43, Treppenhaus C, 2. OG, 10999 Berlin^]
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
