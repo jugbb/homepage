@@ -1,0 +1,33 @@
+=  Extreme Java Camp mit Dr. Heinz Kabutz
+Oliver B. Fischer
+2018-01-20 14:24:00 +0100
+//:jbake-event-date: 2016-
+:jbake-type: post
+:jbake-tags: hinweise, promocode
+:jbake-status: published
+
+
+
+Für das erste Extreme Java Camp mit *Dr. Heinz Kabutz* vom
+12. bis zum 14. März 2018 in *München* gibt es für JUG-Mitglieder
+*15% Rabatt für Frühbucher und Kollegen*.
+
+== Extreme Java Camp mit Dr. Heinz Kabutz
+
+Das Extreme Java Camp besteht aus zwei Intensivseminaren,
+die umfassendes und aktuellstes Know-how zu fortgeschrittenen
+Java-Themen und zu Java Concurrency Performance vermitteln.
+Es ist ein einzigartiges Hands-on-Training mit hervorragend
+strukturierten Vorträgen und einer Fülle an praktischen
+Übungen. Auch die erfahrensten Java-Profis werden intensiv
+angeregt und gefordert.
+
+Den *Rabatt-Code* gibt es per Mail an
+mailto:o.b.fischer@swe-blog.net[o.b.fischer@swe-blog.net].
+
+
+*Dr. Heinz Kabutz* ist Trainer des Camps und
+einer der international bedeutendsten Java-Experten und Autor
+des weltweit bekannten
+https://javaspecialists.eu[„_The Java Specialists‘ Newsletter_“^].
+Alle Infos auf https://www.extreme-java-camp.de[^].
