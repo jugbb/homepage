@@ -1,0 +1,68 @@
+= Skyrocket Java applications with the open-source Apache Ignite
+Oliver B. Fischer
+2018-02-04 21:44:00 +0100
+:jbake-event-date: 2018-02-20
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **20. Februar 2018** lädt die Java Usergroup Berlin-Brandenburg
+und http://www.signavio.de/[Signavio GmbH^] zu dem Vortrag
+**Skyrocket Java applications with the open-source Apache Ignite**
+mit **Akmal Chaudhri** ein. **This talk will be held in English.**
+
+
+== Der Vortrag
+
+
+**Skyrocket Java applications with the open-source Apache Ignite**
+(_Akmal Chaudhri_):
+In his talk, Akmal will introduce the many components of the open-source
+Apache Ignite. Your meetup members, as Java professionals, will learn how to
+solve some of the most demanding scalability and performance challenges. He’ll
+also cover a few typical use cases and work through some code examples. Attendees
+would leave ready to fire up their own database deployments!
+
+Apache Ignite was developed predominantly in Java and provides native support
+for other languages. It is designed to deliver uncompromised performance for
+a wide set of in-memory computing use cases - from high performance computing,
+to the industry most advanced data grid, CEP, and data streaming.
+
+It’s a memory-centric platform that combines a distributed SQL database with
+a Key-Value Data Grid that is ACID-compliant and horizontally scalable.
+It enables high-performance transactions, real-time streaming, and fast analytics
+in a single, comprehensive data access and processing layer.
+
+
+
+== Der Redner
+
+**Akmal Chaudhri**, PhD., is GridGain’s Technology Evangelist. His
+role is to help build the global Apache Ignite community and
+raise awareness through presentations and technical writing.
+Akmal has over 25 years experience in IT and has previously
+held roles as a developer, consultant, product strategist
+and technical trainer. He has worked for several blue-chip
+companies such as Reuters and IBM, and also the Big Data
+startups Hortonworks (Hadoop) and
+DataStax (Cassandra NoSQL Database).
+
+== Treffpunkt
+
+Signavio GmbH, Kurfürstenstr. 111, 10787 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
