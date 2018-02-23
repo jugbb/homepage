@@ -1,0 +1,65 @@
+= How to use Netty.io to talk to ios devices from a linux/windows host
+Oliver B. Fischer
+2018-02-24 00:44:00 +0100
+:jbake-event-date: 2018-03-05
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **5. März 2018** lädt die Java Usergroup Berlin-Brandenburg
+und https://saucelabs.com/[Sauce Labs^] zu dem Vortrag
+**How to use Netty.io to talk to ios devices from a linux/windows host**
+mit **Daniel Paulus** ein.
+
+
+== Der Vortrag
+
+
+**How to use Netty.io to talk to ios devices from a linux/windows host**
+(_Daniel Paulus_):
+For running iOS devices in a cloud service, efficient and reliable ways
+are needed to remotely control and execute automated tests on them.
+Apple keeps all its iOS related protocols and frameworks under closed source.
+Of course that does not keep us from reimplementing everything we need
+with our beloved Java4iOS project. We decided to use Netty to implement
+the low level networking for several reasons. In this talk I will
+provide code samples and show you:
+
+How to use netty to implement custom networking protocols
+Run netty on different operating systems
+Common problems and pitfalls we’ve encountered during our implementation
+How iPhone’s talk to Macs and how we can do that with Java and Netty.
+
+
+== Der Redner
+
+Daniel Paulus is Senior Software Engineer at the Sauce Labs’
+Real Device Cloud for continuous, automated testing. With his
+Berlin based team he is responsible for reverse engineering
+iOS protocols and frameworks, as well as Android internals,
+to build custom tools and frameworks so they can keep delivering
+Sauce Labs’ market-leading performance with every new OS version.
+Daniel previously held roles as developer, team leader,
+IT manager and project manager during his 13 year career
+as an officer in the German Military.
+
+== Treffpunkt
+
+Mindspace, Krausenstr. 9-10, 10117 Berlin
+
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
