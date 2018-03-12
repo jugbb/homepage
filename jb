@@ -15,7 +15,7 @@ JBAKE_CORE_JAR=${JBAKE_HOME}/jbake-${JBAKE_VERSION}/jbake-core.jar
 
 if [ ! -r $JBAKE_CORE_JAR ]
 then
-  DOWNLOAD_URL="http://jbake.org/files/${JBAKE_DIST_NAME}"
+  DOWNLOAD_URL="https://dl.bintray.com/jbake/binary/${JBAKE_DIST_NAME}"
   echo "Downloading JBake ${JBAKE_VERSION} from ${DOWNLOAD_URL} to ${DOWNLOAD_BASE_DIR}"
 
   (cd ${DOWNLOAD_BASE_DIR} ; curl -v --location  -O ${DOWNLOAD_URL})
