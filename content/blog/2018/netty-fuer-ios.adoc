@@ -16,7 +16,7 @@ mit **Daniel Paulus** ein.
 == Der Vortrag
 
 
-**How to use Netty.io to talk to ios devices from a linux/windows host**
+**How to use Netty.io to talk to iOS devices from a Linux/Windows host**
 (_Daniel Paulus_):
 For running iOS devices in a cloud service, efficient and reliable ways
 are needed to remotely control and execute automated tests on them.
