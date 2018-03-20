@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **Dienstag, den 26. Juli 2018** lädt die
+Am **Dienstag, den 26. Juni 2018** lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
 http://www.epost.de[Deutsche Post E-Post Development GmbH^]
 zum Vortrag **Die Venom-Story oder Bis an den Abgrund - und zurück:
