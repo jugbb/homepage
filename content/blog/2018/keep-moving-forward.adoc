@@ -1,0 +1,52 @@
+= Keep Moving Forward: How Open Source Changed Java Forever
+Oliver B. Fischer
+2018-04-22 14:00:00 +0100
+:jbake-event-date: 2018-05-07
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **Montag, den 7. Mai 2018** lädt die
+Java Usergroup Berlin-Brandenburg zusammen mit der
+E-Post Development GmbH zum Vortrag
+**Keep Moving Forward: How Open Source Changed Java Forever**
+mit https://twitter.com/headius[Charles Nutter^] von
+https://www.redhat.com/[Redhat^] ein.
+
+== Der Vortrag
+
+**Keep Moving Forward: How Open Source Changed Java Forever**
+(_Charles Nutter_):
+Java's history has two distinct periods: before OpenJDK and after OpenJDK. In the past
+ten years, we've seen the Java platform revitalized by open source,
+open processes, and rapid development of new features. In this talk, we'll
+take a look back at what ten years of open source have done to the Java
+platform, and explore the new features and improvements moving Java forward.
+
+== Der Redner
+
+**Charles Oliver Nutter** works at Red Hat on JRuby and JVM languages.
+He hopes to help make the JVM the best open platform for language
+design and development.
+
+== Treffpunkt
+
+E-Post Development GmbH, Ehrenbergstr. 11-14, 10245 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Dies ist eine Kooperationsveranstaltung mit dem
+Tech Talk
+der E-Post Development GmbH. Die **Anmeldung erfolgt
+daher über die
+https://www.meetup.com/de-DE/eposttechtalk/[Meetup-Gruppe des EPD Tech Talks^]**.
+
+
