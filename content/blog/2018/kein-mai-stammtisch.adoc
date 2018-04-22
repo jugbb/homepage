@@ -1,0 +1,11 @@
+= Absage JUG-Stammtisch am 1. Mai
+Oliver B. Fischer
+2018-04-20 13:00:00 +0100
+//:jbake-event-date: 2017-02-21
+:jbake-type: post
+:jbake-tags: info
+:jbake-status: published
+
+Am Dienstag, den 1. Mai 2018 **findet kein Stammtisch statt**,
+da der 1. Mail ein Feiertag und daher frei ist. Der Juni-Stammtisch
+findet wird üblich am Dienstag, den 5. Juni 2018, statt.
