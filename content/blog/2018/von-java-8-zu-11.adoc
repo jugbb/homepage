@@ -1,0 +1,51 @@
+= Erfahrungsbericht von LucaNet: Migration unserer Anwendung von Java 8 zu Java 11
+Oliver B. Fischer
+2018-08-06 14:00:00 +0100
+:jbake-event-date: 2018-08-22
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **Montag, den 22. August 2018** lädt die
+Java Usergroup Berlin-Brandenburg zusammen mit der
+LucaNet AG
+zum Vortrag
+**Erfahrungsbericht LucaNet: Migration unserer Anwendung von Java 8 zu Java 11**
+ein
+//mit https://twitter.com/headius[Charles Nutter^] von
+//https://www.redhat.com/[Redhat^] ein.
+
+== Der Vortrag
+
+**Keep Moving Forward: How Open Source Changed Java Forever**
+(_TBA_):
+Ab Januar 2019 hat Oracle den kostenlosen Support für Java 8 eingestellt. Als Hersteller einer Anwendungssoftware im Finanzbereich ist LucaNet darauf angewiesen seinen Kunden eine vollumfänglich gewartete Softwarelösung bereitzustellen.
+Wir haben uns daher dazu entschlossen unsere derzeitig mit Java 8 laufende Software auf das im Januar 2019 aktuelle Java 11 zu migrieren.
+Im Fokus der Migration steht der Wechsel auf das mit Java 9 eingeführte Modulsystem.
+Die Veranstaltung dient als Erfahrungsaustausch und fasst unsere wichtigsten Erkenntnisse für andere Entwickler in Form eines Vortrages zusammen, im Anschluss an den Vortrag über das Thema offen diskutiert werden.
+
+== Der Redner
+
+**TBD** TBD
+
+== Treffpunkt
+
+LucaNet AG, Alexanderplatz 1, 10178 Berlin, Germany
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+
