@@ -18,8 +18,8 @@ ein
 
 == Der Vortrag
 
-**Keep Moving Forward: How Open Source Changed Java Forever**
-(_TBA_):
+**Erfahrungsbericht LucaNet: Migration unserer Anwendung von Java 8 zu Java 11**
+(_Kristian Jantz_, _Marcel Kliemannel_):
 Ab Januar 2019 hat Oracle den kostenlosen Support für Java 8 eingestellt. Als Hersteller einer Anwendungssoftware im Finanzbereich ist LucaNet darauf angewiesen seinen Kunden eine vollumfänglich gewartete Softwarelösung bereitzustellen.
 Wir haben uns daher dazu entschlossen unsere derzeitig mit Java 8 laufende Software auf das im Januar 2019 aktuelle Java 11 zu migrieren.
 Im Fokus der Migration steht der Wechsel auf das mit Java 9 eingeführte Modulsystem.
@@ -27,7 +27,15 @@ Die Veranstaltung dient als Erfahrungsaustausch und fasst unsere wichtigsten Erk
 
 == Der Redner
 
-**TBD** TBD
+**Kristian Jantz** ist Director Software Development der LucaNet AG und
+gleichzeitig der Teamleiter vom TeamPerform. Zu seinen Hauptaufgaben
+zählen dabei das Verbessern der Antwortzeiten und des
+Speicherbedarfs sowie das Bestimmen der Leistungsfähigkeit der
+LucaNet-Software.
+
+**Marcel Kliemannel** ist Java Developer bei der LucaNet AG und arbeitet
+im Team Backend. Eine seiner Hauptaufgaben ist momentan die Migration
+der LucaNet Software nach Java 11.
 
 == Treffpunkt
 
