@@ -1,0 +1,72 @@
+= Streaming Analytics with Hazelcast
+Oliver B. Fischer
+2018-08-27 22:58:00 +0100
+:jbake-event-date: 2018-09-17
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **Montag, den 17. September 2018** lädt die
+Java Usergroup Berlin-Brandenburg zusammen mit der
+https://www.akelius.de/[Akelius GmbH^]
+zum Vortrag
+**Streaming Analytics with Hazelcast**
+mit Riaz Mohammed, Senior Solutions Architect
+bei https://hazelcast.com/[Hazelcast^], ein.
+
+_The talk will be held in English._
+
+== Der Vortrag
+
+**Streaming Analytics with Hazelcast**
+(_Riaz Mohammed_):
+Big data is defined by its size, a huge volume of information to sift
+through to derive insights and aggregations. Fast data is defined
+by its speed, rapidly changing and requiring rapid analysis. What
+happens if you have both? A mass of data but you need quick analysis.
+An overnight batch won’t be good enough here. What we need is to process
+the data as it arrives, before it is stored, to get the earliest
+possible result.
+
+To solve this problem, we’ll take a look at Hazelcast. This is a
+well-known In-Memory Data Grid with a streaming analytics engine known
+as Jet, and both of these are Java based.
+
+We’ll take a look then at the essence of streaming analytics,
+the basics and some theory. Then we’ll dive into the reality, with
+how streaming is implemented. And to show this works, we’ll do some
+demos, simple coding to do powerful real-world tasks, on real-world
+data, in real-time. Live!
+
+== Der Redner
+
+**Riaz Mohammed** is Senior Solutions Architect at Hazelcast
+and has 15+ years’
+experience in developing high throughput & low latency
+trading systems, surveillance & monitoring systems mainly in
+the Finance sector. He has been part of core development teams
+delivering global sales and trading platforms in
+Tier 1 Investment Banks.
+
+
+== Treffpunkt
+
+Akelius GmbH, Erkelenzdamm 11-13,10999 Berlin, Germany
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+
