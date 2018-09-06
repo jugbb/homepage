@@ -1,0 +1,69 @@
+= Serverless Java: Challenges and Triumphs
+Oliver B. Fischer
+2018-09-06 22:58:00 +0100
+:jbake-event-date: 2018-09-26
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+
+Am **Mittwoch, den 26. September 2018**, lädt die
+Java Usergroup Berlin-Brandenburg zusammen mit dem
+https://www.meetup.com/de-DE/eposttechtalk/[E-Post Tech Talk^]
+zum Vortrag
+**Serverless Java: Challenges and Triumphs**
+mit Shaun Smith, von https://oracle.com/[Oracle^], ein.
+
+_The talk will be held in English._
+
+== Der Vortrag
+
+**Serverless Java: Challenges and Triumphs**
+(_Shaun Smith_):
+Serverless Functions are hot and developer and corporate interest is exploding!
+But let’s face it, although Java is one of the most popular programming
+languages in the world it isn’t the most popular language for writing
+functions—at least not yet.  According to James Governor,
+“When Web Companies Grow Up They Turn into Java shops” so as
+functions become mainstream will Java become the dominant
+language for authoring functions? Can it be?  In this session we’ll
+examine the challenges to using Java for functions and the latest
+features provided by the Java platform that address them. We’ll also
+dig into the open source Fn Project’s unparalleled Java support which
+makes it possible to build, test, and scale out Java-based functions
+applications.
+
+== Der Redner
+
+**Shaun Smith** leads product management of Serverless technologies at
+Oracle and is an active member of the open source Fn Project functions
+platform community. He's an experienced technical product manager,
+enterprise framework architect, and software developer active in
+open source and cloud service development. Shaun is a past committer
+on a number of Eclipse Foundation projects and is an
+experienced speaker who has presented frequently at JavaOne, Devoxx,
+EclipseCon, JAX, and many other developer conferences and user
+groups around the world.
+
+
+== Treffpunkt
+
+E-Post Development GmbH, Ehrenbergstr. 11-14, 10245 Berlin
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Dies ist eine Kooperationsveranstaltung mit dem
+Tech Talk
+der E-Post Development GmbH. Die **Anmeldung erfolgt
+daher über die
+https://www.meetup.com/de-DE/eposttechtalk/[Meetup-Gruppe des EPD Tech Talks^]**.
+
+
+
