@@ -9,7 +9,7 @@ Oliver B. Fischer
 
 Am **Montag, den 15. Oktober 2018** lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
-https://www.codecentric.de/karriere/[Code Centric AG^]
+https://www.codecentric.de/karriere/[codecentric AG^]
 zum Vortrag
 **Mit Schema-Validierung APIs lahmlegen**
 mit Peter Liske, Senior Software Developer bei
