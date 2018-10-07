@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **Montag, den 17. September 2018** lädt die
+Am **Montag, den 17. September 2018**, lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
 https://www.akelius.de/[Akelius GmbH^]
 zum Vortrag

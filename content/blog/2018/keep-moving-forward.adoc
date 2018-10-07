@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **Montag, den 7. Mai 2018** lädt die
+Am **Montag, den 7. Mai 2018**, lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
 E-Post Development GmbH zum Vortrag
 **Keep Moving Forward: How Open Source Changed Java Forever**

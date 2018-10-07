@@ -7,7 +7,7 @@ Oliver B. Fischer
 :jbake-status: published
 
 
-Am **Dienstag, den 10. April 2018** lädt die
+Am **Dienstag, den 10. April 2018**, lädt die
 Java Usergroup Berlin-Brandenburg zusammen mit der
 https://www.akelius.de/[Akelius GmbH^] zum Vortrag
 **OpenJDK at Alibaba** mit Sanhong Li und Kingsum Chow von
