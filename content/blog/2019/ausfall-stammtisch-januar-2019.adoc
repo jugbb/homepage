@@ -1,0 +1,9 @@
+= Ausfall JUG-Stammtisch im Januar 2019
+Oliver B. Fischer
+2018-12-02 14:47:00 +0100
+:jbake-type: post
+:jbake-status: published
+
+Der erste Stammtisch 2019 wird im Februar stattfinden, da der
+erste Dienstag im Januar 2019 auf den 1. Januar fällt.
+Also, wir sehen uns im Februar.
