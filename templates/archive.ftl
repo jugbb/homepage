@@ -19,7 +19,7 @@
 			<ul>
 		</#if>
 		
-			<li><a href="${post.uri}"><#escape x as x?xml>${post.title}</#escape></a></li>
+			<li><a href="${post.uri}">${post.title}</a></li>
 			<#assign last_month = post.date?string("MMMM yyyy")>
 		</#list>
 	</ul>

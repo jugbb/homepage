@@ -13,7 +13,7 @@
     <div class="col-sm-12 col-md-8">
 		<#list lastEight as post>
   			<#if (post.status == "published")>
-  				<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
+  				<a href="${post.uri}"><h1>${post.title}</h1></a>
   				<p class="text-right">${post.date?string("d. MMMM yyyy")}</p>
   				<p>${post.body}</p>
 			    <p>&nbsp;</p>

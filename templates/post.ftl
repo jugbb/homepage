@@ -6,7 +6,7 @@
     <div class="col-sm-12 col-md-8">
 
 		<div class="page-header">
-			<h1><#escape x as x?xml>${content.title}</#escape></h1>
+			<h1>${content.title}</h1>
 		</div>
 
 		<p class="text-right">${content.date?string("d. MMMM yyyy")}</p>
