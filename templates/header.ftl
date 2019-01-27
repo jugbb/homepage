@@ -7,6 +7,9 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Sets the title of the icon on iOS homescreens -->
+    <meta name="apple-mobile-web-app-title" content="JUG BB">
     
 
 
@@ -36,6 +39,34 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
     <link rel="shortcut icon" href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>favicon.ico">
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+
+      <!-- Start: Links for the Favicons -->
+      <link rel="icon" sizes=16x16 href="/favicon-16x16"  />
+      <link rel="icon" sizes=32x32 href="/favicon-32x32"  />
+      <link rel="icon" sizes=48x48 href="/favicon-48x48"  />
+      <link rel="icon" sizes=75x75 href="/favicon-75x75"  />
+      <link rel="icon" sizes=96x96 href="/favicon-96x96"  />
+      <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+      <link rel="icon" sizes=120x120 href="/favicon-120x120"  />
+      <link rel="icon" sizes=128x128 href="/favicon-128x128"  />
+      <link rel="icon" sizes=144x144 href="/favicon-144x144"  />
+      <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+      <link rel="icon" sizes=152x152 href="/favicon-152x152"  />
+      <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167x167.png" />
+      <link rel="icon" sizes=167x167 href="/favicon-167x167"  />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+      <link rel="icon" sizes=180x180 href="/favicon-180x180"  />
+      <link rel="icon" sizes=195x195 href="/favicon-195x195"  />
+      <link rel="icon" sizes=196x196 href="/favicon-196x196"  />
+      <link rel="icon" sizes=228x228 href="/favicon-228x228"  />
+
+      <!-- End: Links for the Favicons -->
+
+
+
+
   </head>
   <body onload="prettyPrint()">
     <div id="wrap">
