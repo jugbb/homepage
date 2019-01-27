@@ -4,13 +4,13 @@ mkdir -p ${HOME}/.jbake
 
 if [ -z "${JBAKE_VERSION}" ]
 then
-  JBAKE_VERSION=2.5.1
+  JBAKE_VERSION=2.6.3
 fi
 
 DOWNLOAD_BASE_DIR=/tmp
 JBAKE_HOME=${HOME}/.jbake
 JBAKE_DIST_NAME=jbake-${JBAKE_VERSION}-bin.zip
-JBAKE_CORE_JAR=${JBAKE_HOME}/jbake-${JBAKE_VERSION}/jbake-core.jar
+JBAKE_CORE_JAR=${JBAKE_HOME}/jbake-${JBAKE_VERSION}-bin/lib/jbake-core-${JBAKE_VERSION}.jar
 
 
 if [ ! -r $JBAKE_CORE_JAR ]
@@ -23,7 +23,7 @@ then
   if [  -r ${DOWNLOAD_BASE_DIR}/${JBAKE_DIST_NAME} ]
   then
       (cd ${DOWNLOAD_BASE_DIR} ; unzip ${JBAKE_DIST_NAME} )
-      (cd ${DOWNLOAD_BASE_DIR} ; mv -v jbake-${JBAKE_VERSION} ${JBAKE_HOME}/ )
+      (cd ${DOWNLOAD_BASE_DIR} ; mv -v jbake-${JBAKE_VERSION}-bin ${JBAKE_HOME}/ )
   fi
 
 
@@ -42,6 +42,6 @@ echo "Running from ${JBAKE_HOME}/jbake-${JBAKE_VERSION}"
 # When will I have a Bash 4 under OS X?
 for i in $(seq 1 75); do echo -n "-"; done; echo
 
-${JBAKE_HOME}/jbake-${JBAKE_VERSION}/bin/jbake ${@}
+${JBAKE_HOME}/jbake-${JBAKE_VERSION}-bin/bin/jbake ${@}
 
 
