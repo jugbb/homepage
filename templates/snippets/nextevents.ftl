@@ -26,7 +26,7 @@
     	<li>
     		<a href="/${event.uri}">
 				${event['jbake-event-date']?date('yyyy-MM-dd')?string("d.M.YY")}:
-    			<#escape x as x?xml>${event.title}</#escape>
+    			${event.title}
     		</a>
     	</li>
 	</#list>
