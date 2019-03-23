@@ -56,8 +56,7 @@ Fragen freuen wir uns über eine direkte
   später noch einmal auf uns zukommt. Aufgeschoben ist nicht
   aufgehoben.
 
-## Welche Informationen werden vom Referenten für
-   die Vortragsankündigung benötigt?
+## Welche Informationen werden vom Referenten für die Vortragsankündigung benötigt?
 
   Wir kündigen unsere Vorträge über unser Blog,
   XING, Google+ und gelegentlich auch über Twitter
