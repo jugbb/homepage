@@ -1,15 +1,15 @@
 = Going Fullstack
 Oliver B. Fischer
 2019-03-23 16:26:00 +0100
-:jbake-event-date: 2019-05-15
+:jbake-event-date: 2019-06-03
 :jbake-type: post
 :jbake-tags: treffen
 :jbake-status: published
 
-Am **Mittwoch, den 15. Mai 2019** lädt die
+Am **Montag, den 3. Juni 2019** lädt die
 Java Usergroup Berlin-Brandenburg
-// zusammen mit der
-// https://www.europace.de/[Europace AG^]
+zusammen mit der
+https://www.europace.de/[Europace AG^]
 zum Vortrag
 **Going Fullstack**
 mit
@@ -54,7 +54,7 @@ approaching this topic.
 
 == Treffpunkt
 
-TDB
+Europace AG, Klosterstr. 71, 10179 Berlin
 
 == Der Ablauf
 
