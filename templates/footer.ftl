@@ -5,7 +5,7 @@
     <div id="footer">
       <div class="container">
         <p class="muted credit">
-            &copy; 2017
+            &copy; 2019
             | Java Usergroup Berlin-Brandenburg
             | <a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>/impressum.html">Impressum</a>
         </p>
