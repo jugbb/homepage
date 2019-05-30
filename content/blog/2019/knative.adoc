@@ -1,0 +1,75 @@
+= Introduction to Knative
+Oliver B. Fischer
+2019-05-30 11:48:00 +0100
+:jbake-event-date: 2019-06-18
+:jbake-type: post
+:jbake-tags: treffen
+:jbake-status: published
+
+Am **Dienstag, den 18. Juni 2019** lädt die
+Java Usergroup Berlin-Brandenburg
+// zusammen mit der
+//https://www.europace.de/[Europace AG^]
+zum Vortrag
+**Introduction to Knative**
+mit
+Matthias Wessendorf von
+https://www.redhat.com/de/[Red Hat^]
+ein.
+
+_**The talk will be held in English.**_
+
+== Der Vortrag
+
+**Introduction to Knative**
+
+(_Matthias Wessendorf_):
+Knative is a Kubernetes-based platform that comes with a set of building
+blocks to build, deploy, and manage modern serverless workloads.
+Knative consists of three major areas: Build, Serving and Eventing.
+The session gives you an introduction of the different parts of Knative
+and walks you through an end-to-end demo, showing the lifecycle of an
+event-driven application. You will learn how to build container images
+inside your cluster, straight from your Git repository. The session
+explains how Knative uses Kubernetes and Istio features to provide
+request driven compute, so that services can autoscale, including
+down to 0, depending on the actual throughput. Finally you'll see
+integration of events and how your application can be hooked up to a
+firehose and connect your service to process incoming events. If you
+are interested in learning about serverless developer experience on
+Kubernetes, this session is for you!
+
+
+== Der Redner
+**Matthias Wessendorf** works on the Messaging team at
+Red Hat, focusing on event-driven architectures,
+data-streaming and serverless workloads. He is an active contributor
+to the Knative project. Matthias is a regular speaker at international
+conferences and is a long standing member of the
+Apache Software Foundation.
+
+
+
+
+== Treffpunkt
+
+TBD
+
+== Der Ablauf
+
+- 18:30 Uhr Einlaß
+- 19:00 Uhr Beginn des Vortrags
+
+Anschließend gibt es die Möglichkeit für Networking und Plausch.
+
+== Die Anmeldung
+
+Über eine Voranmeldung zu der Veranstaltung über die
+http://meetup.com/jug-bb/[Meetup-Gruppe
+der JUG Berlin-Brandenburg^]
+würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend
+erforderlich. Wir freuen uns auf jeden Teilnehmer.
+
+
+
+
