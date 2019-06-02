@@ -1,4 +1,4 @@
-= Introduction to Knative
+= Doppelpack zu Knative und Kubernetes
 Oliver B. Fischer
 2019-05-30 11:48:00 +0100
 :jbake-event-date: 2019-06-18
@@ -10,14 +10,16 @@ Am **Dienstag, den 18. Juni 2019** lädt die
 Java Usergroup Berlin-Brandenburg
 // zusammen mit der
 //https://www.europace.de/[Europace AG^]
-zum Vortrag
+zu den beiden Vorträgen
 **Introduction to Knative**
+und
+**Developing and running Kafka based applications on Kubernetes**
 mit
-Matthias Wessendorf von
+Matthias Wessendorf und Jakub Scholz von
 https://www.redhat.com/de/[Red Hat^]
 ein.
 
-_**The talk will be held in English.**_
+_**Both talks will be held in English.**_
 
 == Der Vortrag
 
@@ -39,8 +41,23 @@ firehose and connect your service to process incoming events. If you
 are interested in learning about serverless developer experience on
 Kubernetes, this session is for you!
 
+**Developing and running Kafka based applications on Kubernetes**
 
-== Der Redner
+(_Jakub Scholz_):
+Apache Kafka is one of the most popular platforms for streaming
+and messaging. This talk will show how easy it is to deploy and
+use Apache Kafka on Kubernetes and OpenShift using the open source
+project called Strimzi. Kubernetes operators provided by Strimzi
+let users deploy Apache Kafka with just few YAML files. It will
+also demonstrate how you can easily connect to Kafka and
+Strimzi from your own applications in a secure fashion using
+authentication and authorisation. The demo used during this
+talk will include several applications using different Apache
+Kafka components such as Kafka Connect or Kafka Streams and
+demonstrate the architecture patterns commonly used with Apache Kafka.
+
+== Die Redner
+
 **Matthias Wessendorf** works on the Messaging team at
 Red Hat, focusing on event-driven architectures,
 data-streaming and serverless workloads. He is an active contributor
@@ -48,7 +65,12 @@ to the Knative project. Matthias is a regular speaker at international
 conferences and is a long standing member of the
 Apache Software Foundation.
 
-
+**Jakub Scholz** is a Principal Software Engineer in the Red Hat
+AMQ Streams engineering team. He has a long-term experience in
+messaging and lately focuses mainly on Apache Kafka. He is one of
+the core maintainers of the Strimzi project, which delivers
+several operators and tools for running Apache Kafka on
+Kubernetes and OpenShift.
 
 
 == Treffpunkt
