@@ -75,7 +75,7 @@ Kubernetes and OpenShift.
 
 == Treffpunkt
 
-TBD
+Akelius GmbH, Erkelenzdamm 11-13,10999 Berlin, Germany
 
 == Der Ablauf
 
