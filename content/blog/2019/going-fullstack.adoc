@@ -22,7 +22,6 @@ _**The talk will be held in English.**_
 == Der Vortrag
 
 **Going Fullstack**
-
 (_Serafima Gurevich_):
 For many years backend and frontend development felt like two completely
 different worlds. However, a lot of change took place on both sides and

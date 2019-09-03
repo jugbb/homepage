@@ -9,21 +9,17 @@ Oliver B. Fischer
 
 
 Am **Dienstag, den 30. April 2019** lädt die
-Java Usergroup Berlin-Brandenburg
+Java Usergroup Berlin-Brandenburg und
 https://www.lucanet.com/de/[LucaNet AG^]
 zum Vortrag
-zum Vortrag
 **Microbenchmarks – Wer nicht weiss was er misst misst Mist**
-mit
-Björn Stahl
-ein.
+mit Björn Stahl ein.
 
 _**The talk will be held in German.**_
 
 == Der Vortrag
 
 **Microbenchmarks – Wer nicht weiss was er misst misst Mist**
-
 (_Björn Stahl_):
 Die Performanceoptimierung ist ein sehr spannendes Feld in der
 Softwareentwicklung. Es ist in einigen Situationen unerlässlich

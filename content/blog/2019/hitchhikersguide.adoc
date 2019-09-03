@@ -23,7 +23,6 @@ _The talk will be held in German._
 
 **The hitchhiker's guide for the confused developer -
 Making sense of an increasingly mad IT**
-
 (_Uwe Friedrichsen_):
 Microservices. Serverless. DDD. Blockchain. Cloud native. BaaS. PaaS? InfoSec.
 AI. Deep Learning. Docker. DevOps. NoOps? API. Platform. SRE. Big Data. Fast

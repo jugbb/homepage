@@ -23,7 +23,6 @@ _**The talk will be held in German.**_
 == Der Vortrag
 
 **Reactive Relational Database Connectivity**
-
 (_Mark Paluch_):
 Immer mehr Projekte setzen auf reaktive Programmierung. Auf ihrem
 Weg reaktive Systeme zu bauen, stellen Entwicklungsteams fest,
