@@ -15,8 +15,8 @@ zum zweiten Teil des Vortrags
 **Shenandoah GC **
 mit
 https://shipilev.net/[Aleksey Shipilëv^]
-ein. Der erste Teil der Vortrags wurde
-am 17. September 2019 gehalten werden.
+ein. Der erste Teil des Vortrags wurde
+am 17. September 2019 gehalten.
 
 == Der Vortrag
 

@@ -12,7 +12,7 @@ Am **Dienstag, den 17. September 2019** lädt die
 Java Usergroup Berlin-Brandenburg und
 https://www.innoq.com[INNOQ^]
 zum ersten Teil des Vortrags
-**Shenandoah GC **
+**Shenandoah GC**
 mit
 https://shipilev.net/[Aleksey Shipilëv^]
 ein. Der zweite Teil der Vortrags wird
