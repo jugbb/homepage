@@ -20,6 +20,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Informationen <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                       <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>informationen-zur-jug.html">Die JUG</a></li>
+                      <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>personen.html">Die Personen hinter der JUG</a></li>
                       <li class="divider"></li>
                       <#--<li class="dropdown-header">Nav header</li>-->
                       <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>informationen-fuer-referenten.html">Für Referenten</a></li>
