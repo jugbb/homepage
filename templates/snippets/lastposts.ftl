@@ -5,6 +5,6 @@
 
 <ul class="list-unstyled" style="margin-left: 0px !important;">
 <#list lastFive as post>
-    <li><a href="/${post.uri}"><#escape x as x?xml>${post.title}</#escape></a></li>
+    <li><a href="/${post.uri}">${post.title}</a></li>
 </#list>
 </ul>
