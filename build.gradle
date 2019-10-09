@@ -1,0 +1,10 @@
+plugins {
+    id 'org.jbake.site' version '5.0.0'
+}
+
+jbake {
+    srcDirName  = '.'
+    destDirName = 'output'
+    clearCache = true
+    template = 'freemarker'
+}
