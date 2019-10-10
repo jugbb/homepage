@@ -10,4 +10,8 @@ jobs:
         java-version: 8
     - uses: eskatos/gradle-command-action@v1
       with:
-        arguments: build
+        arguments: bake
+    - uses: actions/upload-artifact@master
+      with:
+        name: website
+        path: build/output
