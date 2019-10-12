@@ -54,7 +54,7 @@ about new testing techniques for microservices and continuous delivery in the
 
 == Treffpunkt
 
-Wird rechtzeitig bekannt gegeben.
+Smava GmbH, Palisadenstraße 90, 10243 Berlin
 
 == Der Ablauf
 
