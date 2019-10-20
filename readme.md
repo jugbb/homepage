@@ -1,1 +1,5 @@
-# PoC für die Homepage der JUG Berlin-Brandenburg via JBake
+# Homepage der JUG Berlin-Brandenburg
+
+Dieses Repository enthält die Homepage der JUG Berlin-Brandenburg.
+
+
