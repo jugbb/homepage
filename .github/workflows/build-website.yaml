@@ -20,4 +20,5 @@ jobs:
         repository: jugbb/jugbb.github.io
         path: webpage
     - run: |
+        ls -lha
         rsync -t -a -r -v output/* webpage
