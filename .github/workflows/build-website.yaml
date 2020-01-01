@@ -19,3 +19,6 @@ jobs:
       with:
         repository: jugbb/jugbb.github.io
         path: webpage
+    - name: Copy generated site
+      run: |
+        cp -r -v output/* webpage
