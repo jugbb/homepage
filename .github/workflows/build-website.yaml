@@ -15,3 +15,7 @@ jobs:
       with:
         name: website
         path: build/output
+    - uses: actions/checkout@v2
+      with:
+        repository: jugbb/jugbb.github.io
+        path: webpage
