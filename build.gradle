@@ -8,3 +8,7 @@ jbake {
     clearCache = true
     template = 'freemarker'
 }
+
+bakePreview {
+    port = 4000
+}
