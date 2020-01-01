@@ -21,4 +21,4 @@ jobs:
         path: webpage
     - run: |
         ls -lha
-        rsync -t -a -r -v output/* webpage
+        rsync -t -a -r -v build/output/* webpage
