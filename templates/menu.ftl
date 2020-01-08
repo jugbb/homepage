@@ -14,7 +14,6 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-            <li><a href="https://www.google.com/calendar/embed?src=v1g4a4eq9en3gh5vn47tmth5cc%40group.calendar.google.com&ctz=Europe/Berlin" target="_blank">Kalender</a></li>
 
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Informationen <b class="caret"></b></a>
