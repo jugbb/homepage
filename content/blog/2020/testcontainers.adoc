@@ -1,4 +1,4 @@
-= Testcontainers -- The past, Present and the Future
+= Testcontainers -- Past, Present and Future
 Oliver B. Fischer
 2020-02-09 09:25:00 +0100
 :jbake-event-date: 2020-02-25
@@ -13,14 +13,14 @@ Java Usergroup Berlin-Brandenburg
 // und
 //https://www.innoq.com[INNOQ^]
 zum Vortrag
-**Testcontainers -- The past, Present and the Future**
+**Testcontainers -- Past, Present and Future**
 mit
 https://twitter.com/bsideup?lang=de[Sergei Egorov^]
 ein.
 
 == Der Vortrag
 
-**Testcontainers -- The past, Present and the Future**
+**Testcontainers -- Past, Present and Future**
 (_Sergei Egorov_):
 Unit testing is fine, but without proper integration testing, especially if you
 work with external resources like databases and other services, you might not
