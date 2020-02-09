@@ -8,7 +8,7 @@ Oliver B. Fischer
 
 
 
-Am **Donnerstag, den 30. Januar 2020** lädt die
+Am **Donnerstag, den 30. Januar 2020**, lädt die
 Java Usergroup Berlin-Brandenburg
 // und
 //https://www.innoq.com[INNOQ^]

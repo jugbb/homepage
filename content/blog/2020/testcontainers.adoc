@@ -8,7 +8,7 @@ Oliver B. Fischer
 
 
 
-Am **Dienstag, den 25. Februar 2020** lädt die
+Am **Dienstag, den 25. Februar 2020**, lädt die
 Java Usergroup Berlin-Brandenburg
 // und
 //https://www.innoq.com[INNOQ^]

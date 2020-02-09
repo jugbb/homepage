@@ -9,7 +9,7 @@ Oliver B. Fischer
 
 
 
-Am **Mittwoch, den 4. März 2020** lädt die
+Am **Mittwoch, den 4. März 2020**, lädt die
 Java Usergroup Berlin-Brandenburg
 und
 https://www.innoq.com[INNOQ^]
