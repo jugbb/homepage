@@ -10,8 +10,8 @@ Oliver B. Fischer
 
 Am **Dienstag, den 25. Februar 2020**, lädt die
 Java Usergroup Berlin-Brandenburg
-// und
-//https://www.innoq.com[INNOQ^]
+und
+https://www.lucanet.com/de/[LucaNet AG^]
 zum Vortrag
 **Testcontainers -- Past, Present and Future**
 mit
@@ -52,7 +52,15 @@ startups.
 
 == Treffpunkt
 
-TBA
+
+:hardbreaks:
+
+LucaNet AG
+Alexanderplatz 1
+10178 Berlin
+Germany
+
+:!hardbreaks:
 
 == Der Ablauf
 
